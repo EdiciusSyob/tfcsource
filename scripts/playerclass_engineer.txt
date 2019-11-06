@@ -2,14 +2,8 @@ PlayerClassDatafile
 {
 	// FilePLayerClassInfo_t members
 	"printname"			"#class_engineer"	
-	"playermodel"			"models/player/engineer.mdl"
+	"playermodel"		"models/player/engineer.mdl"
 	"selectcmd"			"cls_engineer"
-
-	// CSDKPlayerClassInfo members
-
-	// What team has this class, for verification
-	//"team"			  "BLUE"
-        //"team"                          "RED"
 
 	// Weapon Info
 	"primaryweapon"		"railgun"
@@ -27,17 +21,17 @@ PlayerClassDatafile
 	"weapon10"			""
 
 	"grenadetype"		"grenade"
-	"numgrens"		"0"
+	"numgrens"			"0"
 
-	"limitcvar"		"mp_limit_blue_class6"
+	"limitcvar"			"tfc_classlimit_engineer"
 
 	"classimage"		"cls_blue_class6_active"
 	"classimagebg"		"cls_blue_class6_active_bg"
 
-	"armor"			"100"
+	"armor"				"100"
 
 	// Movement
-	"RunSpeed"		"218"
+	"RunSpeed"			"218"
 	"SprintSpeed"		"330"
 	"ProneSpeed"		"60"
 }

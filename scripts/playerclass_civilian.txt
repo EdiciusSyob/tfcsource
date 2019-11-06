@@ -2,14 +2,8 @@ PlayerClassDatafile
 {
 	// FilePLayerClassInfo_t members
 	"printname"			"#class_civilian"	
-	"playermodel"			"models/player/civilian.mdl"
+	"playermodel"		"models/player/civilian.mdl"
 	"selectcmd"			"cls_civilian"
-
-	// CSDKPlayerClassInfo members
-
-	// What team has this class, for verification
-	//"team"			  "BLUE"
-        //"team"                          "RED"
 
 	// Weapon Info
 	"primaryweapon"		""
@@ -27,17 +21,17 @@ PlayerClassDatafile
 	"weapon10"			""
 
 	"grenadetype"		"grenade"
-	"numgrens"		"0"
+	"numgrens"			"0"
 
-	"limitcvar"		"mp_limit_blue_class2"
+	"limitcvar"			"tfc_classlimit_civilian"
 
 	"classimage"		"cls_class10_active"
 	"classimagebg"		"cls_blue_class2_active_bg"
 
-	"armor"			"200"
+	"armor"				"200"
 
 	// Movement
-	"RunSpeed"		"220"
+	"RunSpeed"			"220"
 	"SprintSpeed"		"330"
 	"ProneSpeed"		"60"
 }

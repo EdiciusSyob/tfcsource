@@ -2,14 +2,8 @@ PlayerClassDatafile
 {
 	// FilePLayerClassInfo_t members
 	"printname"			"#class_hwguy"	
-	"playermodel"			"models/player/hwguy.mdl"
+	"playermodel"		"models/player/hwguy.mdl"
 	"selectcmd"			"cls_hwguy"
-
-	// CSDKPlayerClassInfo members
-
-	// What team has this class, for verification
-	//"team"			  "BLUE"
-        //"team"                          "RED"
 
 	// Weapon Info
 	"primaryweapon"		"mp5"
@@ -27,17 +21,17 @@ PlayerClassDatafile
 	"weapon10"			""
 
 	"grenadetype"		"grenade"
-	"numgrens"		"4"
+	"numgrens"			"4"
 
-	"limitcvar"		"mp_limit_blue_class5"
+	"limitcvar"			"tfc_classlimit_hwguy"
 
 	"classimage"		"cls_blue_class5_active"
 	"classimagebg"		"cls_blue_class5_active_bg"
 
-	"armor"			"300"
+	"armor"				"300"
 
 	// Movement
-	"RunSpeed"		"150"
+	"RunSpeed"			"150"
 	"SprintSpeed"		"280"
 	"ProneSpeed"		"50"
 }
