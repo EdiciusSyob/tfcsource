@@ -21,7 +21,7 @@ if not exist "%steampath%\steam.exe" (
 	) else set steampath=%ProgramFiles(x86)%
 )
 
-echo Running game...
+echo Running game (Debug Mode)...
 
 @start /D "%steampath%\steamapps\common\Source SDK Base 2013 Multiplayer" hl2.exe -steam +sv_cheats 1 -game "%CD%" -sw -dev -console -allowdebug -condebug -high -conclearlog -noborder -nojoy -r_emulate_gl +r_lod 0
 

@@ -21,9 +21,9 @@ if not exist "%steampath%\steam.exe" (
 	) else set steampath=%ProgramFiles(x86)%
 )
 
-echo Running game...
+echo Running Engine Tool...
 
-@start /D "%steampath%\steamapps\common\Source SDK Base 2013 Multiplayer" hl2.exe -steam +sv_cheats 1 -game "%CD%" -sw -dev -console -allowdebug -condebug -high -conclearlog -noborder -nojoy -r_emulate_gl +r_lod 0
+@start /D "%steampath%\steamapps\common\Source SDK Base 2013 Multiplayer" hl2.exe -steam +sv_cheats 1 -game "%CD%" -sw -dev -console -allowdebug -condebug -high -conclearlog -noborder -nojoy -r_emulate_gl +r_lod 0 -nop4 -tools
 
 if %ERRORLEVEL% NEQ 0 goto error
 goto success
@@ -32,6 +32,6 @@ goto success
 exit
 
 :error
-echo Error launching game!
+echo Error during launching game!
 pause
 exit
