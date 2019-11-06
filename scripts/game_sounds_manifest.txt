@@ -1,23 +1,20 @@
 game_sounds_manifest
 {
-	"precache_file"		"scripts/game_sounds.txt"
-	"precache_file"		"scripts/game_sounds_tfc.txt"
-	"precache_file"		"scripts/game_sounds_vox.txt"
-	"precache_file"		"scripts/game_sounds_ui.txt"
-	"precache_file"		"scripts/game_sounds_player.txt"
-
-	"precache_file"		"scripts/game_sounds_world_sdk.txt"
-	"precache_file"		"scripts/game_sounds_weather.txt"
-
-	// Weapon sounds
-	"precache_file"		"scripts/game_sounds_weapons.txt"
-
-	// HL2 World, Ambient Generic, Items, Physics, Vehicles
-	"precache_file"		"scripts/game_sounds_world.txt"
-	"precache_file"		"scripts/game_sounds_ambient_generic.txt"
+	// TFC:S Overrides
+	"precache_file"		"scripts/gamesounds/sounds_core.txt"
+	"precache_file"		"scripts/gamesounds/sounds_tfc.txt"
+	"precache_file"		"scripts/gamesounds/sounds_vox.txt"
+	"precache_file"		"scripts/gamesounds/sounds_ui.txt"
+	"precache_file"		"scripts/gamesounds/sounds_player.txt"
+	"precache_file"		"scripts/gamesounds/sounds_world_sdk.txt"
+	"precache_file"		"scripts/gamesounds/sounds_weather.txt"
+	"precache_file"		"scripts/gamesounds/sounds_weapons.txt"
+	"precache_file"		"scripts/gamesounds/sounds_world.txt"
+	"precache_file"		"scripts/gamesounds/sounds_ambient_generic.txt"
+	"precache_file"		"scripts/gamesounds/sounds_physics.txt"
+	"precache_file"		"scripts/gamesounds/sounds_vehicles.txt"
+	
 	"precache_file"		"scripts/game_sounds_items.txt"
-	"precache_file"		"scripts/game_sounds_physics.txt"
-	"precache_file"		"scripts/game_sounds_vehicles.txt"
 
 	// E3 level sounds
 	"precache_file"		"scripts/level_sounds_e3_c17.txt"
