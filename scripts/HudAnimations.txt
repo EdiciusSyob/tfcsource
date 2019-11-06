@@ -92,35 +92,6 @@ event FadeOutWeaponSelectionMenu
 }
 
 //
-// CHudStamina
-//
-event StaminaMax
-{
-	// hide the stamina bar
-	Animate HudStamina BgColor		"0 0 0 0"		Linear 0.0 0.4
-	Animate HudStamina StaminaColor	"0 0 0 0"		Linear 0.0 0.4
-}
-
-event StaminaNotMax
-{
-	// show the stamina bar
-	Animate HudStamina BgColor		"BgColor"		Linear 0.0 0.4
-	Animate HudStamina StaminaColor	"255 220 0 220"		Linear 0.0 0.4
-}
-
-event StaminaDecreasedBelow25
-{
-	// make color red
-	Animate HudStamina StaminaColor	"255 0 0 220"		Linear 0.0 0.4
-}
-
-event StaminaIncreasedAbove25
-{
-	// make colr bright
-	Animate HudSuitPower AuxPowerColor	"255 220 0 220"		Linear 0.0 0.4
-}
-
-//
 // CHudHealth
 //
 event HealthIncreasedAbove20
@@ -447,29 +418,6 @@ event HintMessageHide
 {
 	Animate HudHintDisplay FgColor	"255 220 0 0"   Linear  0.0 	0.2
 	Animate HudHintDisplay HintSize	"0"		Deaccel 0.2	0.3
-}
-
-event KeyHintMessageShow
-{
-	StopPanelAnimations HudHintKeyDisplay	0.0
-
-	// show the hints
-	Animate HudHintKeyDisplay Alpha	255 Linear 0.0 0.5
-
-	// flash text
-	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 0.0 0.01
-	Animate HudHintKeyDisplay FgColor	"255 220 0 255" Linear 0.5 0.2
-	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 0.7 0.2
-	Animate HudHintKeyDisplay FgColor	"255 220 0 255" Linear 1.5 0.2
-	Animate HudHintKeyDisplay FgColor	"FgColor" 	Linear 1.7 0.2
-
-	// hide the panel after a while	
-	Animate HudHintKeyDisplay Alpha	0 Linear 12.0 1.0
-}
-
-event KeyHintMessageHide
-{
-	Animate HudHintKeyDisplay Alpha	0 Linear 0.0 0.5
 }
 
 // Commentary hud element

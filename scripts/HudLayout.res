@@ -17,6 +17,7 @@
 		"digit_xpos" "50"
 		"digit_ypos" "2"
 	}
+
 	overview
 	{
 		"fieldname"				"overview"
@@ -92,60 +93,6 @@
 		"digit_xpos" "36"
 		"digit_ypos" "2"
 	}
-	
-	HudStamina
-	{
-		"fieldName" "HudStamina"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"16"
-		"ypos"	"396"
-		"wide"	"102"
-		"tall"	"26"
-		
-		"StaminaColor" "255 220 0 220"
-		"StaminaDisabledAlpha" "70"
-
-		"BarInsetX" "8"
-		"BarInsetY" "15"
-		"BarWidth" "92"
-		"BarHeight" "4"
-		"BarChunkWidth" "6"
-		"BarChunkGap" "3"
-
-		"text_xpos" "8"
-		"text_ypos" "4"
-		"text2_xpos" "8"
-		"text2_ypos" "22"
-		"text2_gap" "10"
-
-		"PaintBackgroundType"	"2"
-	}
-	
-	HudFlashlight
-	{
-		"fieldName" "HudFlashlight"
-		"visible" "1"
-		"PaintBackgroundType"	"2"
-		"xpos"	"270"		[$WIN32]
-		"ypos"	"444"		[$WIN32]
-		"xpos_hidef"	"293"		[$X360]		// aligned to left
-		"xpos_lodef"	"c-18"		[$X360]		// centered in screen
-		"ypos"	"428"		[$X360]				
-		"tall"  "24"
-		"wide"	"36"
-		"font"	"WeaponIconsSmall"
-		
-		"icon_xpos"	"4"
-		"icon_ypos" "-8"
-		
-		"BarInsetX" "4"
-		"BarInsetY" "18"
-		"BarWidth" "28"
-		"BarHeight" "2"
-		"BarChunkWidth" "2"
-		"BarChunkGap" "1"
-	}
 
 	HudVoiceSelfStatus
 	{
@@ -198,18 +145,6 @@
 		"dmg_tall2" "200"
 	}
 
-	HudZoom
-	{
-		"fieldName" "HudZoom"
-		"visible" "1"
-		"enabled" "1"
-		"Circle1Radius" "66"
-		"Circle2Radius"	"74"
-		"DashGap"	"16"
-		"DashHeight" "4"	[$WIN32]
-		"DashHeight" "6"	[$X360]		
-		"BorderThickness" "88"
-	}
 	HudWeaponSelection
 	{
 		"fieldName" "HudWeaponSelection"
@@ -313,17 +248,7 @@
 		"wide"	 "f0"
 		"tall"	 "480"
 	}
-	
-	HudGameMessage
-	{
-		"fieldName" "HudGameMessage"
-		"visible" "0"
-		"enabled" "0"
-		"xpos"	 "10"
-		"ypos"	 "152"
-		"wide"	 "f0"
-		"tall"	 "256"
-	}
+
 	HudMenu
 	{
 		"fieldName" "HudMenu"
@@ -392,15 +317,6 @@
 		"tall"	 "480"
 	}
 
-	HUDQuickInfo
-	{
-		"fieldName" "HUDQuickInfo"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "f0"
-		"tall"	 "480"
-	}
-
 	HudWeapon
 	{
 		"fieldName" "HudWeapon"
@@ -409,6 +325,7 @@
 		"wide"	 "f0"
 		"tall"	 "480"
 	}
+
 	HudAnimationInfo
 	{
 		"fieldName" "HudAnimationInfo"
@@ -446,83 +363,6 @@
 		"paintbackground"		"0"
 	}	
 
-	HudHintKeyDisplay
-	{
-		"fieldName"	"HudHintKeyDisplay"
-		"visible"	"0"
-		"enabled" 	"1"
-		"xpos"		"r120"	[$WIN32]
-		"ypos"		"r340"	[$WIN32]
-		"xpos"		"r148"	[$X360]
-		"ypos"		"r338"	[$X360]
-		"wide"		"100"
-		"tall"		"200"
-		"text_xpos"	"8"
-		"text_ypos"	"8"
-		"text_xgap"	"8"
-		"text_ygap"	"8"
-		"TextColor"	"255 170 0 220"
-
-		"PaintBackgroundType"	"2"
-	}
-
-	HudSquadStatus
-	{
-		"fieldName"	"HudSquadStatus"
-		"visible"	"1"
-		"enabled" "1"
-		"xpos"	"r120"
-		"ypos"	"380"
-		"wide"	"104"
-		"tall"	"46"
-		"text_xpos"	"8"
-		"text_ypos"	"34"
-		"SquadIconColor"	"255 220 0 160"
-		"IconInsetX"	"8"
-		"IconInsetY"	"0"
-		"IconGap"		"24"
-
-		"PaintBackgroundType"	"2"
-	}
-
-	HudPoisonDamageIndicator
-	{
-		"fieldName"	"HudPoisonDamageIndicator"
-		"visible"	"0"
-		"enabled" "1"
-		"xpos"	"16"
-		"ypos"	"346"
-		"wide"	"136"
-		"tall"	"38"
-		"text_xpos"	"8"
-		"text_ypos"	"8"
-		"text_ygap" "14"
-		"TextColor"	"255 170 0 220"
-		"PaintBackgroundType"	"2"
-	}
-	HudCredits
-	{
-		"fieldName"	"HudCredits"
-		"TextFont"	"Default"
-		"visible"	"1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
-		"TextColor"	"255 255 255 192"
-
-	}
-	
-	HUDAutoAim
-	{
-		"fieldName" "HUDAutoAim"
-		"visible" "1"
-		"enabled" "1"
-		"wide"	 "640"	[$WIN32]
-		"tall"	 "480"	[$WIN32]
-		"wide"	 "960"	[$X360]
-		"tall"	 "720"	[$X360]
-	}
 	HudCommentary
 	{
 		"fieldName" "HudCommentary"
@@ -549,31 +389,6 @@
 		"icon_ypos"		"0"		
 		"icon_width"	"40"
 		"icon_height"	"40"
-	}
-	
-	HudHDRDemo
-	{
-		"fieldName" "HudHDRDemo"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"  "480"
-		"visible" "1"
-		"enabled" "1"
-		
-		"Alpha"	"255"
-		"PaintBackgroundType"	"2"
-		
-		"BorderColor"	"0 0 0 255"
-		"BorderLeft"	"16"
-		"BorderRight"	"16"
-		"BorderTop"		"16"
-		"BorderBottom"	"64"
-		"BorderCenter"	"0"
-		
-		"TextColor"		"255 255 255 255"
-		"LeftTitleY"	"422"
-		"RightTitleY"	"422"
 	}
 
 	AchievementNotificationPanel	
