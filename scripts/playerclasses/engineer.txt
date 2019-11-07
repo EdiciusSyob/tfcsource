@@ -25,9 +25,6 @@ PlayerClassDatafile
 
 	"limitcvar"			"tfc_classlimit_engineer"
 
-	"classimage"		"cls_blue_class6_active"
-	"classimagebg"		"cls_blue_class6_active_bg"
-
 	"armor"				"100"
 
 	// Movement

@@ -24,9 +24,6 @@ PlayerClassDatafile
 
 	"limitcvar"			"tfc_classlimit_sniper"
 
-	"classimage"		"cls_blue_class8_active"
-	"classimagebg"		"cls_blue_class8_active_bg"
-
 	"armor"				"50"
 
 	// Movement

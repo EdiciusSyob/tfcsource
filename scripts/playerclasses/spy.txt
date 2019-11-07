@@ -25,9 +25,6 @@ PlayerClassDatafile
 
 	"limitcvar"			"tfc_classlimit_spy"
 
-	"classimage"		"cls_blue_class9_active"
-	"classimagebg"		"cls_blue_class9_active_bg"
-
 	"armor"				"100"
 
 	// Movement

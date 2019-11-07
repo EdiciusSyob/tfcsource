@@ -24,9 +24,6 @@ PlayerClassDatafile
 
 	"limitcvar"			"tfc_classlimit_medic"
 
-	"classimage"		"cls_blue_class7_active"
-	"classimagebg"		"cls_blue_class7_active_bg"
-
 	"armor"				"100"
 
 	// Movement

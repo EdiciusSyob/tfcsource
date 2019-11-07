@@ -25,9 +25,6 @@ PlayerClassDatafile
 
 	"limitcvar"			"tfc_classlimit_demoman"
 
-	"classimage"		"cls_blue_class4_active"
-	"classimagebg"		"cls_blue_class4_active_bg"
-
 	"armor"				"128"
 
 	// Movement

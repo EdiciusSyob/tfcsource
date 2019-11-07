@@ -24,9 +24,6 @@ PlayerClassDatafile
 
 	"limitcvar"			"tfc_classlimit_soldier"
 
-	"classimage"		"cls_blue_class2_active"
-	"classimagebg"		"cls_blue_class2_active_bg"
-
 	"armor"				"200"
 
 	// Movement
