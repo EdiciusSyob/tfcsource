@@ -21,7 +21,7 @@ WeaponData
 	"NumClips"			"8"
 
 	
-	"primary_ammo"			"shotgun"
+	"primary_ammo"			"shell"
 	"secondary_ammo"		"None"
 
 	"weight"			"20"
