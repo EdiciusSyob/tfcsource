@@ -25,7 +25,12 @@ PlayerClassDatafile
 
 	"limitcvar"			"tfc_classlimit_hwguy"
 
-	"armor"				"300"
+
+	
+	"MaxHealth"			"100"
+	"MaxArmor"			"300"
+
+	"armor"				"150"
 
 	// Movement
 	"RunSpeed"			"150"

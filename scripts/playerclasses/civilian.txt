@@ -25,6 +25,11 @@ PlayerClassDatafile
 
 	"limitcvar"			"tfc_classlimit_civilian"
 
+
+	
+	"MaxHealth"			"100"
+	"MaxArmor"			"0"
+
 	"armor"				"200"
 
 	// Movement

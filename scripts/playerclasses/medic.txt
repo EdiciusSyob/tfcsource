@@ -24,7 +24,12 @@ PlayerClassDatafile
 
 	"limitcvar"			"tfc_classlimit_medic"
 
-	"armor"				"100"
+
+	
+	"MaxHealth"			"100"
+	"MaxArmor"			"100"
+
+	"armor"				"50"
 
 	// Movement
 	"RunSpeed"			"224"
