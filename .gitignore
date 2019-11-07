@@ -56,6 +56,7 @@ materials\vgui\logos\ui\*
 # content source
 materialsrc/*
 soundsrc/*
+mapsrc/*.log
 
 # source plugins
 addons/*
