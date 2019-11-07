@@ -48,6 +48,7 @@ demoheader.tmp
 stats.txt
 gamestate.txt
 voice_ban.dt
+textwindow_temp.html
 custom/*
 demos/*
 materials\vgui\logos\ui\*
