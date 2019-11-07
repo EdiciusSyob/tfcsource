@@ -25,7 +25,12 @@ PlayerClassDatafile
 	
 	"limitcvar"			"tfc_classlimit_scout"
 
-	"armor"				"50"
+
+	
+	"MaxHealth"			"100"
+	"MaxArmor"			"50"
+	
+	"armor"				"25"
 
 	// Movement
 	"RunSpeed"			"260"

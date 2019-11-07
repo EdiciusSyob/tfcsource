@@ -2,7 +2,7 @@ PlayerClassDatafile
 {
 	// FilePLayerClassInfo_t members
 	"printname"			"#class_demoman"	
-	"playermodel"		"models/player/demoman.mdl"
+	"playermodel"		"models/player/demo.mdl"
 	"selectcmd"			"cls_demoman"
 
 	// Weapon Info
@@ -25,7 +25,12 @@ PlayerClassDatafile
 
 	"limitcvar"			"tfc_classlimit_demoman"
 
-	"armor"				"128"
+
+	
+	"MaxHealth"			"100"
+	"MaxArmor"			"100"
+
+	"armor"				"50"
 
 	// Movement
 	"RunSpeed"			"150"

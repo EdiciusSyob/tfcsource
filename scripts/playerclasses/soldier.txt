@@ -24,7 +24,12 @@ PlayerClassDatafile
 
 	"limitcvar"			"tfc_classlimit_soldier"
 
-	"armor"				"200"
+
+	
+	"MaxHealth"			"100"
+	"MaxArmor"			"200"
+
+	"armor"				"100"
 
 	// Movement
 	"RunSpeed"			"180"

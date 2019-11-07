@@ -25,7 +25,12 @@ PlayerClassDatafile
 
 	"limitcvar"			"tfc_classlimit_engineer"
 
-	"armor"				"100"
+
+	
+	"MaxHealth"			"100"
+	"MaxArmor"			"50"
+
+	"armor"				"25"
 
 	// Movement
 	"RunSpeed"			"218"
