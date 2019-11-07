@@ -877,18 +877,7 @@ Scheme
 				"additive"	"0"
 			}
 		}
-		"HL2MPTypeDeath"
-		{
-		   "1"
-		   {
-				"name"  "HL2MP" // csd.ttf
-				"tall"  "32"
-				"weight" "0"
-				"additive" "1"
-				"antialias" "1"
-				"custom" "1" [$OSX]
-		   }
-		}	
+	
 		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
 		"DefaultVerySmallFallBack"
 		{
@@ -1576,7 +1565,6 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"1"		"resource/HL2MP.ttf"
 		"2"		"resource/HL2crosshairs.ttf"
 	}
 
