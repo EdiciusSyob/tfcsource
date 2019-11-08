@@ -30,7 +30,7 @@ PlayerClassDatafile
 	"MaxHealth"			"100"
 	"MaxArmor"			"150"
 
-	"armor"				"75"
+	"armor"				"50"
 
 	// Movement
 	"RunSpeed"			"150"
