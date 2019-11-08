@@ -1,7 +1,7 @@
 PlayerClassDatafile
 {
 	// FilePLayerClassInfo_t members
-	"printname"			"#class_engineer"	
+	"printname"			"#TFC_Engineer"	
 	"playermodel"		"models/player/engineer.mdl"
 	"selectcmd"			"cls_engineer"
 
@@ -27,7 +27,7 @@ PlayerClassDatafile
 
 
 	
-	"MaxHealth"			"100"
+	"MaxHealth"			"80"
 	"MaxArmor"			"50"
 
 	"armor"				"25"

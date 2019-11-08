@@ -1,7 +1,7 @@
 PlayerClassDatafile
 {
 	// FilePLayerClassInfo_t members
-	"printname"			"#class_scout"
+	"printname"			"#TFC_Scout"
 	"playermodel"		"models/player/scout.mdl"
 	"selectcmd"			"cls_scout"
 
@@ -27,7 +27,7 @@ PlayerClassDatafile
 
 
 	
-	"MaxHealth"			"100"
+	"MaxHealth"			"75"
 	"MaxArmor"			"50"
 	
 	"armor"				"25"

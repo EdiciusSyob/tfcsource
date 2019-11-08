@@ -1,7 +1,7 @@
 PlayerClassDatafile
 {
 	// FilePLayerClassInfo_t members
-	"printname"			"#class_spy"	
+	"printname"			"#TFC_Spy"	
 	"playermodel"		"models/player/spy.mdl"
 	"selectcmd"			"cls_spy"
 

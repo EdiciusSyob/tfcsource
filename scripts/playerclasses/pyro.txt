@@ -1,9 +1,9 @@
 PlayerClassDatafile
 {
 	// FilePLayerClassInfo_t members
-	"printname"			"#class_blue_class3"	
+	"printname"			"#TFC_Pyro"	
 	"playermodel"		"models/player/pyro.mdl"
-	"selectcmd"			"cls_blue_class3"
+	"selectcmd"			"cls_pyro"
 
 	// Weapon Info
 	"primaryweapon"		"flamethrower"
@@ -28,9 +28,9 @@ PlayerClassDatafile
 
 	
 	"MaxHealth"			"100"
-	"MaxArmor"			"100"
+	"MaxArmor"			"150"
 
-	"armor"				"50"
+	"armor"				"75"
 
 	// Movement
 	"RunSpeed"			"150"

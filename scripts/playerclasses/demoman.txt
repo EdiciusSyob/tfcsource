@@ -1,7 +1,7 @@
 PlayerClassDatafile
 {
 	// FilePLayerClassInfo_t members
-	"printname"			"#class_demoman"	
+	"printname"			"#TFC_Demoman"	
 	"playermodel"		"models/player/demo.mdl"
 	"selectcmd"			"cls_demoman"
 
@@ -27,8 +27,8 @@ PlayerClassDatafile
 
 
 	
-	"MaxHealth"			"100"
-	"MaxArmor"			"100"
+	"MaxHealth"			"90"
+	"MaxArmor"			"120"
 
 	"armor"				"50"
 

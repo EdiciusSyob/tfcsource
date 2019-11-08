@@ -1,7 +1,7 @@
 PlayerClassDatafile
 {
 	// FilePLayerClassInfo_t members
-	"printname"			"#class_sniper"	
+	"printname"			"#TFC_Sniper"	
 	"playermodel"		"models/player/sniper.mdl"
 	"selectcmd"			"cls_sniper"
 
@@ -26,7 +26,7 @@ PlayerClassDatafile
 
 
 	
-	"MaxHealth"			"100"
+	"MaxHealth"			"90"
 	"MaxArmor"			"50"
 
 	"armor"				"25"

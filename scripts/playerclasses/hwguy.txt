@@ -1,7 +1,7 @@
 PlayerClassDatafile
 {
 	// FilePLayerClassInfo_t members
-	"printname"			"#class_hwguy"	
+	"printname"			"#TFC_HWGuy"	
 	"playermodel"		"models/player/hwguy.mdl"
 	"selectcmd"			"cls_hwguy"
 
