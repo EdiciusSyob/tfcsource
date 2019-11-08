@@ -138,6 +138,12 @@ noshadow tree_deciduous_01a_leaves.vmt
 noshadow tree_deciduous_01a_lod.vmt
 noshadow tree_deciduous_01a_lod-leaves.vmt
 
+halflife/+0~GENERIC86		255 230 125 100
+halflife/+0~FIFTIES_LGT2 	160 170 220 500
+halflife/~LIGHT3C		220 210 150 350
+halflife/~LIGHT5F		200 190 140 250
+halflife/+0~TNNL_LGT3		200 200 235 300
+
 forcetextureshadow props_wasteland/exterior_fence_notbarbed002a.mdl
 forcetextureshadow props_wasteland/exterior_fence_notbarbed002b.mdl
 forcetextureshadow props_wasteland/exterior_fence_notbarbed002c.mdl
