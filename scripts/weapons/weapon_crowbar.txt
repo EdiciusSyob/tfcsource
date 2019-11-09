@@ -6,7 +6,7 @@ WeaponData
 	"Damage"			"50"
 
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#SDK_Weapon_Crowbar"
+	"printname"			"#TFC_Crowbar"
 	"viewmodel"			"models/weapons/v_models/v_crowbar.mdl"
 	"playermodel"			"models/weapons/w_crowbar.mdl"
 	"PlayerAnimationExtension"	"crowbar"
