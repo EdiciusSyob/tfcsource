@@ -1,8 +1,8 @@
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"			"6"
-	"Bullets"			"4"
+	"Damage"			"4"
+	"Bullets"			"6"
 	"CycleTime"			"0.85"
 
 	"BuiltRightHanded"		"1"
