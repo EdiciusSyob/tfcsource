@@ -8,7 +8,7 @@ WeaponData
 	"BuiltRightHanded"		"1"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#SDK_Weapon_Shotgun"
+	"printname"			"#TFC_12Gauge"
 	"viewmodel"			"models/weapons/v_models/v_12gauge.mdl"
 	"playermodel"			"models/weapons/w_models/w_12gauge.mdl"
 	"PlayerAnimationExtension"	"m3s90"

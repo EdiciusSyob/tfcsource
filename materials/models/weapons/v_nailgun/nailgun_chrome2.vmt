@@ -1,4 +1,9 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/v_nailgun/nailgun_chrome2"
+	"$envmap" "models/weapons/v_nailgun/nailgun_chrome2"
+	"$envmapsphere"			"1"
+	"$envmapmode" "1"
+
+	"$multipass" "1"
 }
+

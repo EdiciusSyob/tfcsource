@@ -6,13 +6,13 @@ WeaponData
 	"CycleTime"			"0.075"		// time between shoots
 
 	"BuiltRightHanded"		"1"
-	
+
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#SDK_Weapon_MP5"
-	"viewmodel"			"models/weapons/v_models/v_tfc_nailgun.mdl"
+	"printname"			"#TFC_Nailgun"
+	"viewmodel"			"models/weapons/v_models/v_nailgun.mdl"
 	"playermodel"			"models/weapons/w_smg_mp5.mdl"
 	"PlayerAnimationExtension"	"mp5"
-	
+
 	"bucket"			"2"
 	"bucket_position"		"2"
 
@@ -20,7 +20,7 @@ WeaponData
 	"default_clip"			"200"
 	"NumClips"			"1"
 
-	
+
 	"primary_ammo"			"nail"
 	"secondary_ammo"		"None"
 
@@ -42,7 +42,7 @@ WeaponData
 				"character"	"a"
 		}
 		"weapon_s"
-		{	
+		{
 				"font"		"WeaponIconsSelected"
 				"character"	"a"
 		}
