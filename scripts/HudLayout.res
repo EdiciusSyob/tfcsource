@@ -344,62 +344,24 @@
 		"tall"	 "480"
 	}
 
-	HudHintDisplay
+	HudHintKeyDisplay
 	{
-		"fieldName"				"HudHintDisplay"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"c-240"
-		"ypos"					"c60"
-		"xpos"	"r148"	[$X360]
-		"ypos"	"r338"	[$X360]
-		"wide"					"480"
-		"tall"					"100"
-		"HintSize"				"1"
-		"text_xpos"				"8"
-		"text_ypos"				"8"
-		"center_x"				"0"	// center text horizontally
-		"center_y"				"-1"	// align text on the bottom
-		"paintbackground"		"0"
-	}	
+		"fieldName"	"HudHintKeyDisplay"
+		"visible"	"0"
+		"enabled" 	"0"
+	}
 
 	HudCommentary
 	{
-		"fieldName" "HudCommentary"
-		"xpos"	"c-190"
-		"ypos"	"350"
-		"wide"	"380"
-		"tall"  "40"
-		"visible" "1"
-		"enabled" "1"
-		
-		"PaintBackgroundType"	"2"
-		
-		"bar_xpos"		"50"
-		"bar_ypos"		"20"
-		"bar_height"	"8"
-		"bar_width"		"320"
-		"speaker_xpos"	"50"
-		"speaker_ypos"	"8"
-		"count_xpos_from_right"	"10"	// Counts from the right side
-		"count_ypos"	"8"
-		
-		"icon_texture"	"vgui/hud/icon_commentary"
-		"icon_xpos"		"0"
-		"icon_ypos"		"0"		
-		"icon_width"	"40"
-		"icon_height"	"40"
+		"fieldName"	"HudCommentary"
+		"visible"	"0"
+		"enabled"	"0"
 	}
 
 	AchievementNotificationPanel	
 	{
-		"fieldName"				"AchievementNotificationPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"180"
-		"wide"					"f10"	[$WIN32]
-		"wide"					"f60"	[$X360]
-		"tall"					"100"
+		"fieldName"	"AchievementNotificationPanel"
+		"visible"	"0"
+		"enabled"	"0"
 	}
 }
