@@ -9,6 +9,7 @@ PlayerClassDatafile
 	"primaryweapon"		"flamethrower"
 	"secondaryweapon"	"rpg"
 	"meleeweapon"		"crowbar"
+
 	"weapon1"			"12gauge"
 	"weapon2"			""
 	"weapon3"			""
@@ -24,16 +25,15 @@ PlayerClassDatafile
 	"numgrens"			"4"
 
 	"limitcvar"			"tfc_classlimit_pyro"
-
-
 	
-	"MaxHealth"			"100"
-	"MaxArmor"			"150"
+	"maxhealth"			"100"
+	"health"			"100"
 
+	"maxarmor"			"150"
 	"armor"				"50"
 
 	// Movement
-	"RunSpeed"			"150"
-	"SprintSpeed"		"280"
-	"ProneSpeed"		"50"
+	"runspeed"			"150"
+	"sprintspeed"		"280"
+	"pronespeed"		"50"
 }

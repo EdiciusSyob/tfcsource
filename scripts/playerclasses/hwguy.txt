@@ -9,6 +9,7 @@ PlayerClassDatafile
 	"primaryweapon"		"mp5"
 	"secondaryweapon"	"shotgun"
 	"meleeweapon"		"crowbar"
+
 	"weapon1"			"nailgun"
 	"weapon2"			""
 	"weapon3"			""
@@ -24,16 +25,15 @@ PlayerClassDatafile
 	"numgrens"			"4"
 
 	"limitcvar"			"tfc_classlimit_hwguy"
-
-
 	
-	"MaxHealth"			"100"
-	"MaxArmor"			"300"
+	"maxhealth"			"100"
+	"health"			"100"
 
+	"maxarmor"			"300"
 	"armor"				"150"
 
 	// Movement
-	"RunSpeed"			"150"
-	"SprintSpeed"		"280"
-	"ProneSpeed"		"50"
+	"runspeed"			"150"
+	"sprintspeed"		"280"
+	"pronespeed"		"50"
 }

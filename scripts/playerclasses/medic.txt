@@ -9,6 +9,7 @@ PlayerClassDatafile
 	"primaryweapon"		"12gauge"
 	"secondaryweapon"	"shotgun"
 	"meleeweapon"		"bioweapon"
+
 	"weapon1"			"supernailgun"
 	"weapon2"			""
 	"weapon3"			""
@@ -23,16 +24,15 @@ PlayerClassDatafile
 	"numgrens"			"0"
 
 	"limitcvar"			"tfc_classlimit_medic"
-
-
 	
-	"MaxHealth"			"90"
-	"MaxArmor"			"100"
+	"maxhealth"			"90"
+	"health"			"90"
 
+	"maxarmor"			"100"
 	"armor"				"50"
 
 	// Movement
-	"RunSpeed"			"224"
-	"SprintSpeed"		"330"
-	"ProneSpeed"		"60"
+	"runspeed"			"224"
+	"sprintspeed"		"330"
+	"pronespeed"		"60"
 }
