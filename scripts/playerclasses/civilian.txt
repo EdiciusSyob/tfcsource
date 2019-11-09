@@ -9,6 +9,7 @@ PlayerClassDatafile
 	"primaryweapon"		""
 	"secondaryweapon"	""
 	"meleeweapon"		"umbrella"
+
 	"weapon1"			""
 	"weapon2"			""
 	"weapon3"			""
@@ -24,16 +25,15 @@ PlayerClassDatafile
 	"numgrens"			"0"
 
 	"limitcvar"			"tfc_classlimit_civilian"
-
-
 	
-	"MaxHealth"			"50"
-	"MaxArmor"			"0"
+	"maxhealth"			"50"
+	"health"			"50"
 
+	"maxarmor"			"0"
 	"armor"				"0"
 
 	// Movement
-	"RunSpeed"			"220"
-	"SprintSpeed"		"330"
-	"ProneSpeed"		"60"
+	"runspeed"			"220"
+	"sprintspeed"		"330"
+	"pronespeed"		"60"
 }

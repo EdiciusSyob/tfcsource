@@ -9,6 +9,7 @@ PlayerClassDatafile
 	"primaryweapon"		"railgun"
 	"secondaryweapon"	"shotgun"
 	"meleeweapon"		"wrench"
+
 	"weapon1"			""
 	"weapon2"			""
 	"weapon3"			""
@@ -25,15 +26,14 @@ PlayerClassDatafile
 
 	"limitcvar"			"tfc_classlimit_engineer"
 
+	"maxhealth"			"80"
+	"health"			"80"
 
-	
-	"MaxHealth"			"80"
-	"MaxArmor"			"50"
-
+	"maxarmor"			"50"
 	"armor"				"25"
 
 	// Movement
-	"RunSpeed"			"218"
-	"SprintSpeed"		"330"
-	"ProneSpeed"		"60"
+	"runspeed"			"218"
+	"sprintspeed"		"330"
+	"pronespeed"		"60"
 }

@@ -9,6 +9,7 @@ PlayerClassDatafile
 	"primaryweapon"		"rpg"
 	"secondaryweapon"	"12gauge"
 	"meleeweapon"		"crowbar"
+
 	"weapon1"			"shotgun"
 	"weapon2"			""
 	"weapon3"			""
@@ -19,20 +20,20 @@ PlayerClassDatafile
 	"weapon8"			""
 	"weapon9"			""
 	"weapon10"			""
+
 	"grenadetype"		"grenade"
 	"numgrens"			"0"
 
 	"limitcvar"			"tfc_classlimit_soldier"
 
+	"health"			"100"
+	"maxhealth"			"100"
 
-	
-	"MaxHealth"			"100"
-	"MaxArmor"			"200"
-
+	"maxarmor"			"200"
 	"armor"				"100"
 
 	// Movement
-	"RunSpeed"			"180"
-	"SprintSpeed"		"330"
-	"ProneSpeed"		"60"
+	"runspeed"			"180"
+	"sprintspeed"		"330"
+	"pronespeed"		"60"
 }

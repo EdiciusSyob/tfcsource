@@ -9,6 +9,7 @@ PlayerClassDatafile
 	"primaryweapon"		"grenadelauncher"
 	"secondaryweapon"	"pipebomblauncher"
 	"meleeweapon"		"crowbar"
+
 	"weapon1"			"12gauge"
 	"weapon2"			""
 	"weapon3"			""
@@ -24,16 +25,15 @@ PlayerClassDatafile
 	"numgrens"			"2"
 
 	"limitcvar"			"tfc_classlimit_demoman"
-
-
 	
-	"MaxHealth"			"90"
-	"MaxArmor"			"120"
+	"maxhealth"			"90"
+	"health"			"90"
 
+	"maxarmor"			"120"
 	"armor"				"50"
 
 	// Movement
-	"RunSpeed"			"150"
-	"SprintSpeed"		"280"
-	"ProneSpeed"		"50"
+	"runspeed"			"150"
+	"sprintspeed"		"280"
+	"pronespeed"		"50"
 }
