@@ -45,14 +45,14 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "SDK Template 2013" }
+		{ "Team Fortress Classic: Source" }
 	}
 
 	"maxplayers"
 	{
 		"#Valve_Max_Players"
 		{ NUMBER 1 32 }
-		{ "32" }
+		{ "24" }
 	}
 
 	"sv_password"
@@ -66,21 +66,21 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#SDK_Timelimit"
 		{ NUMBER 0 -1 }
-		{ "20" }
+		{ "30" }
 	}
 
 	"mp_winlimit"
 	{
 		"#SDK_WinLimit"
 		{ NUMBER 0 -1 }
-		{ "0" }
+		{ "3" }
 	}
 
 	"mp_maxrounds"
 	{
 		"#SDK_RoundLimit"
 		{ NUMBER 0 -1 }
-		{ "0" }
+		{ "3" }
 	}
 	
 	"mp_falldamage"
