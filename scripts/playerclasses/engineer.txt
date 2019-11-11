@@ -8,7 +8,7 @@ PlayerClassDatafile
 	// Weapon Info
 	"primaryweapon"		"railgun"
 	"secondaryweapon"	"shotgun"
-	"meleeweapon"		"wrench"
+	"meleeweapon"		"spanner"
 
 	"weapon1"			""
 	"weapon2"			""
