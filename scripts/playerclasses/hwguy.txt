@@ -6,7 +6,7 @@ PlayerClassDatafile
 	"selectcmd"			"cls_hwguy"
 
 	// Weapon Info
-	"primaryweapon"		"mp5"
+	"primaryweapon"		"ac"
 	"secondaryweapon"	"shotgun"
 	"meleeweapon"		"crowbar"
 
