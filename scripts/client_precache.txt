@@ -2,4 +2,8 @@ ClientPrecache
 {
 	"material"			"sprites/white.vmt"
 	"material"			"sprites/physbeam.vmt"
+	"scriptsound"		"Player.FlashlightOn"
+	"scriptsound"		"Player.FlashlightOff"
+	"scriptsound"		"Player.Jump"
+	"scriptsound"		"HealthVial.Touch"
 }
