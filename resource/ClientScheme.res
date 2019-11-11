@@ -868,7 +868,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial"
+				"name"		"Alte DIN 1451 Mittelschrift"
 				"tall"		"16"
 				"weight"	"1000"
 				"additive"	"1"
