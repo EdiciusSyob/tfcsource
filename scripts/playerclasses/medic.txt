@@ -8,10 +8,10 @@ PlayerClassDatafile
 	// Weapon Info
 	"primaryweapon"		"12gauge"
 	"secondaryweapon"	"shotgun"
-	"meleeweapon"		"medkit"
+	"meleeweapon"		""
 
 	"weapon1"			"supernailgun"
-	"weapon2"			""
+	"weapon2"			"medkit"
 	"weapon3"			""
 	"weapon4"			""
 	"weapon5"			""
