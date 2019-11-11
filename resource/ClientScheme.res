@@ -28,8 +28,8 @@ Scheme
 
 		"Blank"				"0 0 0 0"
 		"ForTesting"		"255 0 0 32"
-		"ForTesting_Magenta"	"255 0 255 255"
-		"ForTesting_MagentaDim"	"255 0 255 120"
+		"ForTesting_Magenta"	"255 20 20 255"
+		"ForTesting_MagentaDim"	"255 20 20 120"
 		
 		//These were ripped from SourceScheme
 		"SteamLightGreen"	"157 194 80 255"
