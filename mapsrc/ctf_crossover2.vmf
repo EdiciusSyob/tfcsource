@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8357"
-	"mapversion" "10"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "4049"
-	"mapversion" "10"
+	"mapversion" "11"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -162345,7 +162345,7 @@ entity
 	"Explosives" "20"
 	"Nails" "50"
 	"Shells" "50"
-	"Shouldwespawn" "4"
+	"Shouldwespawn" "3"
 	"origin" "-96 -2682 74"
 	editor
 	{
@@ -162364,7 +162364,7 @@ entity
 	"Explosives" "20"
 	"Nails" "50"
 	"Shells" "50"
-	"Shouldwespawn" "4"
+	"Shouldwespawn" "3"
 	"origin" "-96 -2762 74"
 	editor
 	{
@@ -162383,7 +162383,7 @@ entity
 	"Explosives" "20"
 	"Nails" "50"
 	"Shells" "50"
-	"Shouldwespawn" "4"
+	"Shouldwespawn" "3"
 	"origin" "-96 -2842 74"
 	editor
 	{
@@ -162401,8 +162401,8 @@ entity
 	"Cells" "50"
 	"Explosives" "20"
 	"Nails" "50"
-	"Shells" "50"
-	"Shouldwespawn" "4"
+	"Shells" "100"
+	"Shouldwespawn" "3"
 	"origin" "0 -3136 74"
 	editor
 	{
