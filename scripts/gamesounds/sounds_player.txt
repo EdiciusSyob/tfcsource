@@ -35,9 +35,9 @@
 
 	"rndwave"
 	{
-			"wave"	"player/burnpain1.wav"
-			"wave"	"player/burnpain2.wav"
-			"wave"	"player/burnpain3.wav"
+		"wave"	"player/burnpain1.wav"
+		"wave"	"player/burnpain2.wav"
+		"wave"	"player/burnpain3.wav"
 	}
 }
 
@@ -54,7 +54,21 @@
 		"wave"	"player/death3.wav"
 		"wave"	"player/death4.wav"
 		"wave"	"player/death5.wav"
-		"wave"	"player/death6.wav"
+	}
+}
+
+"Player.Medic"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"player/saveme1.wav"
+		"wave"	"player/saveme2.wav"
 	}
 }
 
@@ -88,7 +102,7 @@
 	"soundlevel"  "SNDLVL_75dB"
 	"pitch"		"90,110"
 
-	"wave"	"player/pl_drown1.wav"
+	"wave"	"player/drown1.wav"
 }
 
 "Player.Swim"
@@ -122,16 +136,6 @@
 	}
 }
 
-"Player.Sprint"
-{
-	"channel"		"CHAN_BODY"
-	"volume"		"1"
-	"soundlevel"	"SNDLVL_65dB"
-	"pitch"		"PITCH_NORM"
-	"wave"		"player/sprint.wav"
-}
-
-
 "Player.Jump"
 {
 	"channel"		"CHAN_BODY"
@@ -139,12 +143,7 @@
 	"soundlevel"		"SNDLVL_65dB"
 	"pitch"			"PITCH_NORM"
 
-	"rndwave"
-	{
-		"wave"		"player/jumplanding2.wav"
-		"wave"		"player/jumplanding3.wav"
-		"wave"		"player/jumplanding4.wav"
-	}
+	"wave"		"player/plyrjmp8.wav"
 }
 
 "Player.JumpLanding"
@@ -184,9 +183,8 @@
 
 	"rndwave"
 	{
-		"wave"	"player/pl_drown1.wav"
-		"wave"	"player/pl_drown2.wav"
-		"wave"	"player/pl_drown3.wav"
+		"wave"	"player/drown1.wav"
+		"wave"	"player/drown2.wav"
 	}
 }
 

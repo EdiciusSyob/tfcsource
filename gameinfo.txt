@@ -1,7 +1,8 @@
 "GameInfo"
 {
 	game	"Team Fortress Classic: Source"
-	title	"TEAM FORTRESS CLASSIC: SOURCE"
+	title	"TEAM FORTRESS CLASSIC"
+	title2	"SOURCE"
 	type	multiplayer_only
 	GameData	"tfcsource.fgd"
 

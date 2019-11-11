@@ -11,7 +11,8 @@
 Scheme
 {
 	//////////////////////// COLORS ///////////////////////////
-	//////////////////////// COLORS ///////////////////////////
+	// color details
+	// this is a list of all the colors used by the scheme
 	Colors
 	{
 		// base colors
@@ -20,74 +21,36 @@ Scheme
 		"LightOrange"		"188 112 0 128"
 		
 		"Red"				"192 28 0 140"
-		"Black"				"0 0 0 196"
+		"Black"				"0 0 0 255"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
+		"RoundWinPanelBackground" "0 0 0 179"
 
 		"Blank"				"0 0 0 0"
 		"ForTesting"		"255 0 0 32"
 		"ForTesting_Magenta"	"255 0 255 255"
 		"ForTesting_MagentaDim"	"255 0 255 120"
+		
+		//These were ripped from SourceScheme
+		"SteamLightGreen"	"157 194 80 255"
+		"AchievementsLightGrey"		"79 79 79 255"
+		"White"				"255 255 255 255"
 	}
-	
+
 	///////////////////// BASE SETTINGS ////////////////////////
 	//
 	// default settings for all panels
 	// controls use these to determine their settings
 	BaseSettings
 	{
-		"FgColor"			"255 220 0 100"
-		"BgColor"			"0 0 0 76"
-
-		"Panel.FgColor"			"255 220 0 100"
-		"Panel.BgColor"			"0 0 0 76"
-		
-		"BrightFg"		"255 220 0 255"
-
-		"DamagedBg"			"180 0 0 200"
-		"DamagedFg"			"180 0 0 230"
-		"BrightDamagedFg"		"255 0 0 255"
-
-		// weapon selection colors
-		"SelectionNumberFg"		"255 220 0 255"
-		"SelectionTextFg"		"255 220 0 255"
-		"SelectionEmptyBoxBg" 	"0 0 0 80"
-		"SelectionBoxBg" 		"0 0 0 80"
-		"SelectionSelectedBoxBg" "0 0 0 80"
-		
-		"ZoomReticleColor"	"255 220 0 255"
-
-		// HL1-style HUD colors
-		"Yellowish"			"255 160 0 255"
-		"Normal"			"255 208 64 255"
-		"Caution"			"255 48 0 255"
-
-		// Top-left corner of the "Half-Life 2" on the main screen
-		"Main.Title1.X"		"76"
-		"Main.Title1.Y"		"184"
-		"Main.Title1.Color"	"199 124 18 255"
-		
-		// Top-left corner of the "DEATHMATCH" on the main screen
-		"Main.Title2.X"		"315"
-		"Main.Title2.Y"		"222"
-		"Main.Title2.Color"	"255 255 255 180"
-
-		// Top-left corner of the menu on the main screen
-		"Main.Menu.X"		"76"
-		"Main.Menu.Y"		"240"
-
-		// Blank space to leave beneath the menu on the main screen
-		"Main.BottomBorder"	"32"
-
-
-///HERE
-				// vgui_controls color specifications
+		// vgui_controls color specifications
 		Border.Bright					"LightOrange"		// the lit side of a control
 		Border.Dark						"LightOrange"		// the dark/unlit side of a control
 		Border.Selection				"Blank"				// the additional border color for displaying the default/selected button
+		Border.BuyPreset				"Orange"
 
 		Button.TextColor				"Orange"
-		Button.BgColor					"Blank"
+		Button.BgColor					"0 0 0 64"
 		Button.ArmedTextColor			"Orange"
 		Button.ArmedBgColor				"Red"
 		Button.DepressedTextColor		"Orange"
@@ -154,6 +117,12 @@ Scheme
 		Panel.FgColor					"OrangeDim"
 		Panel.BgColor					"blank"
 
+		HTML.BgColor					"Black"
+
+		"BuyPreset.BgColor"				"0 0 0 128"
+		"BuyPresetListBox.BgColor"			"0 0 0 128"
+		"Popup.BgColor"					"0 0 0 230"
+
 		ProgressBar.FgColor				"Orange"
 		ProgressBar.BgColor				"TransparentBlack"
 
@@ -169,7 +138,7 @@ Scheme
 		RichText.SelectedTextColor		"Orange"
 		RichText.SelectedBgColor		"Blank"
 
-				ScrollBarButton.FgColor				"Orange"
+		ScrollBarButton.FgColor				"Orange"
 		ScrollBarButton.BgColor				"Blank"
 		ScrollBarButton.ArmedFgColor		"Orange"
 		ScrollBarButton.ArmedBgColor		"Blank"
@@ -249,20 +218,15 @@ Scheme
 
 		"ProgressBarFg"			"255 30 13 255"
 
-		// Top-left corner of the "Counter-Strike" on the main screen
-		"Main.Title1.X"		"32"
-		"Main.Title1.Y"		"180"
-		"Main.Title1.Color"	"255 255 255 255"
+		// Top-left corner of the "TEAM FORTRESS" on the main screen
+		"Main.Title1.X"		"30"
+		"Main.Title1.Y"		"210"
+		"Main.Title1.Color"	"199 124 18 255"
 
-		// Top-left corner of the "SOURCE" on the main screen
-		"Main.Title2.X"		"380"	
-		"Main.Title2.Y"		"205"
-		"Main.Title2.Color"	"255 255 255 80"
-
-		// Top-left corner of the "BETA" on the main screen
-		"Main.Title3.X"		"460"
-		"Main.Title3.Y"		"-10"
-		"Main.Title3.Color"	"160 0 0 255"
+		// Top-left corner of the "CLASSIC" on the main screen
+		"Main.Title2.X"		"278"
+		"Main.Title2.Y"		"245"
+		"Main.Title2.Color"	"0 199 0 80"
 
 		// Top-left corner of the menu on the main screen
 		"Main.Menu.X"		"32"
@@ -271,79 +235,376 @@ Scheme
 		// Blank space to leave beneath the menu on the main screen
 		"Main.BottomBorder"	"32"
 	}
-	
+
+	//
 	//////////////////////// FONTS /////////////////////////////
 	//
 	// describes all the fonts
 	Fonts
 	{
 		// fonts are used in order that they are listed
-		// fonts are used in order that they are listed
-		"DebugFixed"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"14"
-				"weight"	"400"
-				"antialias" "1"
-			}
-		}
-		// fonts are used in order that they are listed
-		"DebugFixedSmall"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"14"
-				"weight"	"400"
-				"antialias" "1"
-			}
-		}
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		Default
+		"Default"
 		{
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"9"
-				"weight"	"700"
-				"antialias" "1"
-				"yres"	"1 599"
+				"tall"		"10"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"		"Verdana"
 				"tall"		"12"
-				"weight"	"700"
-				"antialias" "1"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"15"
 				"weight"	"900"
-				"antialias" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
+				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"900"
-				"antialias" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
+				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"900"
-				"antialias" "1"
-				"yres"	"1200 10000"
-				"additive"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+				"antialias"	"1"
+			}
+			"7"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+				"antialias"	"1"
+			}
+		}
+		"DefaultBig"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"15"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"19"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"26"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"30"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"18"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+		}
+		"DefaultLarge"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"18"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"23"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"31"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"36"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"22"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+		}
+		
+		"DefaultLarger"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"19"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"24"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"31"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"41"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"48"
+				"weight"	"1100"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"22"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+		}
+		
+		"DefaultVeryLarge"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"22"
+				"weight"	"1300"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"28"
+				"weight"	"1300"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"36"
+				"weight"	"1300"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"48"
+				"weight"	"1300"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"56"
+				"weight"	"1300"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"28"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+		}
+		
+		"DefaultGigantic"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"24"
+				"weight"	"1300"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"34"
+				"weight"	"1300"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"42"
+				"weight"	"1300"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"54"
+				"weight"	"1300"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"64"
+				"weight"	"1300"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"32"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+		}
+		
+		"UiHeadline"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"700"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+		}			
+		"DefaultUnderline"
+		{
+			"1"
+			{
+				"name"		"Tahoma"
+				"tall"		"12"
+				"weight"	"500"
+				"underline" "1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+			"2"
+			{
+				"name"		"Arial"
+				"tall"		"11"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
 			}
 		}
 		"DefaultSmall"
@@ -351,23 +612,25 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -397,6 +660,66 @@ Scheme
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
+				"antialias"	"1"
+			}
+		}
+		"CSUnderline"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+				"underline" "1"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+				"underline" "1"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+				"underline" "1"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+				"underline" "1"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"24"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+				"underline" "1"
+			}
+			"6"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+				"underline" "1"
 			}
 		}
 		"DefaultVerySmall"
@@ -404,7 +727,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
@@ -412,7 +735,7 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-				"tall"		"13"
+				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -420,7 +743,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -459,13 +782,185 @@ Scheme
 				"weight"		"0"
 			}
 		}
-		"MenuTitle"
+		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
+		"DefaultVerySmallFallBack"
 		{
 			"1"
 			{
-				"name"		"Verdana Bold"
+				"name"		"Verdana"
+				"tall"		"10"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 1199"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"15"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1200 6000"
+				"antialias"	"1"
+			}
+		}
+		CenterPrintText
+		{
+			// note that this scales with the screen resolution
+			"1"
+			{
+				"name"		"Trebuchet MS" [!$OSX]
+				"name"		"Helvetica" [$OSX]
 				"tall"		"18"
-				"weight"	"500"
+				"weight"	"900"
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
+		HudHintText
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"700"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"13"
+				"weight"	"700"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"700"
+				"yres"	"768 1023"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"700"
+				"yres"	"1024 1199"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"24"
+				"weight"	"700"
+				"yres"	"1200 10000"
+			}
+		}
+		HudNumbersSmall
+		{
+			"1"
+			{
+				"name"		"Arial"
+				"tall"		"16"
+				"weight"	"1000"
+				"additive"	"1"
+				"antialias" "1"
+				"range"		"0x0000 0x017F"
+			}
+		}
+
+		HudSelectionNumbers
+		{
+			"1"
+			{
+				"name"		"Alte DIN 1451 Mittelschrift"
+				"tall"		"11"
+				"weight"	"700"
+				"antialias" "1"
+				"additive"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+		}
+
+		HudSelectionText
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"11"
+				"weight"	"700"
+				"antialias" "1"
+				"yres"	"1 599"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"additive"	"1"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"11"
+				"weight"	"700"
+				"antialias" "1"
+				"yres"	"600 767"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"additive"	"1"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"12"
+				"weight"	"900"
+				"antialias" "1"
+				"yres"	"768 1023"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"16"
+				"weight"	"900"
+				"antialias" "1"
+				"yres"	"1024 1199"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"17"
+				"weight"	"1000"
+				"antialias" "1"
+				"yres"	"1200 10000"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+		}
+
+		BudgetLabel
+		{
+			"1"
+			{
+				"name"		"Courier New"
+				"tall"		"14"
+				"weight"	"400"
+				"outline"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+			}
+		}
+		DebugOverlay
+		{
+			"1"
+			{
+				"name"		"Courier New"
+				"tall"		"14"
+				"weight"	"400"
+				"outline"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		WeaponIcons
@@ -494,230 +989,91 @@ Scheme
 				"custom"	"1"
 			}
 		}
-		Crosshairs
+		Icons
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
-				"tall"		"40" [!$OSX]
-				"tall"		"41" [$OSX]
-				"weight"	"0"
-				"antialias" "0"
-				"additive"	"1"
-				"custom"	"1"
-				"yres"		"1 10000"
+				"name"  "Counter-Strike" // Cstrike.ttf
+				"tall"  "28"
+				"weight" "0"
+				"additive" "1"
+				"antialias" "1"
+				"custom" "1" [$OSX]
 			}
 		}
-		QuickInfo
+		IconsSmall
 		{
 			"1"
 			{
-				"name"		"HL2cross"
-				"tall"		"28" [!$OSX]
-				"tall"		"50" [$OSX]
-				"weight"	"0"
+				"name"  "Counter-Strike" // Cstrike.ttf
+				"tall"  "20"
+				"weight" "0"
+				"additive" "0"
 				"antialias" "1"
-				"additive"	"1"
-				"custom"	"1" [!$OSX]
+				"custom" "1" [$OSX]
+			}
+		}		
+		ClientTitleFont
+		{
+			"1"
+			{
+				"name"  "Impact"
+				"tall"  "46"
+				"weight" "0"
+				"additive" "0"
+				"antialias" "1"
 			}
 		}
 		HudNumbers
 		{
 			"1"
 			{
-				"name"		"HalfLife2"
-				"tall"		"32"
-				"weight"	"0"
+				"name"  "Alte DIN 1451 Mittelschrift"
+				"tall"  "28"
+				"weight" "0"
+				"additive" "1"
 				"antialias" "1"
-				"additive"	"1"
-				"custom"	"1"
-			}
-		}
-		HudNumbersGlow
-		{
-			"1"
-			{
-				"name"		"HalfLife2"
-				"tall"		"32"
-				"weight"	"0"
-				"blur"		"4"
-				"scanlines" "2"
-				"antialias" "1"
-				"additive"	"1"
-				"custom"	"1"
-			}
-		}
-		HudNumbersSmall
-		{
-			"1"
-			{
-				"name"		"HalfLife2" [!$OSX]
-				"name"		"Helvetica Bold" [$OSX]
-				"tall"		"16"
-				"weight"	"1000"
-				"additive"	"1"
-				"antialias" "1"
-				"custom"	"1"
-			}
-		}
-		HudSelectionNumbers
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"11"
-				"weight"	"700"
-				"antialias" "1"
-				"additive"	"1"
-			}
-		}
-		HudHintTextLarge
-		{
-			"1"
-			{
-				"name"		"Verdana" [!$OSX]
-				"name"		"Helvetica Bold" [$OSX]
-				"tall"		"14"
-				"weight"	"1000"
-				"antialias" "1"
-				"additive"	"1"
-			}
-		}
-		HudHintTextSmall
-		{
-			"1"
-			{
-				"name"		"Verdana" [!$OSX]
-				"name"		"Helvetica" [$OSX]
-				"tall"		"11"
-				"weight"	"0"
-				"antialias" "1"
-				"additive"	"1"
-			}
-		}
-		HudSelectionText
-		{
-			"1"
-			{
-				"name"		"Verdana"
-				"tall"		"8"
-				"weight"	"700"
-				"antialias" "1"
-				"yres"	"1 599"
-			}
-			"2"
-			{
-				"name"		"Verdana"
-				"tall"		"10"
-				"weight"	"700"
-				"antialias" "1"
-				"yres"	"600 767"
-			}
-			"3"
-			{
-				"name"		"Verdana"
-				"tall"		"12"
-				"weight"	"900"
-				"antialias" "1"
-				"yres"	"768 1023"
-			}
-			"4"
-			{
-				"name"		"Verdana"
-				"tall"		"16"
-				"weight"	"900"
-				"antialias" "1"
-				"yres"	"1024 1199"
-			}
-			"5"
-			{
-				"name"		"Verdana"
-				"tall"		"17"
-				"weight"	"1000"
-				"antialias" "1"
-				"yres"	"1200 10000"
-			}
-		}
-		BudgetLabel
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"14"
-				"weight"	"400"
-				"outline"	"1"
-			}
-		}
-		DebugOverlay
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"14"
-				"weight"	"400"
-				"outline"	"1"
 			}
 		}
 		"CloseCaption_Normal"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"26" [!$OSX]
-				"tall"		"24" [$OSX]
-				"tall"		"26"
+				"name"		"Tahoma"
+				"tall"		"16"
 				"weight"	"500"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Italic" [$OSX]
-				"tall"		"26" [!$OSX]
-				"tall"		"24" [$OSX]
-				"tall"		"26"
+				"name"		"Tahoma"
+				"tall"		"16"
 				"weight"	"500"
 				"italic"	"1"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
-				"tall"		"26" [!$OSX]
-				"tall"		"24" [$OSX]
-				"tall"		"26"
+				"name"		"Tahoma"
+				"tall"		"16"
 				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana Bold Italic" [$OSX]
-				"tall"		"26" [!$OSX]
-				"tall"		"24" [$OSX]
-				"tall"		"26"
+				"name"		"Tahoma"
+				"tall"		"16"
 				"weight"	"900"
 				"italic"	"1"
-			}
-		}
-		"CloseCaption_Small"
-		{
-			"1"
-			{
-				"name"		"Tahoma" [!$OSX]
-				"name"		"Verdana" [$OSX]
-				"tall"		"16" [!$OSX]
-				"tall"		"14" [$OSX]
- 				"tall_hidef"	"24"
-				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
@@ -727,9 +1083,20 @@ Scheme
 			"1"
 			{
 				"name"		"Marlett"
-				"tall"		"14"
+				"tall"		"11"
 				"weight"	"0"
 				"symbol"	"1"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+			}
+		}
+		"MenuTitle"
+		{
+			"1"
+			{
+				"name"		"Verdana Bold"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias"	"1"
 			}
 		}
 		"Trebuchet24"
@@ -744,6 +1111,18 @@ Scheme
 				"additive"	"1"
 			}
 		}
+		"Trebuchet20"
+		{
+			"1"
+			{
+				"name"		"Trebuchet MS"
+				"tall"		"20"
+				"weight"	"900"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"1"
+			}
+		}
 		"Trebuchet18"
 		{
 			"1"
@@ -751,75 +1130,52 @@ Scheme
 				"name"		"Trebuchet MS"
 				"tall"		"18"
 				"weight"	"900"
-			}
-		}
-		ClientTitleFont
-		{
-			"1"
-			{
-				"name"  "Impact"
-				"tall"  "46"
-				"weight" "0"
-				"additive" "0"
-				"antialias" "1"
-			}
-		}
-		CreditsLogo
-		{
-			"1"
-			{
-				"name"		"HalfLife2"
-				"tall"		"128"
-				"weight"	"0"
-				"antialias" "1"
-				"additive"	"1"
-				"custom"	"1"
-			}
-		}
-		CreditsText
-		{
-			"1"
-			{
-				"name"		"Trebuchet MS"
-				"tall"		"20"
-				"weight"	"900"
+				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"1"
 			}
 		}
-		CreditsOutroLogos
-		{
-			"1"
-			{
-				"name"		"HalfLife2"
-				"tall"		"48"
-				"weight"	"0"
-				"antialias" "1"
-				"additive"	"1"
-				"custom"	"1"
-			}
-		}
-		CreditsOutroText
+		"TargetID"
 		{
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"9"
-				"weight"	"900"
-				"antialias" "1"
+				"tall"		"12"
+				"weight"	"700"
+				"yres"	"480 599"
+				"dropshadow"	"0"
 			}
-		}
-		CenterPrintText
-		{
-			// note that this scales with the screen resolution
-			"1"
+			"2"
 			{
-				"name"		"Trebuchet MS" [!$OSX]
-				"name"		"Helvetica" [$OSX]
-				"tall"		"18"
-				"weight"	"900"
-				"antialias" "1"
-				"additive"	"1"
+				"name"		"Verdana"
+				"tall"		"13"
+				"weight"	"700"
+				"yres"	"600 767"
+				"dropshadow"	"0"
+			}
+			"3"
+			{
+				"name"		"Verdana"
+				"tall"		"14"
+				"weight"	"700"
+				"yres"	"768 1023"
+				"dropshadow"	"0"
+			}
+			"4"
+			{
+				"name"		"Verdana"
+				"tall"		"20"
+				"weight"	"700"
+				"yres"	"1024 1199"
+				"dropshadow"	"0"
+			}
+			"5"
+			{
+				"name"		"Verdana"
+				"tall"		"24"
+				"weight"	"700"
+				"yres"	"1200 10000"
+				"dropshadow"	"0"
 			}
 		}
 		"ChatFont"
@@ -865,54 +1221,352 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		"TargetID"
+		
+		//Stolen from SourceScheme to make the fonts a little smaller
+		"AchievementTitleFont"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
-				"tall"		"24"
-				"weight"	"900"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"name"		"Verdana" [!$OSX]
+				"name"		"Verdana Bold" [$OSX]
+				"tall"		"16"
+				"weight"	"1200"
 				"antialias" "1"
-				"additive"	"0"
+				"outline" "1"
 			}
 		}
-	
-		// Used by scoreboard and spectator UI for names which don't map in the normal fashion
-		"DefaultVerySmallFallBack"
+		"AchievementDescriptionFont"
 		{
 			"1"
+			{
+				"name"		"Verdana" [!$OSX]
+				"name"		"Verdana Bold" [$OSX]
+				"tall"		"12"
+				"weight"	"1200"
+				"antialias" "1"
+				"outline" "1"
+				"yres"		"0 480"
+			}
+			"2"
+			{
+				"name"		"Verdana" [!$OSX]
+				"name"		"Verdana Bold" [$OSX]
+				"tall"		"16"
+				"weight"	"1200"
+				"antialias" "1"
+				"outline" "1"
+				"yres"	 "481 10000"
+			}
+		}	
+		
+		
+		AchievementItemTitle	[$WIN32]
+		{
+			"1"
+			{
+				"name"		"Arial" [!$OSX]
+				"name"		"Helvetica Bold" [$OSX]
+				"weight"		"1200"
+				"tall"			"11"
+				"antialias"		"1"
+			}
+		}
+		
+		AchievementItemDescription	[$WIN32]
+		{
+			"1"
+			{
+				"name"		"Arial" [!$OSX]
+				"name"		"Helvetica" [$OSX]
+				"weight"		"800"
+				"tall"			"9"
+				"antialias"		"1"
+			}
+		}
+		
+		AchievementPopupTitle	[$WIN32]
+		{
+			"1"
+			{
+				"name"		"Verdana" [!$OSX]
+				"name"		"Helvetica Bold" [$OSX]
+				"weight"		"1200"
+				"tall"			"12"
+				"antialias"		"1"
+			}
+		}
+		
+		AchievementPopupDescription	[$WIN32]
+		{
+			"1"
+			{
+				"name"		"Verdana" [!$OSX]
+				"name"		"Helvetica" [$OSX]
+				"weight"		"700"
+				"tall"			"9"
+				"antialias"		"1"
+			}
+		}
+		
+		"FreezeSmall"
+		{		
+			"1"
+			{
+				"name"		"Verdana Bold" [!$OSX]
+				"name"		"Helvetica" [$OSX]
+				"tall"		"9"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A			
+				"antialias"	"1" [!$OSX]
+			}	
+		}
+		
+		"FreezeMedium"	// used by the freeze panel
+		{		
+			"1"
+			{
+				"name"		"Verdana Bold" [!$OSX]
+				"name"		"Helvetica" [$OSX]
+				"tall"		"14"
+				"weight"	"600"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A				
+				"antialias"	"1"
+			}	
+		}
+		
+		"FreezeLarge"
+		{	
+			"1"
+			{
+				"name"		"Verdana Bold" [!$OSX]
+				"name"		"Helvetica" [$OSX]
+				"tall"		"18"
+				"weight"	"600"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A				
+				"antialias"	"1"
+			}	
+		}
+
+		"WinPanelLarge"
+		{
+			"1"
+			{
+				"name"		"Verdana" [!$OSX]
+				"name"		"Helvetica" [$OSX]
+				"tall"		"14"
+				"weight"	"700"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1" [!$OSX]
+			}
+		}
+
+		"WinPanelTiny"
+		{
+			"1"
+			{
+				"name"		"Verdana Bold" [!$OSX]
+				"name"		"Verdana" [$OSX]
+				"tall"		"9" 
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1" [!$OSX]
+			}
+		}
+
+		WinPanelClock
+		{
+			"1"
+			{
+				"name"		"Counter-Strike" // Cstrike.ttf
+				"tall"		"14"
+				"weight"	"0"
+				"additive"	"1"
+				"antialias"	"1"
+			}
+		}
+
+		"HUDAchievementTiny"
+		{
+			"1"
+			{
+				"name"		"Verdana"
+				"tall"		"6"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
+			}
+			"2"
+			{
+				"name"		"Verdana"
+				"tall"		"8"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 767"
+			}
+			"3"
 			{
 				"name"		"Verdana"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
+				"yres"		"768 959"
 				"antialias"	"1"
 			}
-			"2"
+			"4"
 			{
 				"name"		"Verdana"
-				"tall"		"12"
+				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 1199"
-				"antialias"	"1"
+				"yres"		"960 1023"
+				"antialias"	"1" [!$OSX]
 			}
-			"3"
+			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"15"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1024 1199"
+				"antialias"	"1" [!$OSX]
+			}
+			"6"
+			{
+				"name"		"Verdana"
+				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1200 6000"
+				"antialias"	"1" [!$OSX]
+			}
+		}
+
+		"ScoreboardHeader"
+		{
+			"1"
+			{
+				"name"		"verdana bold"
+				"tall"		"8"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
 			}
 		}
 
+		"ScoreboardTeamName"
+		{
+			"1"
+			{
+				"name"		"verdana bold"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+		}
+
+		"ScoreboardScore"
+		{
+			"1"
+			{
+				"name"		"verdana bold"
+				"tall"		"45"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+		}
+
+		"ScoreboardColumns"
+		{
+			"1"
+			{
+				"name"		"verdana bold"
+				"tall"		"8"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1" [!$OSX]
+			}
+		}
+		
+		"ScoreboardPlayersAlive"
+		{
+			"1"
+			{
+				"name"		"verdana bold"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+		}
+		
+		"ScoreboardPlayersAliveSuffix"
+		{
+			"1"
+			{
+				"name"		"verdana bold"
+				"tall"		"10"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+		}
+
+		"ScoreboardBody_1"
+		{
+			"1"
+			{
+				"name"		"verdana" 
+				"tall"		"10" [!$OSX]
+				"tall"		"11" [$OSX]
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+		}
+
+		"ScoreboardBody_2"
+		{
+			"1"
+			{
+				"name"		"verdana" 
+				"tall"		"8" [!$OSX]
+				"tall"		"9" [$OSX]
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+		}
+
+		"ScoreboardBody_3"
+		{
+			"1"
+			{
+				"name"		"verdana" 
+				"tall"		"7" [!$OSX]
+				"tall"		"8" [$OSX]
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+		}
+
+		"ScoreboardMVP"
+		{
+			"1"
+			{
+				"name"		"verdana"
+				"tall"		"10"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"antialias"	"1"
+			}
+		}
 	}
 
-		//////////////////// BORDERS //////////////////////////////
+	//
+	//////////////////// BORDERS //////////////////////////////
 	//
 	// describes all the border types
 	Borders
@@ -1556,16 +2210,136 @@ Scheme
 				}
 			}
 		}
+
+		BuyPresetBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Border.BuyPreset"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Border.BuyPreset"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.BuyPreset"
+					"offset" "1 1"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Border.BuyPreset"
+					"offset" "0 0"
+				}
+			}
+		}
+
+		BuyPresetButtonBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Border.Dark"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Border.Bright"
+					"offset" "1 1"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+		}
+		
+		BlackBorder
+		{
+			"inset" "0 0 0 0"
+			Left
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 1"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "1 1"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+			}
+		}
 	}
 
-	
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
 	{
-		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2crosshairs.ttf"
+		"1"		"resource/fonts/Cstrike.ttf"
+		"2"		"resource/fonts/din1451alt.ttf"
+		"3"		"resource/HALFLIFE2.ttf"
 	}
 
 }
