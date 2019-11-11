@@ -11,9 +11,6 @@ WeaponData
 	"playermodel"			"models/weapons/w_crowbar.mdl"
 	"PlayerAnimationExtension"	"crowbar"
 
-	"fov"				"54"	//Tony; HL2 weapons use 54 fov.
-
-
 	"bucket"			"1"
 	"bucket_position"		"4"
 	"bucket_360"			"2"
