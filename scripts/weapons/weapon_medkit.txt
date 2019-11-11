@@ -6,13 +6,13 @@ WeaponData
 	"Damage"			"50"
 
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#TFC_MEDKIT"
+	"printname"			"#TFC_Medkit"
 	"viewmodel"			"models/weapons/v_models/v_medkit.mdl"
 	"playermodel"			"models/weapons/w_crowbar.mdl"
 	"PlayerAnimationExtension"	"crowbar"
 
-	"bucket"			"1"
-	"bucket_position"		"4"
+	"bucket"			"0"
+	"bucket_position"		"0"
 	"bucket_360"			"2"
 	"bucket_position_360"		"0"
 
