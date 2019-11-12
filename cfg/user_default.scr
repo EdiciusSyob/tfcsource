@@ -58,6 +58,13 @@ DESCRIPTION INFO_OPTIONS
 		}
 		{ "0" }
 	}
+	
+	"hud_classautokill"
+	{
+		"#TFC_classautokill"
+		{ BOOL }
+		{ "1" }
+	}
 
 	"hud_centerid"
 	{

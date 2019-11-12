@@ -722,27 +722,5 @@
 		"font"			"MenuTitle2"
 		"wrap"			"0"
 		"FGColor"		"Label.TextBrightColor"
-	}	
-	"suicide_option"
-	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"suicide_option"
-		"xpos"			"337"
-		"ypos"			"374"
-		"zpos"			"5"	//Tony; ontop of others, because we're putting it down overtop of the classinfo panel.
-		"wide"			"200"
-		"tall"			"21"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#SDK_ClassMenu_AutoKill"
-		"textAlignment"		"east"
-		"dulltext"		"0"
-		"brighttext"		"0"
-		"Default"		"0"
-		"font"			"MenuTitle3"
-		"FGColor"		"Label.TextBrightColor"
 	}
 }
