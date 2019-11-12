@@ -1,9 +1,9 @@
-"Resource/UI/ClassMenu_Red.res"
+"Resource/UI/ClassMenu_Green.res"
 {
-	"class_red"
+	"class_green"
 	{
 		"ControlName"		"CSDKClassMenu"
-		"fieldName"		"class_red"
+		"fieldName"		"class_green"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"500"

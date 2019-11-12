@@ -1,9 +1,9 @@
-"Resource/UI/ClassMenu_Red.res"
+"Resource/UI/ClassMenu_Yellow.res"
 {
-	"class_red"
+	"class_yellow"
 	{
 		"ControlName"		"CSDKClassMenu"
-		"fieldName"		"class_red"
+		"fieldName"		"class_yellow"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"500"
@@ -97,10 +97,10 @@
 		"font"			"MenuTitle"
 		"FGColor"		"Label.TextBrightColor"
 	}
-	"red_class1"
+	"blue_class1"
 	{
 		"ControlName"		"SDKButton"
-		"fieldName"		"red_class1"
+		"fieldName"		"blue_class1"
 		"xpos"			"5"
 		"ypos"			"26"
 		"zpos"			"1"
@@ -122,10 +122,10 @@
 		"activeimage"		"cls_blue_class1_active"
 		"inactiveimage"		"cls_blue_class1"
 	}
-	"red_class2"
+	"blue_class2"
 	{
 		"ControlName"		"SDKButton"
-		"fieldName"		"red_class2"
+		"fieldName"		"blue_class2"
 		"xpos"			"5"
 		"ypos"			"52"
 		"wide"			"124"
@@ -146,10 +146,10 @@
 		"activeimage"		"cls_blue_class2_active"
 		"inactiveimage"		"cls_blue_class2"
 	}
-	"red_class3"
+	"blue_class3"
 	{
 		"ControlName"		"SDKButton"
-		"fieldName"		"red_class3"
+		"fieldName"		"blue_class3"
 		"xpos"			"5"
 		"ypos"			"78"
 		"wide"			"124"
@@ -170,10 +170,10 @@
 		"activeimage"		"cls_blue_class3_active"
 		"inactiveimage"		"cls_blue_class2"
 	}
-	"red_class4"
+	"blue_class4"
 	{
 		"ControlName"		"SDKButton"
-		"fieldName"		"red_class4"
+		"fieldName"		"blue_class4"
 		"xpos"			"5"
 		"ypos"			"104"
 		"wide"			"124"
@@ -194,10 +194,10 @@
 		"activeimage"		"cls_blue_class3_active"
 		"inactiveimage"		"cls_blue_class2"
 	}
-	"red_class5"
+	"blue_class5"
 	{
 		"ControlName"		"SDKButton"
-		"fieldName"		"red_class5"
+		"fieldName"		"blue_class5"
 		"xpos"			"5"
 		"ypos"			"130"
 		"wide"			"124"
@@ -218,10 +218,10 @@
 		"activeimage"		"cls_blue_class3_active"
 		"inactiveimage"		"cls_blue_class2"
 	}
-	"red_class6"
+	"blue_class6"
 	{
 		"ControlName"		"SDKButton"
-		"fieldName"		"red_class6"
+		"fieldName"		"blue_class6"
 		"xpos"			"5"
 		"ypos"			"156"
 		"wide"			"124"
@@ -242,10 +242,10 @@
 		"activeimage"		"cls_blue_class3_active"
 		"inactiveimage"		"cls_blue_class2"
 	}
-	"red_class7"
+	"blue_class7"
 	{
 		"ControlName"		"SDKButton"
-		"fieldName"		"red_class7"
+		"fieldName"		"blue_class7"
 		"xpos"			"5"
 		"ypos"			"182"
 		"wide"			"124"
@@ -266,10 +266,10 @@
 		"activeimage"		"cls_blue_class3_active"
 		"inactiveimage"		"cls_blue_class2"
 	}
-	"red_class8"
+	"blue_class8"
 	{
 		"ControlName"		"SDKButton"
-		"fieldName"		"red_class8"
+		"fieldName"		"blue_class8"
 		"xpos"			"5"
 		"ypos"			"208"
 		"wide"			"124"
@@ -290,10 +290,10 @@
 		"activeimage"		"cls_blue_class3_active"
 		"inactiveimage"		"cls_blue_class2"
 	}
-	"red_class9"
+	"blue_class9"
 	{
 		"ControlName"		"SDKButton"
-		"fieldName"		"red_class9"
+		"fieldName"		"blue_class9"
 		"xpos"			"5"
 		"ypos"			"234"
 		"wide"			"124"
@@ -314,10 +314,10 @@
 		"activeimage"		"cls_blue_class3_active"
 		"inactiveimage"		"cls_blue_class2"
 	}
-	"red_class10"
+	"blue_class10"
 	{
 		"ControlName"		"SDKButton"
-		"fieldName"		"red_class10"
+		"fieldName"		"blue_class10"
 		"xpos"			"5"
 		"ypos"			"260"
 		"wide"			"124"
