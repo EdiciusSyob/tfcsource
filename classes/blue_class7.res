@@ -34,7 +34,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"maxchars"		"-1"
-		"text"			"#classinfo_class1"
+		"text"			"#classinfo_class7"
 		"wrap"			"1"
 		"textAlignment"		"north-west"
 		"font"			"ClassMenuDefaultSmall"
