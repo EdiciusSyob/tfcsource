@@ -165,4 +165,40 @@
 
 	"wave"		")weapons/grenade_shoot.wav"
 }
+// ASSAULT CANNON
 
+"Weapon_AC.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"		")weapons/asscan_shoot.wav"
+}
+
+"Weapon_AC.Rev"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"		")weapons/asscan_spin.wav"
+}
+
+"Weapon_AC.RevDown"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"		")weapons/asscan_spindown.wav"
+}
+
+"Weapon_AC.RevUp"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+
+	"wave"		")weapons/asscan_spinup.wav"
+}
