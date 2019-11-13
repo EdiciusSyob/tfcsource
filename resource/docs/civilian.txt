@@ -1,0 +1,16 @@
+STATS
+
+Max Health: 50
+Max Armor: None
+Max Speed: Medium
+
+WEAPONS
+
+Umbrella
+
+GRENADES
+
+None
+
+ABILITIES
+None

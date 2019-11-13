@@ -50,11 +50,11 @@ DESCRIPTION INFO_OPTIONS
 
 	"cl_righthand"
 	{
-		"#Cstrike_Weapon_Alignment"
+		"#SDK_Weapon_Alignment"
 		{
 			LIST
-			"#Cstrike_Left_Handed" "0"
-			"#Cstrike_Right_Handed" "1"
+			"#SDK_Left_Handed" "0"
+			"#SDK_Right_Handed" "1"
 		}
 		{ "0" }
 	}

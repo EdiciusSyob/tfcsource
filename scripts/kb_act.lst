@@ -29,7 +29,7 @@
 "blank"			"#SDK_Keys_Title"
 "blank"			"=========================="
 "changeteam"			"#SDK_Select_Team"
-"changeteam"			"#SDK_Select_Class"
+"changeclass"			"#SDK_Select_Class"
 "drop"	 				"#SDK_Drop_Weapon"
 "blank"			"=========================="
 "blank"			"#Valve_Miscellaneous_Title"

@@ -313,8 +313,24 @@
 		"fieldName" "HudGeiger"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "f0"
+		"wide"	 "640"
 		"tall"	 "480"
+	}
+
+	HudHintDisplay
+	{
+		"fieldName"	"HudHintDisplay"
+		"visible"	"0"
+		"enabled" "1"
+		"xpos"		"c-240"
+		"ypos"		"c60"
+		"wide"		"480"
+		"tall"		"100"
+		"text_xpos"	"8"
+		"text_ypos"	"8"
+		"center_x"	"0"	// center text horizontally
+		"center_y"	"-1"	// align text on the bottom
+		"HintSize"	"1"
 	}
 
 	HudWeapon
@@ -342,13 +358,6 @@
 		"enabled" "1"
 		"wide"	 "f0"
 		"tall"	 "480"
-	}
-
-	HudHintKeyDisplay
-	{
-		"fieldName"	"HudHintKeyDisplay"
-		"visible"	"0"
-		"enabled" 	"0"
 	}
 
 	HudCommentary
