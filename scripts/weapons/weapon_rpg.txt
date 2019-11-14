@@ -1,9 +1,9 @@
-// Missile Launcher
+// Rocket Launcher
 
 WeaponData
 {
 	// Weapon characteristics:
-	"Damage"			"150"		// damage per bullet
+	"Damage"			"100"		// damage per bullet
 	"Bullets"			"0"		// bullets per shoot
 	//"CycleTime"			"0.075"		// time between shoots
 
@@ -11,17 +11,17 @@ WeaponData
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"#TFC_RPG"
-	"viewmodel"			"models/weapons/v_bazooka.mdl"
+	"viewmodel"			"models/weapons/v_models/v_rpg.mdl"
 	"playermodel"			"models/weapons/w_bazooka.mdl"
 	"anim_prefix"			"missile launcher"
 	//"PlayerAnimationExtension"	"mp5"
 	
-	"bucket"			"0"
-	"bucket_position"		"1"
+	"bucket"			"4"
+	"bucket_position"		"0"
 
 	"clip_size"			"4"
 	"default_clip"			"4"
-	"NumClips"			"6"
+	"NumClips"			"13"
 
 	
 	"primary_ammo"			"explosive"
@@ -35,11 +35,6 @@ WeaponData
 	SoundData
 	{
 		"single_shot"		"Weapon_RPG.Single"
-		"single_shot_npc"	"Weapon_RPG.NPC_Single"
-		//Laser on
-		"special1"			"Weapon_RPG.LaserOn"
-		//Laser off
-		"special2"			"Weapon_RPG.LaserOff"
 		"empty"				"Weapon_SMG1.Empty"
 	}
 
