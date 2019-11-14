@@ -33,7 +33,7 @@ PlayerClassDatafile
 	"armor"				"100"
 
 	// Movement
-	"runspeed"			"180"
+	"runspeed"			"240"
 	"sprintspeed"		"330"
-	"pronespeed"		"60"
+	"pronespeed"		"79"
 }
