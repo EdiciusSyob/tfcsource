@@ -21,7 +21,7 @@ WeaponData
 
 	"clip_size"			"4"
 	"default_clip"			"4"
-	"NumClips"			"13"
+	"NumClips"			"50"
 
 	
 	"primary_ammo"			"explosive"
