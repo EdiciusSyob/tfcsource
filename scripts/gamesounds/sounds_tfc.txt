@@ -13,7 +13,7 @@
 
 //SHOTGUN / 12 GAUGE
 
-"Weapon_12Gauge.Empty"
+"Weapon_Shotgun.Empty"
 {
 	"channel"		"CHAN_WEAPON"
 	"volume"		"0.7"
@@ -23,7 +23,7 @@
 	"wave"			"weapons/shotgun/shotgun_empty.wav"
 }
 
-"Weapon_12Gauge.Insertshell"
+"Weapon_Shotgun.Reload"
 {
 	"channel"		"CHAN_ITEM"
 	"volume"		"0.7"
@@ -37,7 +37,7 @@
 	}
 }
 
-"Weapon_12Gauge.Pump"
+"Weapon_Shotgun.Pump"
 {
 	"channel"		"CHAN_ITEM"
 	"volume"		"0.7"
@@ -53,6 +53,15 @@
 	"soundlevel"	"SNDLVL_GUNFIRE"
 	"pitch"			"98,101"
 		"wave"			"weapons/12gauge_shoot.wav"
+}
+
+"Weapon_Shotgun.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.86"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,101"
+		"wave"			"weapons/shotgun_shoot.wav"
 }
 
 // NAILGUN / SUPER NAILGUN
@@ -156,6 +165,7 @@
 
 	"wave"		")weapons/grenade_shoot.wav"
 }
+
 // ASSAULT CANNON
 
 "Weapon_AC.Single"
@@ -193,3 +203,16 @@
 
 	"wave"		")weapons/asscan_spinup.wav"
 }
+
+// TRANQUILIZER GUN
+
+
+"Weapon_Tranq.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.86"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,101"
+		"wave"			"weapons/tranq_shoot.wav"
+}
+
