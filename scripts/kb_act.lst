@@ -30,7 +30,7 @@
 "blank"			"=========================="
 "changeteam"			"#SDK_Select_Team"
 "changeclass"			"#SDK_Select_Class"
-"drop"	 				"#SDK_Drop_Weapon"
+"+saveme"	 			"#TFC_Call_For_Medic"
 "blank"			"=========================="
 "blank"			"#Valve_Miscellaneous_Title"
 "blank"			"=========================="
