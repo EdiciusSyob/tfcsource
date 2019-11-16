@@ -6,4 +6,5 @@ ClientPrecache
 	"scriptsound"		"Player.FlashlightOff"
 	"scriptsound"		"Player.Jump"
 	"scriptsound"		"HealthVial.Touch"
+	"scriptsound"		"player.medic"
 }
