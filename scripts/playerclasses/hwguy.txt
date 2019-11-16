@@ -10,7 +10,7 @@ PlayerClassDatafile
 	"secondaryweapon"	"shotgun"
 	"meleeweapon"		"crowbar"
 
-	"weapon1"			"nailgun"
+	"weapon1"			"12gauge"
 	"weapon2"			""
 	"weapon3"			""
 	"weapon4"			""
