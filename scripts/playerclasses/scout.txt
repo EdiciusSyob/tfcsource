@@ -7,10 +7,10 @@ PlayerClassDatafile
 
 	// Weapon Info
 	"primaryweapon"		"nailgun"
-	"secondaryweapon"	"supernailgun"
+	"secondaryweapon"	"12gauge"
 	"meleeweapon"		"crowbar"
 
-	"weapon1"			"12gauge"
+	"weapon1"			""
 	"weapon2"			""
 	"weapon3"			""
 	"weapon4"			""

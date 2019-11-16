@@ -6,7 +6,7 @@ PlayerClassDatafile
 	"selectcmd"			"cls_spy"
 
 	// Weapon Info
-	"primaryweapon"		"tranquilizergun"
+	"primaryweapon"		"tranq"
 	"secondaryweapon"	"shotgun"
 	"meleeweapon"		"knife"
 	"weapon1"			"nailgun"
