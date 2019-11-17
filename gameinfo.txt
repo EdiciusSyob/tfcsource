@@ -3,6 +3,7 @@
 	game			"Team Fortress Classic: Source"
 	type			multiplayer_only
 	gamelogo 1
+	icon 		"resource/game"
 
 	GameData		"tfcsource.fgd"
 	InstancePath	"maps/instances/"
