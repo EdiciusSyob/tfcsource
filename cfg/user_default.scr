@@ -59,6 +59,20 @@ DESCRIPTION INFO_OPTIONS
 		{ "0" }
 	}
 	
+    "cl_hl1_rollspeed"
+	{
+		"#TFC_viewroll_speed"
+		{ SLIDER 0 600 }
+		{ "300" }
+	}
+
+	"cl_hl1_rollangle"
+	{
+		"#TFC_viewroll_angle"
+		{ SLIDER 0.0 1.0 }
+		{ "0.65" }	
+    }
+	
 	"cl_new_impact_effects"
 	{
 		"#TFC_ParticleImpacts"
