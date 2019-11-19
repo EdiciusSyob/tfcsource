@@ -41,6 +41,22 @@
 	}
 }
 
+"Player.Spawn"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NONE"
+        "pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"misc/r_tele1.wav"
+		"wave"	"misc/r_tele2.wav"
+		"wave"	"misc/r_tele3.wav"
+		"wave"	"misc/r_tele4.wav"
+	}
+}
+
 "Player.Death"
 {
 	"channel"	"CHAN_VOICE"
