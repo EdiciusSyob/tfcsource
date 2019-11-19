@@ -61,14 +61,14 @@ DESCRIPTION INFO_OPTIONS
 	
     "cl_hl1_rollspeed"
 	{
-		"#TFC_viewroll_speed"
+		"#TFC_ViewRoll_speed"
 		{ SLIDER 0 600 }
 		{ "300" }
 	}
 
 	"cl_hl1_rollangle"
 	{
-		"#TFC_viewroll_angle"
+		"#TFC_ViewRoll_angle"
 		{ SLIDER 0.0 1.0 }
 		{ "0.65" }	
     }
@@ -82,7 +82,7 @@ DESCRIPTION INFO_OPTIONS
 	
 	"hud_classautokill"
 	{
-		"#TFC_classautokill"
+		"#TFC_ClassAutoKill"
 		{ BOOL }
 		{ "1" }
 	}
