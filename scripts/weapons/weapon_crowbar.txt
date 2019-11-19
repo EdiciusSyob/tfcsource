@@ -40,13 +40,19 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"WeaponIcons"
-				"character"	"c"
+			"file"		"sprites/640hud1"
+			"x"		"0"
+			"y"		"0"
+			"width"		"170"
+			"height"	"45"
 		}
 		"weapon_s"
-		{	
-				"font"		"WeaponIconsSelected"
-				"character"	"c"
+		{
+			"file"		"sprites/640hud4"
+			"x"		"0"
+			"y"		"0"
+			"width"		"170"
+			"height"	"45"
 		}
 		"ammo"
 		{

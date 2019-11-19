@@ -43,18 +43,27 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"WeaponIcons"
-				"character"	"i"
+			"file"		"sprites/640hud2"
+			"x"			"0"
+			"y"			"45"
+			"width"		"170"
+			"height"	"45"
 		}
 		"weapon_s"
-		{	
-				"font"		"WeaponIconsSelected"
-				"character"	"i"
+		{
+			"file"		"sprites/640hud5"
+			"x"			"0"
+			"y"			"45"
+			"width"		"170"
+			"height"	"45"
 		}
 		"ammo"
 		{
-				"font"		"WeaponIcons"
-				"character"	"x"
+			"file"		"sprites/640hud7"
+			"x"			"120"
+			"y"			"72"
+			"width"		"24"
+			"height"	"24"
 		}
 		"crosshair"
 		{
