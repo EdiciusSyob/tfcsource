@@ -20,8 +20,8 @@
 	}
 	"5"
 	{
-		"label" "#GameUI_GameMenu_Call_A_Vote"
-		"command" "engine callvote"
+		"label" "CALL VOTE"
+		"command" "engine vote"
 		"OnlyInGame" "1"
 	}
 	"6"

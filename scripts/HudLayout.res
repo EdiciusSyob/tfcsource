@@ -363,4 +363,17 @@
 		"visible"	"0"
 		"enabled"	"0"
 	}
+	
+	"CHudVote"
+	{
+		"fieldName"				"CHudVote"
+		"xpos"					"0"			
+		"ypos"					"0"
+		"wide"					"640"
+		"tall"					"480"
+		"visible"				"1"
+		"enabled"				"1"
+		"bgcolor_override"		"0 0 0 0"
+		"PaintBackgroundType"	"0" // rounded corners
+	}
 }
