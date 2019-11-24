@@ -1,25 +1,25 @@
 WeaponData
 {
+	"BuiltRightHanded"		"1"
+	"PlayerAnimationExtension"	"pistol"
+
 	// Weapon characteristics:
 	"Damage"			"18"
 	"Bullets"			"1"
 	"CycleTime"			"3"
-
-	"BuiltRightHanded"		"1"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"#TFC_Tranq"
 	"viewmodel"			"models/weapons/v_pistol.mdl"
 	"playermodel"			"models/weapons/w_models/w_tranquilizer.mdl"
-	"PlayerAnimationExtension"	"m3s90"
-	
+	"anim_prefix"			"anim"
+
 	"bucket"			"1"
 	"bucket_position"		"0"
 
 	"clip_size"			"-1"
 	"default_clip"			"40"
 	"NumClips"			"1"
-
 	
 	"primary_ammo"			"shell"
 	"secondary_ammo"		"None"
@@ -40,16 +40,16 @@ WeaponData
 		"weapon"
 		{
 			"file"		"sprites/640hud1"
-			"x"		"0"
-			"y"		"45"
+			"x"			"0"
+			"y"			"45"
 			"width"		"170"
 			"height"	"45"
 		}
 		"weapon_s"
 		{
 			"file"		"sprites/640hud4"
-			"x"		"0"
-			"y"		"45"
+			"x"			"0"
+			"y"			"45"
 			"width"		"170"
 			"height"	"45"
 		}
@@ -63,19 +63,19 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"		"sprites/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"24"
+			"height"	"24"
 		}
 		"autoaim"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"		"sprites/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"24"
+			"height"	"24"
 		}
 	}
 }

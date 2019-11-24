@@ -1,10 +1,22 @@
 ClientPrecache
 {
-	"material"			"sprites/white.vmt"
-	"material"			"sprites/physbeam.vmt"
-	"scriptsound"		"Player.FlashlightOn"
-	"scriptsound"		"Player.FlashlightOff"
-	"scriptsound"		"Player.Jump"
-	"scriptsound"		"HealthVial.Touch"
-	"scriptsound"		"player.medic"
+	"material"	"sprites/white.vmt"
+	"material"	"sprites/physbeam.vmt"
+	
+	"particle"	"blood_advisor_pierce_spray"
+	"particle"	"blood_advisor_pierce_spray_b"
+	"particle"	"blood_advisor_pierce_spray_c"
+	"particle"	"blood_advisor_puncture_withdraw"
+	"particle"	"blood_antlionguard_injured_heavy_tiny"
+	"particle"	"blood_zombie_split_spray"
+	"particle"	"blood_zombie_split_spray_tiny"
+	"particle"	"blood_zombie_split_spray_tiny2"
+
+	"scriptsound"	"Player.FlashlightOn"
+	"scriptsound"	"Player.FlashlightOff"
+	"scriptsound"	"Player.Jump"
+	"scriptsound"	"Player.Medic"
+	"scriptsound"	"Player.Spawn"
+	"scriptsound"	"HealthVial.Touch"
+
 }

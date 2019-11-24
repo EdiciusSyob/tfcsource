@@ -162,21 +162,6 @@
 	"wave"		"player/plyrjmp8.wav"
 }
 
-"Player.JumpLanding"
-{
-	"channel"		"CHAN_BODY"
-	"volume"		"VOL_NORM"
-	"soundlevel"		"SNDLVL_65dB"
-	"pitch"			"PITCH_NORM"
-
-	"rndwave"
-	{
-		"wave"		"player/land2.wav"
-		"wave"		"player/land3.wav"
-		"wave"		"player/land4.wav"
-	}
-}
-
 "Player.FallGib"
 {
 	"channel"	"CHAN_ITEM"

@@ -3,30 +3,80 @@
 	HudHealth
 	{
 		"fieldName"		"HudHealth"
-		"xpos"	"16"
-		"ypos"	"432"
-		"wide"	"102"
-		"tall"  "36"
+		"xpos"	"8"
+		"ypos"	"442"
+		"zpos"	"0"
+ 		"wide"	"80"
+		"tall"  "30"
 		"visible" "1"
 		"enabled" "1"
 
 		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"0 0 0 96"
+
+		"icon_xpos"	"2"
+		"icon_ypos"	"-27"
+		"digit_xpos" "35"
+		"digit_ypos" "0"
+	}
+
+	HudArmor
+	{
+		"fieldName"		"HudArmor"
+		"xpos"	"8"
+		"ypos"	"410"
+		"zpos"	"1"
+		"wide"	"80"
+		"tall"  "30"
+		"visible" "1"
+		"enabled" "1"
+
+		"PaintBackgroundType"	"2"
+ 		"bgcolor_override"		"0 0 0 96"
 		
-		"text_xpos" "8"
-		"text_ypos" "20"
-		"digit_xpos" "50"
-		"digit_ypos" "2"
+		"icon_xpos"	"2"
+		"icon_ypos"	"-27"
+		"digit_xpos" "35"
+		"digit_ypos" "0"
+	}
+
+	HudAmmo
+	{
+		"fieldName" "HudAmmo"
+		"xpos"	"r157"
+		"ypos"	"446"
+		"zpos"	"1"
+		"wide"	"142"
+		"tall"  "25"
+		"visible" "1"
+		"enabled" "1"
+
+		"PaintBackgroundType"	"2"
+ 		"bgcolor_override"		"0 0 0 96"
+
+		"digit_xpos" "8"
+		"digit_ypos" "-4"
+		"digit2_xpos" "63"
+		"digit2_ypos" "-4"
+	
+		"bar_xpos"		"53"
+		"bar_ypos"		"3"
+		"bar_height"	"20"
+		"bar_width"		"2"
+
+		"icon_xpos"		"110"
+		"icon_ypos"		"2"
 	}
 
 	overview
 	{
-		"fieldname"				"overview"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"480"
-		"wide"					"0"
-		"tall"					"0"
+		"fieldname"	"overview"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"	"0"
+		"ypos"	"480"
+		"wide"	"0"
+		"tall"	"0"
 	}
 	
 	TargetID
@@ -36,62 +86,6 @@
 		"enabled" "1"
 		"wide"	 "f0"
 		"tall"	 "480"
-	}
-
-	HudArmor
-	{
-		"fieldName"		"HudArmor"
-		"xpos"	"140"
-		"ypos"	"432"
-		"wide"	"108"
-		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
-		"PaintBackgroundType"	"2"
-
-		"text_xpos" "8"
-		"text_ypos" "20"
-		"digit_xpos" "50"
-		"digit_ypos" "2"
-	}
-
-	HudAmmo
-	{
-		"fieldName" "HudAmmo"
-		"xpos"	"r150"
-		"ypos"	"432"
-		"wide"	"136"
-		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
-		"PaintBackgroundType"	"2"
-
-		"text_xpos" "8"
-		"text_ypos" "20"
-		"digit_xpos" "44"
-		"digit_ypos" "2"
-		"digit2_xpos" "98"
-		"digit2_ypos" "16"
-	}
-
-	HudAmmoSecondary
-	{
-		"fieldName" "HudAmmoSecondary"
-		"xpos"	"r76"
-		"ypos"	"432"
-		"wide"	"60"
-		"tall"  "36"
-		"visible" "1"
-		"enabled" "1"
-
-		"PaintBackgroundType"	"2"
-
-		"text_xpos" "8"
-		"text_ypos" "22"
-		"digit_xpos" "36"
-		"digit_ypos" "2"
 	}
 
 	HudVoiceSelfStatus
@@ -148,24 +142,23 @@
 	HudWeaponSelection
 	{
 		"fieldName" "HudWeaponSelection"
-		"ypos" 	"16"	[$WIN32]
-		"ypos" 	"32"	[$X360]
+		"xpos"	"r640"
+		"wide"	"640"
+		"ypos" 	"16"
 		"visible" "1"
 		"enabled" "1"
-		"SmallBoxSize" "32"
-		"MediumBoxWide"	"95"
-		"MediumBoxWide_hidef"	"78"
-		"MediumBoxTall"	"50"
-		"MediumBoxTall_hidef"	"50"
-		"MediumBoxWide_lodef"	"74"
-		"MediumBoxTall_lodef"	"50"
-		"LargeBoxWide" "112"
+		"SmallBoxSize" "60"
+		"LargeBoxWide" "108"
 		"LargeBoxTall" "80"
 		"BoxGap" "8"
 		"SelectionNumberXPos" "4"
 		"SelectionNumberYPos" "4"
 		"SelectionGrowTime"	"0.4"
-		"TextYPos" "64"
+		"IconXPos" "8"
+		"IconYPos" "0"
+		"TextYPos" "68"
+		
+ 		"bgcolor_override"		"0 0 0 96"
 	}
 
 	HudCrosshair
@@ -264,11 +257,9 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
+		"ypos"		"276"
 		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
+		"tall"		"136"
 
 		"BgAlpha"	"128"
 
@@ -276,8 +267,7 @@
 		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
 		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
 		"ItemFadeOutTime"	"0.3"
-		"topoffset"		"0"		[$WIN32]
-		"topoffset"		"0"	[$X360]
+		"topoffset"		"0"
 	}
 
 	HudChat

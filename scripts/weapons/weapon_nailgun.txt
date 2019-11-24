@@ -1,17 +1,18 @@
 WeaponData
 {
-	// Weapon characteristics:
-	"Damage"			"9"		// damage per bullet
-	"Bullets"			"1"		// bullets per shoot
-	"CycleTime"			"0.105"		// time between shoots
+	"BuiltRightHanded"	"1"
+	"PlayerAnimationExtension"	"gauss"
 
-	"BuiltRightHanded"		"1"
+	// Weapon characteristics:
+	"Damage"	"9"
+	"Bullets"	"1"
+	"CycleTime"	"0.105"
 
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"#TFC_Nailgun"
 	"viewmodel"			"models/weapons/v_models/v_nailgun.mdl"
 	"playermodel"			"models/weapons/w_smg_mp5.mdl"
-	"PlayerAnimationExtension"	"mp5"
+	"anim_prefix"			"anim"
 
 	"bucket"			"3"
 	"bucket_position"		"0"
@@ -19,7 +20,6 @@ WeaponData
 	"clip_size"			"-1"
 	"default_clip"			"200"
 	"NumClips"			"1"
-
 
 	"primary_ammo"			"nail"
 	"secondary_ammo"		"None"
@@ -55,39 +55,26 @@ WeaponData
 		"ammo"
 		{
 			"file"		"sprites/640hud7"
-			"x"			"0"
-			"y"			"72"
+			"x"			"24"
+			"y"			"96"
 			"width"		"24"
 			"height"	"24"
 		}
 		"crosshair"
 		{
-				"file"		"sprites/crosshairs"
-				"x"		"0"
-				"y"		"48"
-				"width"		"24"
-				"height"	"24"
+			"file"		"sprites/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"24"
+			"height"	"24"
 		}
 		"autoaim"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
-		}
-	}
-	ModelBounds
-	{
-		Viewmodel
-		{
-			Mins	"-10 -4 -13"
-			Maxs	"21 9 -1"
-		}
-		World
-		{
-			Mins	"-10 -7 -6"
-			Maxs	"22 8 9"
+			"file"		"sprites/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"24"
+			"height"	"24"
 		}
 	}
 }

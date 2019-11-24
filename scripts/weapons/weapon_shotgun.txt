@@ -1,17 +1,18 @@
 WeaponData
 {
-	// Weapon characteristics:
-	"Damage"			"4"
-	"Bullets"			"14"
-	"CycleTime"			"0.5"
-
 	"BuiltRightHanded"		"1"
+	"PlayerAnimationExtension"	"shotgun"
+
+	// Weapon characteristics:
+	"Damage"	"4"
+	"Bullets"	"14"
+	"CycleTime"	"0.5"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"#TFC_Shotgun"
 	"viewmodel"			"models/weapons/v_models/v_shotgun.mdl"
 	"playermodel"			"models/weapons/w_shotgun.mdl"
-	"PlayerAnimationExtension"	"m3s90"
+	"anim_prefix"			"anim"
 	
 	"bucket"			"2"
 	"bucket_position"		"0"
@@ -65,32 +66,19 @@ WeaponData
 		}
 		"crosshair"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
+			"file"		"sprites/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"24"
+			"height"	"24"
 		}
 		"autoaim"
 		{
-				"file"		"sprites/crosshairs"
-				"x"			"0"
-				"y"			"48"
-				"width"		"24"
-				"height"	"24"
-		}
-	}
-	ModelBounds
-	{
-		Viewmodel
-		{
-			Mins	"-13 -3 -13"
-			Maxs	"26 10 -3"
-		}
-		World
-		{
-			Mins	"-9 -8 -5"
-			Maxs	"28 9 9"
+			"file"		"sprites/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"24"
+			"height"	"24"
 		}
 	}
 }

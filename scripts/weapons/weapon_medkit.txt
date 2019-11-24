@@ -1,7 +1,10 @@
 // Medkit
-
 WeaponData
 {
+	"BuiltRightHanded"	"1"
+	"PlayerAnimationExtension"	"slam"
+
+	// Weapon characteristics:
 	"CycleTime"			"0.4"
 	"Damage"			"50"
 
@@ -9,12 +12,10 @@ WeaponData
 	"printname"			"#TFC_Medkit"
 	"viewmodel"			"models/weapons/v_models/v_medkit.mdl"
 	"playermodel"			"models/weapons/w_models/w_medkit.mdl"
-	"PlayerAnimationExtension"	"crowbar"
+	"anim_prefix"			"anim"
 
 	"bucket"			"0"
 	"bucket_position"		"0"
-	"bucket_360"			"2"
-	"bucket_position_360"		"0"
 
 	"clip_size"			"-1"
 	"primary_ammo"			"None"
@@ -22,8 +23,6 @@ WeaponData
 
 	"weight"			"0"
 	"item_flags"			"0"
-
-	"MeleeWeapon"			"1"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
@@ -38,23 +37,35 @@ WeaponData
 	{
 		"weapon"
 		{
-				"font"		"WeaponIcons"
-				"character"	"c"
+			"file"		"sprites/640hud3"
+			"x"			"0"
+			"y"			"45"
+			"width"		"170"
+			"height"	"45"
 		}
 		"weapon_s"
 		{	
-				"font"		"WeaponIconsSelected"
-				"character"	"c"
+			"file"		"sprites/640hud6"
+			"x"			"0"
+			"y"			"45"
+			"width"		"170"
+			"height"	"45"
 		}
 		"ammo"
 		{
-				"font"		"WeaponIcons"
-				"character"	"c"
+			"file"		"sprites/640hud7"
+			"x"			"72"
+			"y"			"96"
+			"width"		"24"
+			"height"	"24"
 		}
 		"crosshair"
 		{
-				"font"		"Crosshairs"
-				"character"	"Q"
+			"file"		"sprites/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"24"
+			"height"	"24"
 		}
 		"autoaim"
 		{

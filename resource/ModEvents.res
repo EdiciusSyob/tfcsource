@@ -25,7 +25,7 @@
 //   time	: firing server time
 //   eventid	: holds the event ID
 
-"sdkevents"
+"ModEvents"
 {
 	"player_death"
 	{
@@ -56,12 +56,12 @@
 	"spec_target_updated"
 	{
 	}
-	
+
 	"teamplay_round_start"			// round restart
 	{
 		"full_reset"	"bool"		// is this a full reset of the map
 	}
-	
+
 	"achievement_earned"
 	{
 		"player"		"byte"		// entindex of the player
