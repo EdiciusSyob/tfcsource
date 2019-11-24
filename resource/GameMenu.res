@@ -18,28 +18,34 @@
 		"command" "OpenPlayerListDialog"
 		"OnlyInGame" "1"
 	}
-	"4"
+	"5"
+	{
+		"label" "#GameUI_GameMenu_Call_A_Vote"
+		"command" "engine callvote"
+		"OnlyInGame" "1"
+	}
+	"6"
 	{
 		"label" ""
 		"command" ""
 		"OnlyInGame" "1"
 	}
-	"5"
+	"7"
 	{
 		"label" "#GameUI_GameMenu_FindServers"
 		"command" "OpenServerBrowser"
 	}
-	"6"
+	"8"
 	{
 		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
 	}
-	"7"
+	"9"
 	{
 		"label" "#GameUI_GameMenu_Options"
 		"command" "OpenOptionsDialog"
 	}
-	"8"
+	"10"
 	{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"
