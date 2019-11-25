@@ -6,5 +6,10 @@
 //
 // Also, note that the "mapcyclefile" convar can be used to specify a particular mapcycle file.
 
-sdk_teams_hdr
-sdk_vehicles
+ad_dustbowl_classic
+ctf_2fort_classic
+ctf_badlands_classic
+ctf_crossover2
+ctf_push
+dm_lockdown
+proto_2fort
