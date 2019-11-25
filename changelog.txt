@@ -1,0 +1,9 @@
+Major Changes
+-added changelog
+-added new animaton system
+-added vote HUD
+-added a new HUD
+-reduced file size
+
+Minor Changes
+-some weapon tweaks
