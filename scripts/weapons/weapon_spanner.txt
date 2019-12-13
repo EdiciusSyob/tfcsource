@@ -1,4 +1,4 @@
-// Wrench
+// Spanner
 WeaponData
 {
 	"fov"	"54"
