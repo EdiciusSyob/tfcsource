@@ -3,7 +3,6 @@ game_sounds_manifest
 	// TFC:S Overrides
 	"precache_file"		"scripts/gamesounds/sounds_core.txt"
 	"precache_file"		"scripts/gamesounds/sounds_tfc.txt"
-	"precache_file"		"scripts/gamesounds/sounds_vox.txt"
 	"precache_file"		"scripts/gamesounds/sounds_ui.txt"
 	"precache_file"		"scripts/gamesounds/sounds_player.txt"
 	"precache_file"		"scripts/gamesounds/sounds_weapons.txt"
