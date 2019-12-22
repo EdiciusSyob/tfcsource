@@ -384,3 +384,146 @@
 
 		"wave"	"vox/DUST_HOLD.mp3"
 }
+
+"VOX.HuntedDoors"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/HTD_DOORS.mp3"
+}
+
+"VOX.RockBluScore"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/RK_BSCORE.mp3"
+}
+
+"VOX.RockRedScore"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/RK_RSCORE.mp3"
+}
+
+"VOX.RockBluYard"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/RK_BYARDOPEN.mp3"
+}
+
+"VOX.RockRedYard"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/RK_RYARDOPEN.mp3"
+}
+
+"VOX.RockEnemyKeyRet"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/RK_EKEYBACK.mp3"
+}
+
+"VOX.RockKeyRet"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/RK_KEYBACK.mp3"
+}
+
+"VOX.RockGotKey"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/RK_GOTKEY.mp3"
+}
+
+"VOX.RockEnemyGotKey"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/RK_LOSTKEY.mp3"
+}
+
+"VOX.WPathYouSec1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/WAR_YSEC_1.mp3"
+}
+
+"VOX.WPathYouSec2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/WAR_YSEC_2.mp3"
+}
+
+"VOX.WPathYouSec3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/WAR_YSEC_3.mp3"
+}
+
+"VOX.WPathYouSec4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/WAR_YSEC_4.mp3"
+}
