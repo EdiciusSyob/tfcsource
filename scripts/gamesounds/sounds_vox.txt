@@ -1,0 +1,386 @@
+//VOX LINES
+
+"VOX.EnemyFlagRet"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CTF_EFLAGBACK.mp3"
+}
+
+"VOX.FlagRet"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CTF_FLAGBACK.mp3"
+}
+
+"VOX.GotFlag"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CTF_GOTFLAG.mp3"
+}
+
+"VOX.EnemyGotFlag"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CTF_LOSTFLAG.mp3"
+}
+
+"VOX.TeamCap"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CTF_TEAMCAP.mp3"
+}
+
+"VOX.EnemyHasFlag"	
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CTF_TEAMCAP.mp3"
+}
+
+"VOX.YouCap"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CTF_YOUCAP.mp3"
+}
+
+"VOX.YouHaveFlag"	
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CTF_YOUGOTFLAG.mp3"
+}
+
+"VOX.CZ_BCCDET"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_BCC_DET.mp3"
+}
+
+"VOX.CZ_RCCDET"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_RCC_DET.mp3"
+}
+
+"VOX.AllCPSec"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_GOTALL.mp3"
+}
+
+"VOX.EnemyAllCPSec"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_THEYGOTALL.mp3"
+}
+
+"VOX.CP1Sec"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_GOTCP1.mp3"
+}
+
+"VOX.CP2Sec"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_GOTCP2.mp3"
+}
+
+"VOX.CP3Sec"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_GOTCP3.mp3"
+}
+
+"VOX.CP4Sec"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_GOTCP4.mp3"
+}
+
+"VOX.CP5Sec"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_GOTCP5.mp3"
+}
+
+"VOX.CP1Lost"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_LOSTCP1.mp3"
+}
+
+"VOX.CP2Lost"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_LOSTCP2.mp3"
+}
+
+"VOX.CP3Lost"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_LOSTCP3.mp3"
+}
+
+"VOX.CP4Lost"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_LOSTCP4.mp3"
+}
+
+"VOX.CP5Lost"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/CZ_LOSTCP5.mp3"
+}
+
+"VOX.ADEnemyFlagCap"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/DBLMINT_ECAP.mp3"
+}
+
+"VOX.ADTeamFlagCap"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/DBLMINT_TEAMCAP.mp3"
+}
+
+"VOX.ADYouFlagCap"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/DBLMINT_YOUCAP.mp3"
+}
+
+"VOX.AD30SecLeft"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/DUST_30SEC.mp3"
+}
+
+"VOX.AD60SecLeft"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/DUST_60SEC.mp3"
+}
+
+"VOX.AD2MinsLeft"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/DUST_2MIN.mp3"
+}
+
+"VOX.AD3MinsLeft"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/DUST_3MIN.mp3"
+}
+
+"VOX.AD4MinsLeft"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/DUST_4MIN.mp3"
+}
+
+"VOX.AD5MinsLeft"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/DUST_5MIN.mp3"
+}
+
+"VOX.AD_BLUSecCP1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/DUST_CP1.mp3"
+}
+
+"VOX.AD_BLUSecCP2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/DUST_CP2.mp3"
+}
+
+"VOX.AD_BLUCapRedBase"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/DUST_CAP.mp3"
+}
+
+"VOX.AD_REDHoldsBase"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"vox/DUST_HOLD.mp3"
+}

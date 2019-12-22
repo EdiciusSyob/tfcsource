@@ -6,6 +6,7 @@ game_sounds_manifest
 	"precache_file"		"scripts/gamesounds/sounds_ui.txt"
 	"precache_file"		"scripts/gamesounds/sounds_player.txt"
 	"precache_file"		"scripts/gamesounds/sounds_weapons.txt"
+	"precache_file"		"scripts/gamesounds/sounds_vox.txt"
 
 	"precache_file"		"scripts/game_sounds_world.txt"
 	"precache_file"		"scripts/game_sounds_ambient_generic.txt"
