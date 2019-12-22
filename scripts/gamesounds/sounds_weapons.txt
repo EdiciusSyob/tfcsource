@@ -177,7 +177,17 @@
 // SNIPER RIFLE/AUTO RIFLE
 // --------------------------
 
-"Weapon_Sniperrifle.Single"
+"Weapon_Sniper.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.55"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,102"
+
+	"wave"		")weapons/rifle/srifle_shoot.wav"
+}
+
+"Weapon_Auto.Single"
 {
 	"channel"		"CHAN_WEAPON"
 	"volume"		"0.55"

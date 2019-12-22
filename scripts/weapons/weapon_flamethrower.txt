@@ -1,0 +1,80 @@
+WeaponData
+{
+	"BuiltRightHanded"	"1"
+	"PlayerAnimationExtension"	"gauss"
+
+	// Weapon characteristics:
+	"Damage"	"20"
+	"Bullets"	"1"
+	"CycleTime"	"0.04"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#TFC_Flame"
+	"viewmodel"			"models/weapons/v_models/v_flamethrower.mdl"
+	"playermodel"			"models/weapons/w_smg_mp5.mdl"
+	"anim_prefix"			"anim"
+
+	"bucket"			"2"
+	"bucket_position"		"0"
+
+	"clip_size"			"-1"
+	"default_clip"			"200"
+	"NumClips"			"1"
+
+	"primary_ammo"			"cell"
+	"secondary_ammo"		"None"
+
+	"weight"			"25"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_Flamethrower.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+			"file"		"sprites/640hud1"
+			"x"			"0"
+			"y"			"135"
+			"width"		"170"
+			"height"	"45"
+		}
+		"weapon_s"
+		{	
+			"file"		"sprites/640hud4"
+			"x"			"0"
+			"y"			"135"
+			"width"		"170"
+			"height"	"45"
+		}
+		"ammo"
+		{
+			"file"		"sprites/640hud7"
+			"x"			"24"
+			"y"			"96"
+			"width"		"24"
+			"height"	"24"
+		}
+		"crosshair"
+		{
+			"file"		"sprites/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"24"
+			"height"	"24"
+		}
+		"autoaim"
+		{
+			"file"		"sprites/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"24"
+			"height"	"24"
+		}
+	}
+}
