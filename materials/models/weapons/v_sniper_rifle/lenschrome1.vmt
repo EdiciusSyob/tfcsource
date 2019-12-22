@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$envmap" "models\weapons\v_sniper_rifle\lenschrome1"
+	"$envmapsphere"			"1"
+	"$envmapmode" "1"
+
+	"$multipass" "1"
+}
+
