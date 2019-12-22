@@ -23,7 +23,7 @@ WeaponData
 	"clip_size"			"4"
 	"default_clip"			"4"
 	
-	"primary_ammo"			"fireball"
+	"primary_ammo"			"explosive"
 	"secondary_ammo"		"None"
 
 	"weight"			"25"
