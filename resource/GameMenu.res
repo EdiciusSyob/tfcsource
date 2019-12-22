@@ -43,7 +43,7 @@
 	"8a"
 	{
 		"label" "#GameUI_News"
-		"command" "engine GameUI_News"
+		"command" "engine WhatsNew"
 	}
 	"9"
 	{
