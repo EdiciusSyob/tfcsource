@@ -19,3 +19,7 @@ Changes:
 - fixed rpg making friendly fire
 - Correct Green and Yellow colors
 - remove herobrine
+
+Mapping Changes:
+- update dev map to had some barrels and snow
+- 2fort proto: added soundscapes - fixed cubemaps and collisions
