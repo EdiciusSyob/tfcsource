@@ -40,6 +40,11 @@
 		"label" "#GameUI_GameMenu_CreateServer"
 		"command" "OpenCreateMultiplayerGameDialog"
 	}
+	"8a"
+	{
+		"label" "#GameUI_News"
+		"command" "engine GameUI_News"
+	}
 	"9"
 	{
 		"label" "#GameUI_GameMenu_Options"
