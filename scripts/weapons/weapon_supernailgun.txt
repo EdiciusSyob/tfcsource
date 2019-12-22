@@ -1,7 +1,10 @@
+// Super Nailgun
 WeaponData
 {
 	"BuiltRightHanded"		"1"
 	"PlayerAnimationExtension"	"gauss"
+	"NumClips"	"1"
+	"AmmoToRemove" "2"
 
 	// Weapon characteristics:
 	"Damage"	"12"
@@ -14,12 +17,11 @@ WeaponData
 	"playermodel"			"models/weapons/w_smg_mp5.mdl"
 	"anim_prefix"			"anim"
 
-	"bucket"			"3"
-	"bucket_position"		"0"
+	"bucket"			"2"
+	"bucket_position"		"1"
 
 	"clip_size"			"-1"
 	"default_clip"			"200"
-	"NumClips"			"1"
 	
 	"primary_ammo"			"nail"
 	"secondary_ammo"		"None"

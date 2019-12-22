@@ -1,7 +1,9 @@
+// Tranquilize
 WeaponData
 {
-	"BuiltRightHanded"		"1"
+	"BuiltRightHanded"	"1"
 	"PlayerAnimationExtension"	"pistol"
+	"NumClips"	"1"
 
 	// Weapon characteristics:
 	"Damage"			"18"
@@ -19,7 +21,6 @@ WeaponData
 
 	"clip_size"			"-1"
 	"default_clip"			"40"
-	"NumClips"			"1"
 	
 	"primary_ammo"			"shell"
 	"secondary_ammo"		"None"

@@ -1,13 +1,15 @@
+//Grenade
 WeaponData
 {
 	"BuiltRightHanded"		"1"
 	"PlayerAnimationExtension"	"Grenade"
+	"NumClips"	"1"
 
 	// Weapon characteristics:
 	"Damage"	"150"
 
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"			"#SDK_Weapon_Grenade"
+	"printname"			"#TFC_Grenade"
 	"viewmodel"			"models/weapons/v_eq_fraggrenade.mdl"
 	"playermodel"			"models/weapons/w_eq_fraggrenade.mdl"
 	"anim_prefix"			"anim"
@@ -17,19 +19,12 @@ WeaponData
 
 	"clip_size"			"-1"
 	"default_clip"			"1"
-	"NumClips"			"1"
 
 	"primary_ammo"			"grenades"
 	"secondary_ammo"		"None"
 
 	"weight"			"1"
 	"item_flags"			"18"	// ITEM_FLAG_NOAUTORELOAD | ITEM_FLAG_EXHAUSTIBLE
-
-	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
-	SoundData
-	{
-		"special1"	"WeaponFrag.Roll"
-	}
 
 	// Weapon Sprite data is loaded by the Client DLL.
 	TextureData

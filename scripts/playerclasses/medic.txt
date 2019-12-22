@@ -4,35 +4,19 @@ PlayerClassDatafile
 	"printname"			"#TFC_Medic"	
 	"playermodel"		"models/player/medic.mdl"
 	"selectcmd"			"cls_medic"
+	"limitcvar"			"tfc_classlimit_medic"
+	"health_max"		"90"
+	"armor_max"			"100"
+	"speed_max"			"320"
 
 	// Weapon Info
-	"primaryweapon"		"12gauge"
-	"secondaryweapon"	"shotgun"
-	"meleeweapon"		""
-
-	"weapon1"			"supernailgun"
-	"weapon2"			"medkit"
-	"weapon3"			""
-	"weapon4"			""
-	"weapon5"			""
-	"weapon6"			""
-	"weapon7"			""
-	"weapon8"			""
-	"weapon9"			""
-	"weapon10"			""
+	"weapon1"			"medkit"
+	"weapon2"			"supernailgun"
+	"weapon3"			"12gauge"
+	"weapon4"			"shotgun"
 	"grenadetype"		"grenade"
-	"numgrens"			"0"
-
-	"limitcvar"			"tfc_classlimit_medic"
+	"grenadetype2"		"grenade_concussion"
 	
-	"maxhealth"			"90"
-	"health"			"90"
-
-	"maxarmor"			"100"
-	"armor"				"50"
-
-	// Movement
-	"runspeed"			"320"
-	"sprintspeed"		"330"
-	"pronespeed"		"106"
+	"numgrens"			"2"
+	"numgrens2"			"2"
 }

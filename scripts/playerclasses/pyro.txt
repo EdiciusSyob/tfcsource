@@ -4,36 +4,17 @@ PlayerClassDatafile
 	"printname"			"#TFC_Pyro"	
 	"playermodel"		"models/player/pyro.mdl"
 	"selectcmd"			"cls_pyro"
+	"limitcvar"			"tfc_classlimit_pyro"
+	"health_max"		"100"
+	"armor_max"			"150"
+	"speed_max"			"300"
 
 	// Weapon Info
-	"primaryweapon"		"flamethrower"
-	"secondaryweapon"	"ic"
-	"meleeweapon"		"crowbar"
-
-	"weapon1"			"12gauge"
-	"weapon2"			""
-	"weapon3"			""
-	"weapon4"			""
-	"weapon5"			""
-	"weapon6"			""
-	"weapon7"			""
-	"weapon8"			""
-	"weapon9"			""
-	"weapon10"			""
-
+	"weapon1"			"crowbar"
+	"weapon2"			"12gauge"
+	"weapon3"			"ic"
+	"weapon4"			"flamethrower"
 	"grenadetype"		"grenade"
-	"numgrens"			"4"
-
-	"limitcvar"			"tfc_classlimit_pyro"
 	
-	"maxhealth"			"100"
-	"health"			"100"
-
-	"maxarmor"			"150"
-	"armor"				"50"
-
-	// Movement
-	"runspeed"			"300"
-	"sprintspeed"		"300"
-	"pronespeed"		"99"
+	"numgrens"			"4"
 }

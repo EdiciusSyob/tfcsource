@@ -4,36 +4,17 @@ PlayerClassDatafile
 	"printname"			"#TFC_Demoman"	
 	"playermodel"		"models/player/demo.mdl"
 	"selectcmd"			"cls_demoman"
+	"limitcvar"			"tfc_classlimit_demoman"
+	"health_max"		"90"
+	"armor_max"			"120"
+	"speed_max"			"280"
 
 	// Weapon Info
-	"primaryweapon"		"grenadelauncher"
-	"secondaryweapon"	"pipebomblauncher"
-	"meleeweapon"		"crowbar"
-
-	"weapon1"			"12gauge"
-	"weapon2"			""
-	"weapon3"			""
-	"weapon4"			""
-	"weapon5"			""
-	"weapon6"			""
-	"weapon7"			""
-	"weapon8"			""
-	"weapon9"			""
-	"weapon10"			""
-
+	"weapon1"			"crowbar"
+	"weapon2"			"12gauge"
+	"weapon3"			"grenadelauncher"
+	"weapon4"			"pipebomblauncher"
 	"grenadetype"		"grenade"
-	"numgrens"			"2"
-
-	"limitcvar"			"tfc_classlimit_demoman"
 	
-	"maxhealth"			"90"
-	"health"			"90"
-
-	"maxarmor"			"120"
-	"armor"				"50"
-
-	// Movement
-	"runspeed"			"280"
-	"sprintspeed"		"280"
-	"pronespeed"		"93"
+	"numgrens"			"4"
 }

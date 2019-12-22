@@ -11,12 +11,14 @@ ClientPrecache
 	"particle"	"blood_zombie_split_spray"
 	"particle"	"blood_zombie_split_spray_tiny"
 	"particle"	"blood_zombie_split_spray_tiny2"
+	"particle"	"grenade_explosion_01"
+	"particle"	"rock_impact_stalactite"
 
 	"scriptsound"	"Player.FlashlightOn"
 	"scriptsound"	"Player.FlashlightOff"
+	"scriptsound"	"Player.BurnPain"
 	"scriptsound"	"Player.Jump"
 	"scriptsound"	"Player.Medic"
 	"scriptsound"	"Player.Spawn"
 	"scriptsound"	"HealthVial.Touch"
-
 }

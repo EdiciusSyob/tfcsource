@@ -79,6 +79,15 @@
 		"tall"	"0"
 	}
 	
+	HudScope
+	{
+		"fieldName" "HudZoom"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+	}
+	
 	TargetID
 	{
 		"fieldName" "TargetID"
@@ -176,25 +185,24 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "12"
+		"ypos"	 "18"
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "10"
-
+		"MaxDeathNotices" "8"
+		"IconScale"	  "0.35"
 		"LineHeight"	  "16"
 		"LineSpacing"	  "4"
 		"CornerRadius"	  "3"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"Default"
-		
-		"TeamBlue"		"CT_Blue"
-		"TeamRed"		"T_Red"
-		"IconColor"		"255 255 255 255"
 
-		"BaseBackgroundColor"	"0 0 0 200"
-		"LocalBackgroundColor"	"0 0 0 200"
+		"IconColor"		"255 255 255 255"
+		"LocalPlayerColor"	"65 65 65 255"
+
+		"BaseBackgroundColor"	"46 43 42 220"
+		"LocalBackgroundColor"	"245 229 196 200"
 	}
 
 	HudVehicle
@@ -247,8 +255,14 @@
 		"fieldName" "HudMenu"
 		"visible" "1"
 		"enabled" "1"
-		"wide"	 "f0"
+		"wide"	 "640"
 		"tall"	 "480"
+		"zpos" "1"
+
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
+
 	}
 
 	HudCloseCaption

@@ -4,36 +4,11 @@ PlayerClassDatafile
 	"printname"			"#TFC_Hunted"	
 	"playermodel"		"models/player/civilian.mdl"
 	"selectcmd"			"cls_civilian"
+	"limitcvar"			"tfc_classlimit_civilian"
+	"health_max"		"100"
+	"armor_max"			"0"
+	"speed_max"			"100"
 
 	// Weapon Info
-	"primaryweapon"		""
-	"secondaryweapon"	""
-	"meleeweapon"		"umbrella"
-
-	"weapon1"			""
-	"weapon2"			""
-	"weapon3"			""
-	"weapon4"			""
-	"weapon5"			""
-	"weapon6"			""
-	"weapon7"			""
-	"weapon8"			""
-	"weapon9"			""
-	"weapon10"			""
-
-	"grenadetype"		"grenade"
-	"numgrens"			"0"
-
-	"limitcvar"			"tfc_classlimit_civilian"
-	
-	"maxhealth"			"50"
-	"health"			"50"
-
-	"maxarmor"			"0"
-	"armor"				"0"
-
-	// Movement
-	"runspeed"			"300"
-	"sprintspeed"		"330"
-	"pronespeed"		"99"
+	"weapon1"			"umbrella"
 }

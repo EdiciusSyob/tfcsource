@@ -7,6 +7,21 @@ particles_manifest
 	"file"		"particles/burning_fx.pcf"
 	"file"		"particles/rocket_fx.pcf"
 	"file"		"particles/achievement.pcf"
-	"file"		"!particles/duststorm.pcf"
-	"file"		"!particles/impact_fx.pcf"
+
+	// EP2 Particles
+	"file"		"particles/explosion.pcf"
+	"file"		"particles/dust_bombdrop.pcf"
+	"file"		"particles/building_explosion.pcf"
+	"file"		"particles/stalactite.pcf"
+	"file"		"particles/door_explosion.pcf"
+	"file"		"particles/water_leaks.pcf"
+	"file"		"particles/waterfall.pcf"
+	"file"		"particles/rain.pcf"
+	"file"		"particles/aurora_sphere.pcf"
+	"file"		"particles/dust_rumble.pcf"
+	"file"		"particles/steampuff.pcf"	
+	"file"		"particles/waterdrips.pcf"
+	"file"		"particles/weapon_effects.pcf"
+	"file"		"particles/electrical_fx.pcf"
+	"file"		"particles/grenade_fx.pcf"	
 }

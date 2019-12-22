@@ -1,26 +1,30 @@
+// Super Shotgun
 WeaponData
 {
 	"BuiltRightHanded"		"1"
 	"PlayerAnimationExtension"	"shotgun"
+	"NumClips"	"16"
+	"AmmoToRemove" "2"
 
 	// Weapon characteristics:
 	"Damage"	"4"
 	"Bullets"	"14"
-	"CycleTime"	"0.5"
+	"CycleTime"	"0.7"
+	
+	// New accuracy model parameters
+	"Spread"	0.04362
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"#TFC_Shotgun"
-	"viewmodel"			"models/weapons/v_models/v_shotgun.mdl"
+	"viewmodel"			"models/weapons/v_models/v_doublebarrel.mdl"
 	"playermodel"			"models/weapons/w_shotgun.mdl"
 	"anim_prefix"			"anim"
 	
-	"bucket"			"2"
-	"bucket_position"		"0"
+	"bucket"			"3"
+	"bucket_position"		"1"
 
 	"clip_size"			"16"
 	"default_clip"			"16"
-	"NumClips"			"16"
-
 	
 	"primary_ammo"			"shell"
 	"secondary_ammo"		"None"

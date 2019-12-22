@@ -1,8 +1,9 @@
 // Knife
 WeaponData
 {
-	"fov"	"54"
+	"Fov"	"54"
 	"MeleeWeapon"	"1"
+	"BuiltRightHanded"	"1"
 	"PlayerAnimationExtension"	"crowbar"
 
 	// Weapon characteristics:
@@ -16,7 +17,7 @@ WeaponData
 	"anim_prefix"			"anim"
 
 	"bucket"			"0"
-	"bucket_position"		"0"
+	"bucket_position"		"3"
 
 	"clip_size"			"-1"
 	"primary_ammo"			"None"
@@ -29,6 +30,7 @@ WeaponData
 	SoundData
 	{
 		"single_shot"		"Weapon_Crowbar.Single"
+		"melee_hit"			"Weapon_Crowbar.Melee_Hit"
 		"melee_hit_world"	"Weapon_Crowbar.Melee_HitWorld"
 	}
 

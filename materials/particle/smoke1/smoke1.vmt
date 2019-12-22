@@ -1,15 +1,12 @@
-SpriteCard
+"SpriteCard"
 {
-$basetexture "particle/smoke1/smoke1.vtf"
-$vertexcolor 1
-$vertexalpha 1
-$translucent 1
-$overbrightfactor 1
-$depthblend 0
-$blendframes 0
-
-
-
-
-$vertexfogamount 1
+	$basetexture "particle/smoke1/smoke1"
+	$vertexcolor 1
+	$vertexalpha 1
+	$translucent 1
+	//$maxsize .8
+	$startfadesize .9
+	$endfadesize 1.3
+	$DEPTHBLEND 1
+	$nocull 1
 }

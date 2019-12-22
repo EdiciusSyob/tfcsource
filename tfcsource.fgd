@@ -100,27 +100,6 @@
 	]
 ]
 
-@PointClass base(Angles) studio() = entity_backpack : "An Perfect Dark weapon spawn point"
-[
-	model(studio) : "Item Model" : "models/items/backpack.mdl"
-
-	Cells(integer)		: "ammo_cells" : 50   : "How many cells to give to the player?"
-	Nails(integer)		: "ammo_nails" : 50   : "How many nails to give to the player?"
-	Shells(integer)		: "ammo_shells" : 50   : "How many shells to give to the player?"
-	Explosives(integer)	: "ammo_explosives" : 20   : "How many explosives to give to the player?"
-
-	Shouldwespawn(choices) : "Should We Respawn?" : 4 : 
-		"Should we respawn after picked up? If NO then after picked up removed forever. "+
-		"If YES then after some time passes we respawn unto the world." =
-	[
-		4 : "NO"
-		3 : "YES"
-	]
-	
-	
-	
-]
-
 @SolidClass base(Targetname, Parentname, Origin, RenderFields, Global) = func_vehicle : "Drivable Vehicles" 
 [
 	spawnflags(flags) =
@@ -184,3 +163,102 @@
 	"Generic driveable studiomodel vehicle."
 [
 ]
+
+//-------------------------------------------------------------------------
+//
+// Items
+//
+//-------------------------------------------------------------------------
+@BaseClass color(0 0 200) base(Targetname, Angles, Shadow) sphere(fademindist) sphere(fademaxdist) = Item
+[
+	output OnPlayerTouch(void) : "Fires when the player touches this object"
+
+	output OnCacheInteraction(void) : "This output fires when the player proves they have 'found' this item. Fires on: Player Touch (whether or not player actually acquires the item), Picked up by +USE."
+
+	fademindist(float) : "Start Fade Dist/Pixels" : -1 : "Distance at which the prop starts to fade (<0 = use fademaxdist). If 'Screen Space Fade' is selected, this represents the number of pixels wide covered by the prop when it starts to fade."
+	fademaxdist(float) : "End Fade Dist/Pixels" : 0 : "Maximum distance at which the prop is visible (0 = don't fade out). If 'Screen Space Fade' is selected, this represents the *minimum* number of pixels wide covered by the prop when it fades."
+	fadescale(float) : "Fade Scale" : 1 : "If you specify a fade in the worldspawn, or if the engine is running under dx7, then the engine will forcibly fade out props even if fademindist/fademaxdist isn't specified." +
+												 " This scale factor gives you some control over the fade. Using 0 here turns off the forcible fades." +
+
+	spawnflags(Flags) =
+	[
+		1 : "Start Constrained" : 0
+	]
+]
+
+//-------------------------------------------------------------------------
+//
+// Ammo
+//
+//-------------------------------------------------------------------------
+@PointClass base(Item) studio("models/items/boxsrounds.mdl")= item_ammo_nails : "Box of Nails" []
+@PointClass base(Item) studio("models/items/BoxBuckshot.mdl")= item_ammo_shells : "Box Shells" []
+@PointClass base(Item) studio("models/weapons/w_missile_closed.mdl")= item_ammo_explosives : "RPG Round" []
+@PointClass base(Item) studio("models/items/combine_rifle_ammo01.mdl") = item_ammo_cells : "High Precision Cells Ammo" []
+
+//-------------------------------------------------------------------------
+//
+// Items
+//
+//-------------------------------------------------------------------------
+@PointClass base(Item) studio("models/items/battery.mdl") = entity_armor : "Entity Armor" []
+@PointClass base(Angles) studio() = entity_backpack : "An Perfect Dark weapon spawn point"
+[
+	model(studio) : "Item Model" : "models/items/backpack.mdl"
+
+	Cells(integer)		: "ammo_cells" : 50   : "How many cells to give to the player?"
+	Nails(integer)		: "ammo_nails" : 50   : "How many nails to give to the player?"
+	Shells(integer)		: "ammo_shells" : 50   : "How many shells to give to the player?"
+	Explosives(integer)	: "ammo_explosives" : 20   : "How many explosives to give to the player?"
+
+	Shouldwespawn(choices) : "Should We Respawn?" : 4 : 
+		"Should we respawn after picked up? If NO then after picked up removed forever. "+
+		"If YES then after some time passes we respawn unto the world." =
+	[
+		4 : "NO"
+		3 : "YES"
+	]
+	
+	
+	
+]
+
+//-------------------------------------------------------------------------
+//
+// Weapons
+//
+//-------------------------------------------------------------------------
+@BaseClass color(0 0 200) base(Targetname, Angles) sphere(fademindist) sphere(fademaxdist) = Weapon
+[
+	spawnflags(Flags) =
+	[
+		1 : "Start constrained" : 0
+	]
+
+	output OnPlayerUse(void) : "Fires when the player +uses this weapon"
+	output OnPlayerPickup(void) : "Fires when the player picks up this weapon"
+	output OnCacheInteraction(void) : "Fires when the player 'proves' they've found this weapon. Fires on: Player Touch, +USE pickup."
+
+	fademindist(float) : "Start Fade Dist/Pixels" : -1 : "Distance at which the prop starts to fade (<0 = use fademaxdist). If 'Screen Space Fade' is selected, this represents the number of pixels wide covered by the prop when it starts to fade."
+	fademaxdist(float) : "End Fade Dist/Pixels" : 0 : "Maximum distance at which the prop is visible (0 = don't fade out). If 'Screen Space Fade' is selected, this represents the *minimum* number of pixels wide covered by the prop when it fades."
+	fadescale(float) : "Fade Scale" : 1 : "If you specify a fade in the worldspawn, or if the engine is running under dx7, then the engine will forcibly fade out props even if fademindist/fademaxdist isn't specified." +
+												 " This scale factor gives you some control over the fade. Using 0 here turns off the forcible fades." +
+]
+
+@PointClass base(Weapon) studio("models/weapons/w_crowbar.mdl") = weapon_crowbar : "Crowbar" []
+@PointClass base(Weapon) studio("models/weapons/w_crowbar.mdl") = weapon_knife : "Knife" []
+@PointClass base(Weapon) studio("models/weapons/w_crowbar.mdl") = weapon_wrench : "Wrench/Spanner" []
+@PointClass base(Weapon) studio("models/weapons/w_crowbar.mdl") = weapon_umbrella : "Umbrella" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_medkit.mdl") = weapon_medkit : "Medkit" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_tranquilizer.mdl") = weapon_tranq : "Tranquilizer" []
+@PointClass base(Weapon) studio("models/weapons/w_smg_mp5.mdl") = weapon_nailgun : "Nailgun" []
+@PointClass base(Weapon) studio("models/weapons/w_smg_mp5.mdl") = weapon_supernailgun : "Super Nailgun" []
+@PointClass base(Weapon) studio("models/weapons/w_models/w_12gauge.mdl") = weapon_12gauge : "12Gauge/Shotgun" []
+@PointClass base(Weapon) studio("models/weapons/w_shotgun.mdl") = weapon_shotgun : "Double Barrel Shotgun/Super Shotgun" []
+@PointClass base(Weapon) studio("models/weapons/w_bazooka.mdl") = weapon_rpg : "Rocket Launcher" []
+@PointClass base(Weapon) studio("models/weapons/w_smg_mp5.mdl") = weapon_ac : "Assault Cannon" []
+@PointClass base(Weapon) studio("models/weapons/w_smg_mp5.mdl") = weapon_railgun : "Railgun" []
+@PointClass base(Weapon) studio("models/weapons/w_eq_fraggrenade.mdl") = weapon_grenade : "HE Grenade" []
+@PointClass base(Weapon) studio("models/weapons/w_eq_fraggrenade.mdl") = weapon_grenade_concussion : "Concussion Grenade" []
+@PointClass base(Weapon) studio("models/weapons/w_eq_fraggrenade.mdl") = weapon_grenade_emp : "EMP Grenade" []
+@PointClass base(Weapon) studio("models/weapons/w_eq_fraggrenade.mdl") = weapon_grenade_napalm : "Napalm Grenade" []

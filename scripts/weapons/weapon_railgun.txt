@@ -1,0 +1,82 @@
+// Railgun
+WeaponData
+{
+	"BuiltRightHanded"		"1"
+	"PlayerAnimationExtension"	"sniper"
+	"NumClips"	"1"
+
+	// Weapon characteristics:
+	"Damage"	"50"
+	"Bullets"	"1"
+	"CycleTime"	"0.1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#TFC_Railgun"
+	"viewmodel"			"models/weapons/v_pistol.mdl"
+	"playermodel"			"models/weapons/w_models/w_tranquilizer.mdl"
+	"anim_prefix"			"anim"
+	
+	"bucket"			"4"
+	"bucket_position"		"2"
+
+	"clip_size"			"-1"
+	"default_clip"			"200"
+
+
+	"primary_ammo"			"shell"
+	"secondary_ammo"		"None"
+
+	"weight"			"25"
+	"item_flags"			"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"			"Weapon_Railgun.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+			"file"		"sprites/640hud1"
+			"x"			"0"
+			"y"			"135"
+			"width"		"170"
+			"height"	"45"
+		}
+		"weapon_s"
+		{	
+			"file"		"sprites/640hud4"
+			"x"			"0"
+			"y"			"135"
+			"width"		"170"
+			"height"	"45"
+		}
+		"ammo"
+		{
+			"file"		"sprites/640hud7"
+			"x"			"0"
+			"y"			"72"
+			"width"		"24"
+			"height"	"24"
+		}
+		"crosshair"
+		{
+			"file"		"sprites/crosshairs"
+			"x"		"0"
+			"y"		"48"
+			"width"		"24"
+			"height"	"24"
+		}
+		"autoaim"
+		{
+			"file"		"sprites/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"24"
+			"height"	"24"
+		}
+	}
+}

@@ -4,36 +4,18 @@ PlayerClassDatafile
 	"printname"			"#TFC_Scout"
 	"playermodel"		"models/player/scout.mdl"
 	"selectcmd"			"cls_scout"
+	"limitcvar"			"tfc_classlimit_scout"
+	"health_max"		"75"
+	"armor_max"			"50"
+	"speed_max"			"400"
 
 	// Weapon Info
-	"primaryweapon"		"nailgun"
-	"secondaryweapon"	"12gauge"
-	"meleeweapon"		"crowbar"
-
-	"weapon1"			""
-	"weapon2"			""
-	"weapon3"			""
-	"weapon4"			""
-	"weapon5"			""
-	"weapon6"			""
-	"weapon7"			""
-	"weapon8"			""
-	"weapon9"			""
-	"weapon10"			""
-
+	"weapon1"			"crowbar"
+	"weapon2"			"nailgun"
+	"weapon2"			"12gauge"
 	"grenadetype"		"grenade"
-	"numgrens"			"1"
+	"grenadetype2"		"grenade_concussion"
 	
-	"limitcvar"			"tfc_classlimit_scout"
-	
-	"maxhealth"			"75"
-	"health"			"75"
-
-	"maxarmor"			"50"
-	"armor"				"25"
-
-	// Movement
-	"runspeed"			"400"
-	"sprintspeed"		"400"
-	"pronespeed"		"133"
+	"numgrens"			"2"
+	"numgrens2"			"2"
 }

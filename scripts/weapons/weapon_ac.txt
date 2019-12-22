@@ -1,12 +1,17 @@
+// Assault Cannon
 WeaponData
 {
 	"BuiltRightHanded"		"1"
 	"PlayerAnimationExtension"	"gatling"
+	"NumClips"	"1"
 
 	// Weapon characteristics:
 	"Damage"	"32"
 	"Bullets"	"20"
 	"CycleTime"	"0.1"
+	
+	// New accuracy model parameters
+	"Spread"					0.25
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"#TFC_AC"
@@ -14,12 +19,12 @@ WeaponData
 	"playermodel"			"models/weapons/w_smg_mp5.mdl"
 	"anim_prefix"			"anim"
 	
-	"bucket"			"3"
-	"bucket_position"		"0"
+	"bucket"			"4"
+	"bucket_position"		"1"
 
 	"clip_size"			"-1"
 	"default_clip"			"200"
-	"NumClips"			"1"
+
 
 	"primary_ammo"			"shell"
 	"secondary_ammo"		"None"

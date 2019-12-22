@@ -1,9 +1,9 @@
 // Crowbar
 WeaponData
 {
-	"fov"				"54"
-	"MeleeWeapon"			"1"
-	"BuiltRightHanded"		"1"
+	"Fov"	"54"
+	"MeleeWeapon"	"1"
+	"BuiltRightHanded"	"1"
 	"PlayerAnimationExtension"	"crowbar"
 
 	// Weapon characteristics:
@@ -30,6 +30,7 @@ WeaponData
 	SoundData
 	{
 		"single_shot"		"Weapon_Crowbar.Single"
+		"melee_hit"			"Weapon_Crowbar.Melee_Hit"
 		"melee_hit_world"	"Weapon_Crowbar.Melee_HitWorld"
 	}
 

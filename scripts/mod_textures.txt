@@ -35,12 +35,62 @@
 			"height"	"32"
 		}
 
-		"mp5"
+		"physics"
+		{
+			"dfile"		"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"			"0"
+			"y"			"288"
+			"width"		"96"
+			"height"	"32"
+		}
+
+		"leeches"
+		{
+			"dfile"		"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"			"192"
+			"y"			"352"
+			"width"		"96"
+			"height"	"32"
+		}
+
+		"radiation"
+		{
+			"dfile"		"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"			"192"
+			"y"			"352"
+			"width"		"96"
+			"height"	"32"
+		}
+		
+		"ragdoll"
+		{
+			"dfile"		"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"			"284"
+			"y"			"64"
+			"width"		"128"
+			"height"	"32"
+		}
+
+		"explosion"
 		{
 			"dfile"		"HUD/d_images"
 			"dnegfile"	"HUD/dneg_images"
+			"x"			"258"
+			"y"			"359"
+			"width"		"96"
+			"height"	"32"
+		}
+
+		"rpg"
+		{
+			"dfile"		"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
 			"x"			"0"
-			"y"			"128"
+			"y"			"352"
 			"width"		"96"
 			"height"	"32"
 		}
@@ -54,33 +104,113 @@
 			"width"		"96"
 			"height"	"32"
 		}
-
-		"grenade"
+		
+		"12gauge"
 		{
-			"dfile"		"HUD/d_images"
-			"dnegfile"	"HUD/dneg_images"		
+			"dfile"		"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
 			"x"			"0"
-			"y"			"288"
+			"y"			"32"
 			"width"		"96"
 			"height"	"32"
 		}
-
-		"pistol"
+		
+		"ac"
 		{
 			"dfile"		"HUD/d_images"
 			"dnegfile"	"HUD/dneg_images"
 			"x"			"0"
+			"y"			"384"
+			"width"		"96"
+			"height"	"32"
+		}
+		
+		"knife"
+		{
+			"dfile"		"HUD/d_images"
+			"dnegfile"	"HUD/dneg_images"
+			"x"			"96"
+			"y"			"0"
+			"width"		"96"
+			"height"	"32"
+		}
+		
+		"nailgun"
+		{
+			"dfile"		"HUD/d_images"
+			"dnegfile"	"HUD/dneg_images"
+			"x"			"0"
+			"y"			"64"
+			"width"		"64"
+			"height"	"32"
+		}
+		
+		"supernailgun"
+		{
+			"dfile"		"HUD/d_images"
+			"dnegfile"	"HUD/dneg_images"
+			"x"			"0"
+			"y"			"64"
+			"width"		"64"
+			"height"	"32"
+		}
+		
+		"revolver"
+		{
+			"dfile"		"HUD/d_images"
+			"dnegfile"	"HUD/dneg_images"
+			"x"			"96"
 			"y"			"32"
+			"width"		"96"
+			"height"	"32"
+		}
+		
+		"umbrella"
+		{
+			"dfile"		"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"			"0"
+			"y"			"128"
+			"width"		"96"
+			"height"	"32"
+		}
+		
+		"spanner"
+		{
+			"dfile"		"HUD/d_images"
+			"dnegfile"	"HUD/dneg_images"
+			"x"			"96"
+			"y"			"96"
+			"width"		"96"
+			"height"	"32"
+		}
+		
+		"medkit"
+		{
+			"dfile"		"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"			"192"
+			"y"			"352"
 			"width"		"96"
 			"height"	"32"
 		}
 
 		"crowbar"
 		{
-			"dfile"		"HUD/d_images"
-			"dnegfile"	"HUD/dneg_images"	
+			"dfile"		"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
 			"x"			"0"
-			"y"			"192"
+			"y"			"128"
+			"width"		"96"
+			"height"	"32"
+		}
+
+		"grenade"
+		{
+			"dfile"		"HUD/d_images_hl2"
+			"dnegfile"	"HUD/dneg_images_hl2"
+			"x"			"0"
+			"y"			"96"
 			"width"		"96"
 			"height"	"32"
 		}

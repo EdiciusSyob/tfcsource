@@ -1,0 +1,25 @@
+
+	TEAM FORTRESS CLASSIC SOURCE
+	HALF LIFE 2 MOD
+
+----------------------------------------------
+	CREDITS (CONCUSSION STUDIOS)
+----------------------------------------------
+
+	Sandvich Thief: Lead Project, Art /Materials
+	Suspect: Lead Project, Programmer, Level Designer
+	Krowing: Art /Materials
+	EnergyPixel: 3D Modeler
+	Kris: Programmer
+	
+-------------------------------------------------------
+	CREDITS (OPEN SOURCE CODE REPOSITORIES USED FOR MOD)
+--------------------------------------------------------
+		
+	Half-Life 2 Community Edition: 
+	https://gitlab.com/RaraCerberus/HL2CE
+		sound timescale
+
+	Petercov's Source++: 
+	https://github.com/Petercov/Source-PlusPlus
+		NAV NPCs support

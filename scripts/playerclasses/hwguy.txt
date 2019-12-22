@@ -4,36 +4,17 @@ PlayerClassDatafile
 	"printname"			"#TFC_HWGuy"	
 	"playermodel"		"models/player/hwguy.mdl"
 	"selectcmd"			"cls_hwguy"
+	"limitcvar"			"tfc_classlimit_hwguy"
+	"health_max"		"100"
+	"armor_max"			"300"
+	"speed_max"			"230"
 
 	// Weapon Info
-	"primaryweapon"		"ac"
-	"secondaryweapon"	"shotgun"
-	"meleeweapon"		"crowbar"
-
-	"weapon1"			"12gauge"
-	"weapon2"			""
-	"weapon3"			""
-	"weapon4"			""
-	"weapon5"			""
-	"weapon6"			""
-	"weapon7"			""
-	"weapon8"			""
-	"weapon9"			""
-	"weapon10"			""
-
+	"weapon1"			"crowbar"
+	"weapon2"			"12gauge"
+	"weapon3"			"shotgun"
+	"weapon4"			"ac"
 	"grenadetype"		"grenade"
-	"numgrens"			"4"
-
-	"limitcvar"			"tfc_classlimit_hwguy"
 	
-	"maxhealth"			"100"
-	"health"			"100"
-
-	"maxarmor"			"300"
-	"armor"				"150"
-
-	// Movement
-	"runspeed"			"230"
-	"sprintspeed"		"280"
-	"pronespeed"		"76"
+	"numgrens"			"3"
 }

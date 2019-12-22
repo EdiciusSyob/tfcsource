@@ -1,0 +1,73 @@
+// Concussion Grenade
+WeaponData
+{
+	"BuiltRightHanded"	"1"
+	"PlayerAnimationExtension"	"Grenade"
+	"NumClips"	"1"
+
+	// Weapon characteristics:
+	"Damage"	"150"
+
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#TFC_Concussion"
+	"viewmodel"			"models/weapons/v_eq_fraggrenade.mdl"
+	"playermodel"			"models/weapons/w_eq_fraggrenade.mdl"
+	"anim_prefix"			"anim"
+
+	"bucket"			"5"
+	"bucket_position"		"1"
+
+	"clip_size"			"-1"
+	"default_clip"			"1"
+
+	"primary_ammo"			"concussion"
+	"secondary_ammo"		"None"
+
+	"weight"			"1"
+	"item_flags"			"18"	// ITEM_FLAG_NOAUTORELOAD | ITEM_FLAG_EXHAUSTIBLE
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+			"file"		"sprites/640hud3"
+			"x"			"0"
+			"y"			"0"
+			"width"		"170"
+			"height"	"45"
+		}
+		"weapon_s"
+		{	
+			"file"		"sprites/640hud6"
+			"x"			"0"
+			"y"			"0"
+			"width"		"170"
+			"height"	"45"
+		}
+		"ammo"
+		{
+			"file"		"sprites/640hud7"
+			"x"			"48"
+			"y"			"96"
+			"width"		"24"
+			"height"	"24"
+		}
+		"crosshair"
+		{
+			"file"		"sprites/crosshairs"
+			"x"			"0"
+			"y"			"48"
+			"width"		"24"
+			"height"	"24"
+		}
+		"autoaim"
+		{
+			"file"		"sprites/crosshairs"
+			"x"			"48"
+			"y"			"72"
+			"width"		"24"
+			"height"	"24"
+		}
+	}
+}

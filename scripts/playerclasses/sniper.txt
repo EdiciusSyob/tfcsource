@@ -4,36 +4,17 @@ PlayerClassDatafile
 	"printname"			"#TFC_Sniper"	
 	"playermodel"		"models/player/sniper.mdl"
 	"selectcmd"			"cls_sniper"
+	"limitcvar"			"tfc_classlimit_sniper"
+	"health_max"		"90"
+	"armor_max"			"50"
+	"speed_max"			"300"
 
 	// Weapon Info
-	"primaryweapon"		"sniperrifle"
-	"secondaryweapon"	"autorifle"
-	"meleeweapon"		"crowbar"
-
-	"weapon1"			"nailgun"
-	"weapon2"			""
-	"weapon3"			""
-	"weapon4"			""
-	"weapon5"			""
-	"weapon6"			""
-	"weapon7"			""
-	"weapon8"			""
-	"weapon9"			""
-	"weapon10"			""
-
+	"weapon1"			"crowbar"
+	"weapon2"			"autorifle"
+	"weapon3"			"nailgun"
+	"weapon4"			"sniperrifle"
 	"grenadetype"		"grenade"
-	"numgrens"			"0"
-
-	"limitcvar"			"tfc_classlimit_sniper"
 	
-	"maxhealth"			"90"
-	"health"			"90"
-
-	"maxarmor"			"50"
-	"armor"				"25"
-
-	// Movement
-	"RunSpeed"			"300"
-	"SprintSpeed"		"330"
-	"ProneSpeed"		"99"
+	"numgrens"			"3"
 }
