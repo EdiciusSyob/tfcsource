@@ -1,6 +1,0 @@
-"DecalBaseTimesLightmapAlphaBlendSelfIllum"
-{
-	"$basetexture" "decals/decalglasswindow002a"
-	"$selfillumtexture" "decals/decalglasswindowmask002a"
-	"$decalscale" 0.25
-}
