@@ -12,6 +12,14 @@
 	EnergyPixel: 3D Modeler
 	Kris: Programmer
 	
+----------------------------------------------
+	CREDITS (Textures
+----------------------------------------------
+	
+	2Fort: Hazard Stripes Texture: 
+	https://gamebanana.com/textures/4236 
+		NvC_DmN_CH
+	
 -------------------------------------------------------
 	CREDITS (OPEN SOURCE CODE REPOSITORIES USED FOR MOD)
 --------------------------------------------------------

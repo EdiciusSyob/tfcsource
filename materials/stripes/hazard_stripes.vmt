@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "stripes/hazard_stripes"
+	"$detail" "Detail/noise_detail_01"
+	"$envmap" "env_cubemap"
+	"$surfaceprop" "rubber"
+	"$envmapmask" "stripes/hazard_stripes_spec"
+	"$envmaptint" "[.1 .1 0]"
+}
