@@ -6,6 +6,19 @@
 
 @include "base.fgd"
 
+@BaseClass = TeamNum
+[
+	TeamNum(choices) : "Team Number (int)" : 0 =
+	[
+		2 : "Red"
+		3 : "Blue"
+		4 : "Yellow"
+		5 : "Green"
+	]
+
+	input SetTeam(integer) : "Changes the entity's team"
+]
+
 @BaseClass base(Targetname, Origin, Global, prop_static_base) = BaseVehicle
 [
 	vehiclescript(string) : "Vehicle Script File" : "scripts/vehicles/jeep_test.txt"
@@ -20,7 +33,6 @@
 	input Lock(void) : "Prevent the player from entering or exiting the vehicle."
 	input Unlock(void) : "Re-allow the player to enter or exit the vehicle."
 ]
-
 
 @BaseClass base(BaseVehicle) = BaseDriveableVehicle
 [
@@ -100,6 +112,12 @@
 	]
 ]
 
+@PointClass base(Angles) = env_detail_controller : "An entity that lets you control the fade distances for detail props."
+[
+	fademindist(float) : "Start Fade Dist/Pixels" : 400 : "Distance at which the prop starts to fade."
+	fademaxdist(float) : "End Fade Dist/Pixels" : 1200 : "Maximum distance at which the prop is visible."
+]
+
 @SolidClass base(Targetname, Parentname, Origin, RenderFields, Global) = func_vehicle : "Drivable Vehicles" 
 [
 	spawnflags(flags) =
@@ -161,6 +179,25 @@
 
 @PointClass base(BaseDriveableVehicle) studioprop() = prop_vehicle_driveable :
 	"Generic driveable studiomodel vehicle."
+[
+]
+
+@PointClass base( BasePropPhysics, RenderFields, TeamNum ) studioprop() sphere(radius) = prop_passball_ball : "Pass The Ball - Ball."
+[
+	radius(float) : "Radius" : 12 : ""
+	
+	// Inputs
+	output OnTeamChange(void) : "Fires when the entity changes of team"
+]
+
+@SolidClass base(func_physbox) = func_physbox_multiplayer : 
+	"This class is the same as func_physbox, except the runtime collisions use a more bouncy method that avoids " +
+	"the prediction errors normal physics objects get."
+[
+]
+
+@SolidClass base(Targetname, TeamNum) = func_ctf_goal:  
+	"For CTF. Players can bring here their flag/dozier or ball."
 [
 ]
 
