@@ -864,11 +864,9 @@ detail
 		}
 	}
 
-
-	
 	citygrass01
 	{
-		"density" "3000.0"
+		"density" "100.0"
 
 		Group1
 		{
@@ -876,7 +874,7 @@ detail
 			Model1
 			{
 				"sprite" "288 0 128 128 512" 
-				"spritesize" "0.5 0.0 25 33"
+				"spritesize" "0.3 0.0 25 33"
 				"spriterandomscale" "0.2"
 				"amount" "0.6"
 				"detailOrientation" "2"
@@ -884,7 +882,7 @@ detail
 			Model2
 			{
 				"sprite" "0 0 128 128 512" 
-				"spritesize" "0.5 0.0 30 40"
+				"spritesize" "0.3 0.0 30 40"
 				"spriterandomscale" "0.2"
 				"amount" "0.1"
 				"detailOrientation" "2"
@@ -892,7 +890,7 @@ detail
 			Model3
 			{
 				"sprite" "144 0 128 128 512" 
-				"spritesize" "0.5 0.0 20 20"
+				"spritesize" "0.3 0.0 20 20"
 				"spriterandomscale" "0.2"
 				"amount" "0.3"
 				"detailOrientation" "2"
@@ -916,6 +914,7 @@ detail
 
 		}
 	}
+
 	redgrass
 	//reduced size by 0.75
 	{
