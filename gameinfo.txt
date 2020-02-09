@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game			"Team Fortress Classic: Source"
+	game			"Team Fortress Classic: Source [Steam version]"
 	type			multiplayer_only
 	gamelogo 1
 	icon 		"resource/game"
