@@ -7,15 +7,38 @@ PlayerClassDatafile
 	"limitcvar"			"tfc_classlimit_scout"
 	"health_max"		"75"
 	"armor_max"			"50"
+	"armor_spawn"		"25"
+	"armor_class"		"0.3"
 	"speed_max"			"400"
 
 	// Weapon Info
 	"weapon1"			"crowbar"
 	"weapon2"			"nailgun"
 	"weapon2"			"12gauge"
-	"grenadetype"		"grenade"
-	"grenadetype2"		"grenade_concussion"
 	
-	"numgrens"			"2"
-	"numgrens2"			"2"
+	"grenade1"			"grenade"
+	"grenade2"			"grenade_concussion"
+	
+	// Ammo
+	MaxAmmo
+	{
+		"AMMO_SHELLS"		"50"
+		"AMMO_ROCKETS"		"25"
+		"AMMO_NAILS"		"200"
+		"AMMO_CELLS"		"100"
+		"AMMO_GRENADES1"	"3"
+		"AMMO_GRENADES2"	"3"
+		"AMMO_DETPACK"		"0"
+	}
+	
+	SpawnAmmo
+	{
+		"AMMO_SHELLS"		"17"
+		"AMMO_ROCKETS"		"0"
+		"AMMO_NAILS"		"100"
+		"AMMO_CELLS"		"0"
+		"AMMO_GRENADES1"	"2"
+		"AMMO_GRENADES2"	"3"
+		"AMMO_DETPACK"		"0"
+	}
 }

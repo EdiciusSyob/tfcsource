@@ -22,7 +22,7 @@ WeaponData
 	"clip_size"			"-1"
 	"default_clip"			"40"
 	
-	"primary_ammo"			"shell"
+	"primary_ammo"			"AMMO_SHELLS"
 	"secondary_ammo"		"None"
 
 	"weight"			"20"

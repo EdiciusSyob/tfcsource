@@ -7,6 +7,8 @@ PlayerClassDatafile
 	"limitcvar"			"tfc_classlimit_spy"
 	"health_max"		"90"
 	"armor_max"			"100"
+	"armor_spawn"		"50"
+	"armor_class"		"0.6"
 	"speed_max"			"300"
 
 	// Weapon Info
@@ -14,7 +16,30 @@ PlayerClassDatafile
 	"weapon2"			"tranq"
 	"weapon3"			"nailgun"
 	"weapon4"			"shotgun"
-	"grenadetype"		"grenade"
 	
-	"numgrens"			"3"
+	"grenade1"			"grenade"
+	"grenade2"			"grenade_hallucination"
+	
+	// Ammo
+	MaxAmmo
+	{
+		"AMMO_SHELLS"		"40"
+		"AMMO_ROCKETS"		"15"
+		"AMMO_NAILS"		"100"
+		"AMMO_CELLS"		"30"
+		"AMMO_GRENADES1"	"4"
+		"AMMO_GRENADES2"	"4"
+		"AMMO_DETPACK"		"0"
+	}
+	
+	SpawnAmmo
+	{
+		"AMMO_SHELLS"		"24"
+		"AMMO_ROCKETS"		"0"
+		"AMMO_NAILS"		"50"
+		"AMMO_CELLS"		"10"
+		"AMMO_GRENADES1"	"2"
+		"AMMO_GRENADES2"	"2"
+		"AMMO_DETPACK"		"0"
+	}
 }

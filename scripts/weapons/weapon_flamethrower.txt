@@ -21,7 +21,7 @@ WeaponData
 	"default_clip"			"200"
 	"NumClips"			"1"
 
-	"primary_ammo"			"cell"
+	"primary_ammo"			"AMMO_CELLS"
 	"secondary_ammo"		"None"
 
 	"weight"			"25"

@@ -32,7 +32,7 @@ WeaponData
 	"clip_size"			"50"
 	"default_clip"			"50"
 	
-	"primary_ammo"			"sniper"
+	"primary_ammo"			"AMMO_SHELLS"
 	"secondary_ammo"		"None"
 
 	"weight"			"30"

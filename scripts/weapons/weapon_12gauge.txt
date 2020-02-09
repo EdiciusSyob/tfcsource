@@ -8,7 +8,7 @@ WeaponData
 	// Weapon characteristics:
 	"Damage"	"4"
 	"Bullets"	"6"
-	"CycleTime"	"0.7"
+	"CycleTime"	"0.5"
 	
 	// New accuracy model parameters
 	"Spread"	0.04362
@@ -25,7 +25,7 @@ WeaponData
 	"clip_size"			"8"
 	"default_clip"			"8"
 
-	"primary_ammo"			"shell"
+	"primary_ammo"			"AMMO_SHELLS"
 	"secondary_ammo"		"None"
 
 	"weight"			"20"

@@ -23,7 +23,7 @@ WeaponData
 	"default_clip"			"200"
 
 
-	"primary_ammo"			"shell"
+	"primary_ammo"			"AMMO_NAILS"
 	"secondary_ammo"		"None"
 
 	"weight"			"25"
