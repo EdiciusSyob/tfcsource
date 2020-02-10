@@ -3,7 +3,7 @@ WeaponData
 {
 	"BuiltRightHanded"		"1"
 	"PlayerAnimationExtension"	"missile launcher"
-	"NumClips"	"50"
+	//"NumClips"	"50"
 
 	// Weapon characteristics:
 	"Damage"	"100"
@@ -23,7 +23,7 @@ WeaponData
 	"clip_size"			"4"
 	"default_clip"			"4"
 	
-	"primary_ammo"			"explosive"
+	"primary_ammo"			"AMMO_ROCKETS"
 	"secondary_ammo"		"None"
 
 	"weight"			"25"

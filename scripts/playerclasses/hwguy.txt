@@ -7,6 +7,8 @@ PlayerClassDatafile
 	"limitcvar"			"tfc_classlimit_hwguy"
 	"health_max"		"100"
 	"armor_max"			"300"
+	"armor_spawn"		"150"
+	"armor_class"		"0.8"
 	"speed_max"			"230"
 
 	// Weapon Info
@@ -14,7 +16,31 @@ PlayerClassDatafile
 	"weapon2"			"12gauge"
 	"weapon3"			"shotgun"
 	"weapon4"			"ac"
-	"grenadetype"		"grenade"
 	
-	"numgrens"			"3"
+	
+	"grenade1"			"grenade"
+	"grenade2"			"grenade_mirv"
+	
+	// Ammo
+	MaxAmmo
+	{
+		"AMMO_SHELLS"		"200"
+		"AMMO_ROCKETS"		"25"
+		"AMMO_NAILS"		"100"
+		"AMMO_CELLS"		"50"
+		"AMMO_GRENADES1"	"4"
+		"AMMO_GRENADES2"	"2"
+		"AMMO_DETPACK"		"0"
+	}
+	
+	SpawnAmmo
+	{
+		"AMMO_SHELLS"		"176"
+		"AMMO_ROCKETS"		"0"
+		"AMMO_NAILS"		"0"
+		"AMMO_CELLS"		"30"
+		"AMMO_GRENADES1"	"2"
+		"AMMO_GRENADES2"	"1"
+		"AMMO_DETPACK"		"0"
+	}
 }

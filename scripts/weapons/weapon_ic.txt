@@ -6,7 +6,7 @@ WeaponData
 	"NumClips"	"50"
 
 	// Weapon characteristics:
-	"Damage"	"100"
+	"Damage"	"50"
 	"Bullets"	"0"
 	"CycleTime"	"1.0"
 	//"CycleTime"	"0.075"
@@ -20,10 +20,10 @@ WeaponData
 	"bucket"			"4"
 	"bucket_position"		"3"
 
-	"clip_size"			"4"
-	"default_clip"			"4"
+	//"clip_size"			"4"
+	//"default_clip"			"4"
 	
-	"primary_ammo"			"explosive"
+	"primary_ammo"			"AMMO_ROCKETS"
 	"secondary_ammo"		"None"
 
 	"weight"			"25"

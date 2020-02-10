@@ -7,6 +7,8 @@ PlayerClassDatafile
 	"limitcvar"			"tfc_classlimit_sniper"
 	"health_max"		"90"
 	"armor_max"			"50"
+	"armor_spawn"		"25"
+	"armor_class"		"0.3"
 	"speed_max"			"300"
 
 	// Weapon Info
@@ -14,7 +16,29 @@ PlayerClassDatafile
 	"weapon2"			"autorifle"
 	"weapon3"			"nailgun"
 	"weapon4"			"sniperrifle"
-	"grenadetype"		"grenade"
 	
-	"numgrens"			"3"
+	"grenade1"			"grenade"
+	
+	// Ammo
+	MaxAmmo
+	{
+		"AMMO_SHELLS"		"75"
+		"AMMO_ROCKETS"		"25"
+		"AMMO_NAILS"		"100"
+		"AMMO_CELLS"		"50"
+		"AMMO_GRENADES1"	"4"
+		"AMMO_GRENADES2"	"0"
+		"AMMO_DETPACK"		"0"
+	}
+	
+	SpawnAmmo
+	{
+		"AMMO_SHELLS"		"60"
+		"AMMO_ROCKETS"		"0"
+		"AMMO_NAILS"		"50"
+		"AMMO_CELLS"		"0"
+		"AMMO_GRENADES1"	"2"
+		"AMMO_GRENADES2"	"0"
+		"AMMO_DETPACK"		"0"
+	}
 }

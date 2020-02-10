@@ -28,10 +28,10 @@ WeaponData
 	"bucket"			"4"
 	"bucket_position"		"6"
 
-	"clip_size"			"100"
-	"default_clip"			"100"
+	//"clip_size"			"-1"
+	//"default_clip"			"100"
 	
-	"primary_ammo"			"sniper"
+	"primary_ammo"			"AMMO_SHELLS"
 	"secondary_ammo"		"None"
 
 	"weight"			"30"

@@ -8,7 +8,7 @@ WeaponData
 	// Weapon characteristics:
 	"Damage"	"4"
 	"Bullets"	"6"
-	"CycleTime"	"0.7"
+	"CycleTime"	"0.5"
 	
 	// New accuracy model parameters
 	"Spread"	0.04362
@@ -19,13 +19,13 @@ WeaponData
 	"playermodel"			"models/weapons/w_models/w_12gauge.mdl"
 	"anim_prefix"			"anim"
 
-	"bucket"			"3"
+	"bucket"			"1"
 	"bucket_position"		"0"
 
 	"clip_size"			"8"
 	"default_clip"			"8"
 
-	"primary_ammo"			"shell"
+	"primary_ammo"			"AMMO_SHELLS"
 	"secondary_ammo"		"None"
 
 	"weight"			"20"

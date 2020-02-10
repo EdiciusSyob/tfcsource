@@ -7,6 +7,8 @@ PlayerClassDatafile
 	"limitcvar"			"tfc_classlimit_demoman"
 	"health_max"		"90"
 	"armor_max"			"120"
+	"armor_spawn"		"50"
+	"armor_class"		"0.6"
 	"speed_max"			"280"
 
 	// Weapon Info
@@ -14,7 +16,30 @@ PlayerClassDatafile
 	"weapon2"			"12gauge"
 	"weapon3"			"grenadelauncher"
 	"weapon4"			"pipebomblauncher"
-	"grenadetype"		"grenade"
 	
-	"numgrens"			"4"
+	"grenade1"			"grenade"
+	"grenade2"			"grenade_mirv"
+	
+	// Ammo
+	MaxAmmo
+	{
+		"AMMO_SHELLS"		"75"
+		"AMMO_ROCKETS"		"50"
+		"AMMO_NAILS"		"50"
+		"AMMO_CELLS"		"50"
+		"AMMO_GRENADES1"	"4"
+		"AMMO_GRENADES2"	"2"
+		"AMMO_DETPACK"		"1"
+	}
+	
+	SpawnAmmo
+	{
+		"AMMO_SHELLS"		"22"
+		"AMMO_ROCKETS"		"14"
+		"AMMO_NAILS"		"0"
+		"AMMO_CELLS"		"0"
+		"AMMO_GRENADES1"	"2"
+		"AMMO_GRENADES2"	"1"
+		"AMMO_DETPACK"		"1"
+	}
 }

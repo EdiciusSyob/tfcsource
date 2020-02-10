@@ -7,13 +7,38 @@ PlayerClassDatafile
 	"limitcvar"			"tfc_classlimit_engineer"
 	"health_max"		"80"
 	"armor_max"			"50"
+	"armor_spawn"		"25"
+	"armor_class"		"0.5"
 	"speed_max"			"300"
 
 	// Weapon Info
 	"weapon1"			"wrench"
 	"weapon2"			"railgun"
 	"weapon3"			"shotgun"
-	"grenadetype"		"grenade"
 	
-	"numgrens"			"3"
+	"grenade1"			"grenade"
+	"grenade2"			"grenade_emp"
+	
+	// Ammo
+	MaxAmmo
+	{
+		"AMMO_SHELLS"		"50"
+		"AMMO_ROCKETS"		"30"
+		"AMMO_NAILS"		"50"
+		"AMMO_CELLS"		"200"
+		"AMMO_GRENADES1"	"4"
+		"AMMO_GRENADES2"	"4"
+		"AMMO_DETPACK"		"0"
+	}
+	
+	SpawnAmmo
+	{
+		"AMMO_SHELLS"		"4"
+		"AMMO_ROCKETS"		"0"
+		"AMMO_NAILS"		"25"
+		"AMMO_CELLS"		"100"
+		"AMMO_GRENADES1"	"2"
+		"AMMO_GRENADES2"	"2"
+		"AMMO_DETPACK"		"0"
+	}
 }

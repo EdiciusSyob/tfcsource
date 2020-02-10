@@ -6,7 +6,9 @@ PlayerClassDatafile
 	"selectcmd"			"cls_soldier"
 	"limitcvar"			"tfc_classlimit_soldier"
 	"health_max"		"100"
-	"armor_max"			"100"
+	"armor_max"			"200"
+	"armor_spawn"		"100"
+	"armor_class"		"0.8"
 	"speed_max"			"240"
 
 	// Weapon Info
@@ -14,7 +16,30 @@ PlayerClassDatafile
 	"weapon2"			"shotgun"
 	"weapon3"			"12gauge"
 	"weapon4"			"rpg"
-	"grenadetype"		"grenade"
 	
-	"numgrens"			"2"
+	"grenade1"			"grenade"
+	"grenade2"			"grenade_nail"
+	
+	// Ammo
+	MaxAmmo
+	{
+		"AMMO_SHELLS"		"100"
+		"AMMO_ROCKETS"		"50"
+		"AMMO_NAILS"		"100"
+		"AMMO_CELLS"		"50"
+		"AMMO_GRENADES1"	"4"
+		"AMMO_GRENADES2"	"2"
+		"AMMO_DETPACK"		"0"
+	}
+	
+	SpawnAmmo
+	{
+		"AMMO_SHELLS"		"26"
+		"AMMO_ROCKETS"		"6"
+		"AMMO_NAILS"		"0"
+		"AMMO_CELLS"		"0"
+		"AMMO_GRENADES1"	"2"
+		"AMMO_GRENADES2"	"1"
+		"AMMO_DETPACK"		"0"
+	}
 }

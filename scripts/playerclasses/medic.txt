@@ -7,6 +7,8 @@ PlayerClassDatafile
 	"limitcvar"			"tfc_classlimit_medic"
 	"health_max"		"90"
 	"armor_max"			"100"
+	"armor_spawn"		"50"
+	"armor_class"		"0.6"
 	"speed_max"			"320"
 
 	// Weapon Info
@@ -14,9 +16,30 @@ PlayerClassDatafile
 	"weapon2"			"supernailgun"
 	"weapon3"			"12gauge"
 	"weapon4"			"shotgun"
-	"grenadetype"		"grenade"
-	"grenadetype2"		"grenade_concussion"
 	
-	"numgrens"			"2"
-	"numgrens2"			"2"
+	"grenade1"			"grenade"
+	"grenade2"			"grenade_concussion"
+	
+	// Ammo
+	MaxAmmo
+	{
+		"AMMO_SHELLS"		"75"
+		"AMMO_ROCKETS"		"25"
+		"AMMO_NAILS"		"150"
+		"AMMO_CELLS"		"50"
+		"AMMO_GRENADES1"	"4"
+		"AMMO_GRENADES2"	"3"
+		"AMMO_DETPACK"		"0"
+	}
+	
+	SpawnAmmo
+	{
+		"AMMO_SHELLS"		"26"
+		"AMMO_ROCKETS"		"0"
+		"AMMO_NAILS"		"50"
+		"AMMO_CELLS"		"0"
+		"AMMO_GRENADES1"	"2"
+		"AMMO_GRENADES2"	"2"
+		"AMMO_DETPACK"		"0"
+	}
 }
