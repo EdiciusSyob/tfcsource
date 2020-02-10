@@ -63,10 +63,10 @@
 		//}
 	}
 	
-	"BtnMultiplayer"
+	"BtnServerBrowser"
 	{
 		"ControlName"			"BaseModHybridButton"
-		"fieldName"				"BtnMultiplayer"
+		"fieldName"				"BtnServerBrowser"
 		"xpos"					"100"
 		"ypos"					"260"
 		"wide"					"150"
@@ -78,17 +78,39 @@
 		"tabPosition"			"0"
 		"wrap"					"1"
 		"navUp"					"BtnQuit"
-		"navDown"				"BtnStatsAndAchievements"
-		"labelText"				"#UI_MainMenu_Online"
-		"tooltiptext"			"#UI_MainMenu_Online_Tip"
+		"navDown"				"BtnCreateGame"
+		"labelText"				"#UI_MainMenu_ServerBrowser"
+		"tooltiptext"			"#UI_MainMenu_ServerBrowser_Tip"
 		"style"					"AlienSwarmMenuButtonSmall"
-		"command"				"FlmServerFlyout"
-	}	
-		
-	"BtnStatsAndAchievements"
+		"command"				"ServerBrowser"
+	}
+	
+	"BtnCreateGame"
 	{
 		"ControlName"			"BaseModHybridButton"
-		"fieldName"				"BtnStatsAndAchievements"
+		"fieldName"				"BtnCreateGame"
+		"xpos"					"100"
+		"ypos"					"270"
+		"wide"					"150"
+		"tall"					"20"
+		"autoResize"			"1"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"wrap"					"1"
+		"navUp"					"BtnServerBrowser"
+		"navDown"				"BtnAchievements"
+		"labelText"				"#UI_MainMenu_CreateServer"
+		"tooltiptext"			"#UI_MainMenu_CreateServer_Tip"
+		"style"					"AlienSwarmMenuButtonSmall"
+		"command"				"CreateGame"
+	}
+
+	"BtnAchievements"
+	{
+		"ControlName"			"BaseModHybridButton"
+		"fieldName"				"BtnAchievements"
 		"xpos"					"100"
 		"ypos"					"280"
 		"wide"					"180"
@@ -98,34 +120,12 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"navUp"					"BtnMultiplayer"
-		"navDown"				"BtnLoadout"
-		"labelText"				"#UI_MainMenu_StatsAndAchievements"
-		"tooltiptext"			"#UI_MainMenu_StatsAndAchievements_Tip"
-		"style"					"AlienSwarmMenuButtonSmall"
-		"command"				"FlmStatsAndAchievementsFlyout"
-		"ActivationType"		"1"
-	}
-	
-	"BtnLoadout"
-	{
-		"ControlName"			"BaseModHybridButton"
-		"fieldName"				"BtnLoadout"
-		"xpos"					"100"
-		"ypos"					"290"
-		"wide"					"200"
-		"tall"					"13"
-		"autoResize"			"1"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"navUp"					"BtnStatsAndAchievements"
+		"navUp"					"BtnCreateGame"
 		"navDown"				"BtnOptions"
-		"labelText"				"#UI_MainMenu_Customize"
-		"tooltiptext"			"#UI_MainMenu_Customize_Tip"
+		"labelText"				"#UI_MainMenu_Achievements"
+		"tooltiptext"			"#UI_MainMenu_Achievements_Tip"
 		"style"					"AlienSwarmMenuButtonSmall"
-		"command"				"Loadout"
+		"command"				"Achievements"
 		"ActivationType"		"1"
 	}
 	
@@ -134,7 +134,7 @@
 		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnOptions"
 		"xpos"					"100"
-		"ypos"					"310"
+		"ypos"					"300"
 		"wide"					"180"
 		"tall"					"13"
 		"autoResize"			"1"
@@ -156,7 +156,7 @@
 		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnExtras"
 		"xpos"					"100"
-		"ypos"					"320" 
+		"ypos"					"310" 
 		"wide"					"180"
 		"tall"					"13"
 		"autoResize"			"1"
@@ -178,7 +178,7 @@
 		"ControlName"			"BaseModHybridButton"
 		"fieldName"				"BtnQuit"
 		"xpos"					"100"
-		"ypos"					"340"
+		"ypos"					"320"
 		"wide"					"180"
 		"tall"					"13"
 		"autoResize"			"1"
@@ -205,18 +205,6 @@
 		"zpos"					"3"
 		"InitialFocus"			"BtnQuickGame"
 		"ResourceFile"			"resource/UI/basemodui/ServerFlyout.res"
-	}
-
-	"FlmStatsAndAchievementsFlyout"
-	{
-		"ControlName"			"FlyoutMenu"
-		"fieldName"				"FlmStatsAndAchievementsFlyout"
-		"visible"				"0"
-		"wide"					"0"
-		"tall"					"0"
-		"zpos"					"3"
-		"InitialFocus"			"BtnStats"
-		"ResourceFile"			"resource/UI/basemodui/StatsAndAchievements.res"
 	}
 
 	"FlmMiscFlyout"
