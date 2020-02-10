@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game			"Team Fortress Classic: Source"
+	game			"Team Fortress Classic: Source [Mod Version]"
 	type			multiplayer_only
 	gamelogo 1
 	icon 		"resource/game"
@@ -21,7 +21,7 @@
 
 	FileSystem
 	{
-		SteamAppId				1196640
+		SteamAppId				243750	// Source SDK Base 2013 Multiplayer
 		
 		//
 		// The code that loads this file automatically does a few things here:
