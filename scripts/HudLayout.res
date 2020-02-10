@@ -102,10 +102,10 @@
 		"fieldName" "HudVoiceSelfStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r43"
+		"xpos" "r42"
 		"ypos" "355"
-		"wide" "24"
-		"tall" "24"
+		"wide" "32"
+		"tall" "32"
 	}
 
 	HudVoiceStatus
@@ -113,24 +113,33 @@
 		"fieldName" "HudVoiceStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r200"
+		"xpos" "r130"
 		"ypos" "0"
-		"wide" "100"
+		"wide" "150"
 		"tall" "400"
 
-		"item_tall"	"24"
-		"item_wide"	"100"
+		"item_tall"	"16"
+		"item_wide"	"120"
 
 		"item_spacing" "2"
 
-		"icon_ypos"	"0"
-		"icon_xpos"	"0"
-		"icon_tall"	"24"
-		"icon_wide"	"24"
+		"show_voice_icon" "0"
+		"icon_xpos"	"13"
+		"icon_ypos"	"3"
+		"icon_tall"	"12"
+		"icon_wide"	"12"
+		"icon_alpha" "255"
 
-		"text_xpos"	"26"
+		"show_dead_icon" "0"
+		"dead_xpos"	"13"
+		"dead_ypos"	"3"
+		"dead_tall" "12"
+		"dead_wide" "12"
+		
+		"avatar_xpos" "0"
+		"avatar_ypos" "0"
 
-		"PaintBackgroundType" "0"
+		"text_xpos"	"34"  
 	}
 	
 	HudDamageIndicator
