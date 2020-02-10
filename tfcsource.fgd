@@ -286,18 +286,24 @@
 [
 	model(studio) : "Item Model" : "models/items/backpack.mdl"
 
-	Cells(integer)		: "ammo_cells" : 50   : "How many cells to give to the player?"
-	Nails(integer)		: "ammo_nails" : 50   : "How many nails to give to the player?"
-	Shells(integer)		: "ammo_shells" : 50   : "How many shells to give to the player?"
-	Explosives(integer)	: "ammo_explosives" : 20   : "How many explosives to give to the player?"
+	Cells(integer)		: "Cells" : 50   : "How many cells to give to the player?"
+	Nails(integer)		: "Nails" : 50   : "How many nails to give to the player?"
+	Shells(integer)		: "Shells" : 50   : "How many shells to give to the player?"
+	Rockets(integer)	: "Rockets" : 20   : "How many rockets to give to the player?"
+	Grenades1(integer)	: "Grenades1" : 0  : "How many primary grenades to give the player?"
+	Grenades2(integer)	: "Grenades2" : 0  : "How many secondary grenades to give the player?"
+	Detpacks(integer)	: "Detpack" : 0    : "Give a detpack? (Only usable by Demoman)"
+	Health(integer)		: "Health"	: 0    : "Health to give player."
+	Armor(integer)		: "Armor"	: 0	   : "Armor to give the player."
+	RespawnTime(integer) : "Respawn Time" : 10 : "Time to respawn."
 
-	Shouldwespawn(choices) : "Should We Respawn?" : 4 : 
-		"Should we respawn after picked up? If NO then after picked up removed forever. "+
-		"If YES then after some time passes we respawn unto the world." =
-	[
-		4 : "NO"
-		3 : "YES"
-	]
+	//Shouldwespawn(choices) : "Should We Respawn?" : 4 : 
+	//	"Should we respawn after picked up? If NO then after picked up removed forever. "+
+	//	"If YES then after some time passes we respawn unto the world." =
+	//[
+	//	4 : "NO"
+	//	3 : "YES"
+	//]
 	
 	
 	

@@ -14,7 +14,7 @@ PlayerClassDatafile
 	// Weapon Info
 	"weapon1"			"crowbar"
 	"weapon2"			"nailgun"
-	"weapon2"			"12gauge"
+	"weapon3"			"12gauge"
 	
 	"grenade1"			"grenade"
 	"grenade2"			"grenade_concussion"

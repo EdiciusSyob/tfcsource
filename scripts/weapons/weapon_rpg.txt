@@ -3,7 +3,7 @@ WeaponData
 {
 	"BuiltRightHanded"		"1"
 	"PlayerAnimationExtension"	"missile launcher"
-	"NumClips"	"50"
+	//"NumClips"	"50"
 
 	// Weapon characteristics:
 	"Damage"	"100"

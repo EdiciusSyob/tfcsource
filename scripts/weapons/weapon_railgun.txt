@@ -16,11 +16,11 @@ WeaponData
 	"playermodel"			"models/weapons/w_models/w_tranquilizer.mdl"
 	"anim_prefix"			"anim"
 	
-	"bucket"			"4"
-	"bucket_position"		"2"
+	"bucket"			"1"
+	"bucket_position"		"0"
 
-	"clip_size"			"-1"
-	"default_clip"			"200"
+	//"clip_size"			"-1"
+	//"default_clip"			"200"
 
 
 	"primary_ammo"			"AMMO_NAILS"

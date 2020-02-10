@@ -27,10 +27,10 @@ WeaponData
 	"anim_prefix"		"anim"
 
 	"bucket"			"4"
-	"bucket_position"		"5"
+	"bucket_position"		"0"
 
-	"clip_size"			"50"
-	"default_clip"			"50"
+	//"clip_size"			"50"
+	//"default_clip"			"50"
 	
 	"primary_ammo"			"AMMO_SHELLS"
 	"secondary_ammo"		"None"

@@ -23,7 +23,7 @@ if not exist "%steampath%\steam.exe" (
 
 echo Running game (Debug Mode)...
 
-@start /D "%steampath%\steamapps\common\Team Fortress Classic Source" hl2.exe -steam +sv_cheats 1 -game "%CD%" -sw -dev -console -allowdebug -condebug -high -conclearlog -noborder -nojoy -r_emulate_gl +r_lod 0
+@start /D "E:\Steam\steamapps\common\Team Fortress Classic Source" hl2.exe -steam +sv_cheats 1 -game "%CD%" -sw -dev -console -allowdebug -condebug -high -conclearlog -noborder -nojoy -force_vendor_id 0x10DE -force_device_id 0x1180 +r_lod 0
 
 if %ERRORLEVEL% NEQ 0 goto error
 goto success
