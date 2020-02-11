@@ -6,8 +6,8 @@ WeaponData
 	"NumClips"	"1"
 
 	// Weapon characteristics:
-	"Damage"	"32"
-	"Bullets"	"20"
+	"Damage"	"4"
+	"Bullets"	"5"
 	"CycleTime"	"0.1"
 	
 	// New accuracy model parameters

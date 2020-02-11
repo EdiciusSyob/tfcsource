@@ -9,6 +9,7 @@ WeaponData
 	"Damage"	"4"
 	"Bullets"	"6"
 	"CycleTime"	"0.5"
+	"ReloadTime" "0.25"
 	
 	// New accuracy model parameters
 	"Spread"	0.04362
