@@ -35,6 +35,9 @@ Scheme
 		"SteamLightGreen"	"157 194 80 255"
 		"AchievementsLightGrey"		"79 79 79 255"
 		"White"				"255 255 255 255"
+		
+		"TanDark"				"117 107 94 255"
+		"Yellow"			"251 235 202 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -49,12 +52,12 @@ Scheme
 		Border.Selection				"Blank"				// the additional border color for displaying the default/selected button
 		Border.BuyPreset				"Orange"
 
-		Button.TextColor				"Orange"
-		Button.BgColor					"0 0 0 64"
-		Button.ArmedTextColor			"Orange"
-		Button.ArmedBgColor				"Red"
-		Button.DepressedTextColor		"Orange"
-		Button.DepressedBgColor			"Red"
+		Button.TextColor				"TanDark"
+		Button.BgColor					"Yellow"
+		Button.ArmedTextColor			"Black"
+		Button.ArmedBgColor				"Orange"
+		Button.DepressedTextColor		"Black"
+		Button.DepressedBgColor			"Orange"
 
 		CheckButton.TextColor			"Orange"
 		CheckButton.SelectedTextColor	"Orange"
@@ -1813,41 +1816,20 @@ Scheme
 		ButtonBorder
 		{
 			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
+			"backgroundtype" "2"
+		}
 
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
+		// this is the border used for default buttons (the button that gets pressed when you hit enter)
+		ButtonKeyFocusBorder
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
+		}
 
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "1 1"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
+		ButtonDepressedBorder
+		{
+			"inset" "0 0 0 0"
+			"backgroundtype" "2"
 		}
 
 		FrameBorder
@@ -1998,87 +1980,6 @@ Scheme
 				{
 					"color" "Border.Dark"
 					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		// this is the border used for default buttons (the button that gets pressed when you hit enter)
-		ButtonKeyFocusBorder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "1 1"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		ButtonDepressedBorder
-		{
-			"inset" "0 0 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "1 1"
 				}
 			}
 
