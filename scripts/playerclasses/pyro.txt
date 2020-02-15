@@ -3,6 +3,7 @@ PlayerClassDatafile
 	// FilePLayerClassInfo_t members
 	"printname"			"#TFC_Pyro"	
 	"playermodel"		"models/player/pyro.mdl"
+	"armsmodel"			"models/weapons/v_arm_hl2.mdl"
 	"selectcmd"			"cls_pyro"
 	"limitcvar"			"tfc_classlimit_pyro"
 	"health_max"		"100"

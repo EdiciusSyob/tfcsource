@@ -3,6 +3,7 @@ PlayerClassDatafile
 	// FilePLayerClassInfo_t members
 	"printname"			"#TFC_HWGuy"	
 	"playermodel"		"models/player/hwguy.mdl"
+	"armsmodel"			"models/weapons/v_arm_hl2.mdl"
 	"selectcmd"			"cls_hwguy"
 	"limitcvar"			"tfc_classlimit_hwguy"
 	"health_max"		"100"

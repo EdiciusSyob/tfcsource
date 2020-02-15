@@ -3,6 +3,7 @@ PlayerClassDatafile
 	// FilePLayerClassInfo_t members
 	"printname"			"#TFC_Engineer"	
 	"playermodel"		"models/player/engineer.mdl"
+	"armsmodel"			"models/weapons/v_arm_hl2.mdl"
 	"selectcmd"			"cls_engineer"
 	"limitcvar"			"tfc_classlimit_engineer"
 	"health_max"		"80"

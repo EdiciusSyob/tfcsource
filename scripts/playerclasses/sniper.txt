@@ -3,6 +3,7 @@ PlayerClassDatafile
 	// FilePLayerClassInfo_t members
 	"printname"			"#TFC_Sniper"	
 	"playermodel"		"models/player/sniper.mdl"
+	"armsmodel"			"models/weapons/v_arm_hl2.mdl"
 	"selectcmd"			"cls_sniper"
 	"limitcvar"			"tfc_classlimit_sniper"
 	"health_max"		"90"

@@ -3,6 +3,7 @@ PlayerClassDatafile
 	// FilePLayerClassInfo_t members
 	"printname"			"#TFC_Demoman"	
 	"playermodel"		"models/player/demo.mdl"
+	"armsmodel"			"models/weapons/v_arm_hl2.mdl"
 	"selectcmd"			"cls_demoman"
 	"limitcvar"			"tfc_classlimit_demoman"
 	"health_max"		"90"

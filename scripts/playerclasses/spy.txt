@@ -3,6 +3,7 @@ PlayerClassDatafile
 	// FilePLayerClassInfo_t members
 	"printname"			"#TFC_Spy"	
 	"playermodel"		"models/player/spy.mdl"
+	"armsmodel"			"models/weapons/v_arm_hl2.mdl"
 	"selectcmd"			"cls_spy"
 	"limitcvar"			"tfc_classlimit_spy"
 	"health_max"		"90"
