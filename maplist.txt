@@ -3,4 +3,7 @@ ctf_2fort
 ctf_badlands_classic
 ctf_crossover_classic
 ctf_push
+<<<<<<< HEAD
+=======
 dev_devmap
+>>>>>>> f5076b713dfb61f4952b72c4ca7aa1d309ca9ba3
