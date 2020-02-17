@@ -6,10 +6,8 @@
 //
 // Also, note that the "mapcyclefile" convar can be used to specify a particular mapcycle file.
 
-ad_dustbowl_classic
-ctf_2fort_classic
+ad_dustbowl
+ctf_2fort
 ctf_badlands_classic
-ctf_crossover2
+ctf_crossover_classic
 ctf_push
-dm_lockdown
-proto_2fort
