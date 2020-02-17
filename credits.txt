@@ -1,33 +1,37 @@
+Team Fortress Classic: Source
 
-	TEAM FORTRESS CLASSIC SOURCE
-	HALF LIFE 2 MOD
+The TFC:S Development Team
 
-----------------------------------------------
-	CREDITS (CONCUSSION STUDIOS)
-----------------------------------------------
+Sandvich Thief - Mod Lead/Texturer/Scripter
+Kris - Game Designer/Lead Programmer/Mapper
+Retro - Game Designer/Scripter/Ideas Team
+G-Gnome505 - Game/Designer/Modeler
+Suspect - Game Designer/Mapper/Programmer
+AnthonyPython - Programmer/Modeller
+Private Polygon - RPC Icon Designer/Scripter
+dead_thing - Animator
+Chrits - Programmer
+rex - Modeller
+RedFire - Mapper
+Mechadexic - Programmer
+Krowing - Scripter/Ideas Team
+Nbc66 - Programmer/Steam Distributor
+AlexEpisode - Programmer
+DRSeal - Modeler/Animator
+Swox - Modeller
+Eshy - Mapper
+meta - Sound Designer
+NoNotTheMemes - Modeler
+HDMine Face - Mapper
 
-	Sandvich Thief: Lead Project, Art /Materials
-	Suspect: Lead Project, Programmer, Level Designer
-	Krowing: Art /Materials
-	EnergyPixel: 3D Modeler
-	Kris: Programmer
-	
-----------------------------------------------
-	CREDITS (Textures
-----------------------------------------------
-	
-	2Fort: Hazard Stripes Texture: 
-	https://gamebanana.com/textures/4236 
-		NvC_DmN_CH
-	
--------------------------------------------------------
-	CREDITS (OPEN SOURCE CODE REPOSITORIES USED FOR MOD)
---------------------------------------------------------
-		
-	Half-Life 2 Community Edition: 
-	https://gitlab.com/RaraCerberus/HL2CE
-		sound timescale
+Â© 2020 Valve Corporation. All rights reserved. Valve, the Valve logo, Half-Life, the Half-Life logo, the Lambda logo, Steam, the Steam logo, Team Fortress, the Team Fortress logo, Opposing Force, Day of Defeat, the Day of Defeat logo, Counter-Strike, the Counter-Strike logo, Source, the Source logo, Counter-Strike: Condition Zero, Portal, the Portal logo, Dota, the Dota 2 logo, and Defense of the Ancients are trademarks and/or registered trademarks of Valve Corporation. All other trademarks are property of their respective owners.
 
-	Petercov's Source++: 
-	https://github.com/Petercov/Source-PlusPlus
-		NAV NPCs support
+Other Credits:
+Half-Life 2 Community Edition: 
+https://gitlab.com/RaraCerberus/HL2CE
+sound timescale
+
+Petercov's Source++: 
+https://github.com/Petercov/Source-PlusPlus
+
+NAV NPCs support
