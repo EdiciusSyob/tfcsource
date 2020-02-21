@@ -27,11 +27,15 @@ HDMine Face - Mapper
 Â© 2020 Valve Corporation. All rights reserved. Valve, the Valve logo, Half-Life, the Half-Life logo, the Lambda logo, Steam, the Steam logo, Team Fortress, the Team Fortress logo, Opposing Force, Day of Defeat, the Day of Defeat logo, Counter-Strike, the Counter-Strike logo, Source, the Source logo, Counter-Strike: Condition Zero, Portal, the Portal logo, Dota, the Dota 2 logo, and Defense of the Ancients are trademarks and/or registered trademarks of Valve Corporation. All other trademarks are property of their respective owners.
 
 Other Credits:
+
 Half-Life 2 Community Edition: 
 https://gitlab.com/RaraCerberus/HL2CE
 sound timescale
 
 Petercov's Source++: 
 https://github.com/Petercov/Source-PlusPlus
-
 NAV NPCs support
+
+Collection of patches for HL2 games and Portal: 
+https://steamcommunity.com/app/220/discussions/0/353916184343324908/
+Fixes for vanilla textures

@@ -57,8 +57,9 @@
 			game+game_write+mod+mod_write+default_write_path		|gameinfo_path|.
 			gamebin				|gameinfo_path|bin
 	
-			// Load Our VPK
-			game				|gameinfo_path|tfc_materials.vpk	
+			// Load the mod VPK
+			game				|gameinfo_path|hl2fix.vpk
+			game				|gameinfo_path|tfc_materials.vpk
 	
 			// We search VPK files before ordinary folders, because most files will be found in
 			// VPK and we can avoid making thousands of file system calls to attempt to open files

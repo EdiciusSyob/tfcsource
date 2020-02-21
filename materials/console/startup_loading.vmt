@@ -1,11 +1,11 @@
 "UnlitGeneric"
 {
-	"$basetexture" "console/background01"
+	"$translucent" 1
+	"$basetexture" "console/startup_loading"
 	"$vertexcolor" 1
 	"$vertexalpha" 1
-	"$ignorez" 1
-	"$no_fullbright" "1"
-	"$nolod" "1"
+	"$no_fullbright" 1
+	"$nomip" 1
 	"$gammaColorRead" "1"
 	"$linearWrite" "1"
 }
