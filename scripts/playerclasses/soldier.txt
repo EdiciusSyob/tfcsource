@@ -3,7 +3,7 @@ PlayerClassDatafile
 	// FilePLayerClassInfo_t members
 	"printname"			"#TFC_Soldier"	
 	"playermodel"		"models/player/soldier.mdl"
-	"armsmodel"			"models/weapons/v_arm_hl2.mdl"
+	"armsmodel"			"models/weapons/c_arms_hev.mdl"
 	"selectcmd"			"cls_soldier"
 	"limitcvar"			"tfc_classlimit_soldier"
 	"health_max"		"100"

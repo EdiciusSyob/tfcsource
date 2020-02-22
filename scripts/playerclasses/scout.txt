@@ -3,7 +3,7 @@ PlayerClassDatafile
 	// FilePLayerClassInfo_t members
 	"printname"			"#TFC_Scout"
 	"playermodel"		"models/player/scout.mdl"
-	"armsmodel"			"models/weapons/v_arm_hl2.mdl"
+	"armsmodel"			"models/weapons/c_arms_hev.mdl"
 	"selectcmd"			"cls_scout"
 	"limitcvar"			"tfc_classlimit_scout"
 	"health_max"		"75"
