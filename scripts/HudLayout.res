@@ -12,7 +12,6 @@
 		"enabled" "1"
 
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"		"0 0 0 96"
 
 		"icon_xpos"	"2"
 		"icon_ypos"	"-27"
@@ -23,8 +22,8 @@
 	HudArmor
 	{
 		"fieldName"		"HudArmor"
-		"xpos"	"8"
-		"ypos"	"410"
+		"xpos"	"80"
+		"ypos"	"442"
 		"zpos"	"1"
 		"wide"	"80"
 		"tall"  "30"
@@ -32,7 +31,6 @@
 		"enabled" "1"
 
 		"PaintBackgroundType"	"2"
- 		"bgcolor_override"		"0 0 0 96"
 		
 		"icon_xpos"	"2"
 		"icon_ypos"	"-27"
@@ -52,7 +50,6 @@
 		"enabled" "1"
 
 		"PaintBackgroundType"	"2"
- 		"bgcolor_override"		"0 0 0 96"
 
 		"digit_xpos" "8"
 		"digit_ypos" "-4"

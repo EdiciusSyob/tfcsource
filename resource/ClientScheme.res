@@ -16,28 +16,26 @@ Scheme
 	Colors
 	{
 		// base colors
-		"Orange"			"255 176 0 255"
-		"OrangeDim"			"255 176 0 120"
-		"LightOrange"		"188 112 0 128"
+		"Orange"			"225 225 225 255"
+		"OrangeDim"			"200 200 200 120"
+		"LightOrange"		"255 255 255 128"
 		
 		"Red"				"192 28 0 140"
-		"Black"				"0 0 0 255"
+		"Black"				"0 0 0 196"
+		"Gray"				"177 177 177 200"
 		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
 		"RoundWinPanelBackground" "0 0 0 179"
 
 		"Blank"				"0 0 0 0"
 		"ForTesting"		"255 0 0 32"
-		"ForTesting_Magenta"	"255 20 20 255"
-		"ForTesting_MagentaDim"	"255 20 20 120"
+		"ForTesting_Magenta"	"255 0 255 255"
+		"ForTesting_MagentaDim"	"255 0 255 120"
 		
 		//These were ripped from SourceScheme
 		"SteamLightGreen"	"157 194 80 255"
 		"AchievementsLightGrey"		"79 79 79 255"
 		"White"				"255 255 255 255"
-		
-		"TanDark"				"117 107 94 255"
-		"Yellow"			"251 235 202 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -52,12 +50,12 @@ Scheme
 		Border.Selection				"Blank"				// the additional border color for displaying the default/selected button
 		Border.BuyPreset				"Orange"
 
-		Button.TextColor				"TanDark"
-		Button.BgColor					"Yellow"
-		Button.ArmedTextColor			"Black"
-		Button.ArmedBgColor				"Orange"
-		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"Orange"
+		Button.TextColor				"Orange"
+		Button.BgColor					"Gray"
+		Button.ArmedTextColor			"Orange"
+		Button.ArmedBgColor				"Red"
+		Button.DepressedTextColor		"Orange"
+		Button.DepressedBgColor			"Red"
 
 		CheckButton.TextColor			"Orange"
 		CheckButton.SelectedTextColor	"Orange"

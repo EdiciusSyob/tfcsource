@@ -304,7 +304,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"14"
 				"weight"	"100"
 				"antialias"	"1"
@@ -316,7 +316,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"10"
 				"weight"	"100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -328,7 +328,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"10"
 				"weight"	"100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -340,7 +340,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"10"
 				"weight"	"100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -352,7 +352,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"10"
 				"weight"	"100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -364,7 +364,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"7"
 				"weight"	"100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -375,7 +375,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"7"
 				"weight"	"100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -387,7 +387,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"8"
 				"weight"	"100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -398,7 +398,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"8"
 				"weight"	"100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -410,7 +410,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"12"
 				"weight"	"100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -421,7 +421,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"12"
 				"weight"	"100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -433,7 +433,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"15"
 				"weight"	"100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -445,7 +445,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"20"
 				"weight"	"100"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -457,7 +457,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"16"
 				"weight"	"100"
 				"antialias"	"1"
@@ -468,7 +468,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"16"
 				"weight"	"100"
 				"antialias"	"1"
@@ -479,7 +479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"	
+				"name"		"StratumNo2"	
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -490,7 +490,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"	
+				"name"		"StratumNo2"	
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -507,7 +507,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Tahoma"
+				"name"			"StratumNo2"
 				"tall"			"24"
 				"weight"		"400"
 				"antialias"		"1"
@@ -518,7 +518,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Tahoma"
+				"name"			"StratumNo2"
 				"tall"			"24"
 				"weight"		"400"
 				"blur"			"3"
@@ -530,7 +530,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Tahoma"
+				"name"			"StratumNo2"
 				"tall"			"20"
 				"weight"		"400"				[$WIN32]
 				"weight"		"800"				[$X360]
@@ -542,7 +542,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Tahoma"
+				"name"			"StratumNo2"
 				"tall"			"20"
 				"weight"		"400"				[$WIN32]
 				"weight"		"800"				[$X360]
@@ -591,7 +591,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"28"
 				"weight"	"400"
 				"antialias"	"1"
@@ -634,7 +634,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -645,7 +645,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -656,7 +656,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -668,7 +668,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -676,7 +676,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -684,7 +684,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -693,7 +693,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -702,7 +702,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Tahoma"
+				"name"		"StratumNo2"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1371,5 +1371,10 @@ Scheme
 				}
 			}
 		}
+	}
+	
+	CustomFontFiles
+	{
+		"1" "resource/fonts/Medium.ttf"
 	}
 }

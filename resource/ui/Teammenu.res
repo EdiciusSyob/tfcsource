@@ -139,7 +139,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"command"			"jointeam 4"
+		"command"			"jointeam 5"
 	}
 
 	"greenbutton"
@@ -159,7 +159,7 @@
 		"textAlignment"		"west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"command"			"jointeam 5"
+		"command"			"jointeam 4"
 	}
 	
 	"autobutton"
