@@ -121,18 +121,4 @@ DESCRIPTION SERVER_OPTIONS
 		{ BOOL }
 		{ "0" }
 	}
-	
-	"mp_hitmarkers"
-	{
-		"#TFC_Hitmarkers"
-		{ BOOL }
-		{ "1" }
-	}
-	
-	"mp_damagepopup"
-	{
-		"#TFC_Damagepopups"
-		{ BOOL }
-		{ "1" }
-	}
 }
