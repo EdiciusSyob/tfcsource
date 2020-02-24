@@ -8,7 +8,7 @@ PlayerClassDatafile
 	"limitcvar"			"tfc_classlimit_civilian"
 	"health_max"		"100"
 	"armor_max"			"0"
-	"speed_max"			"100"
+	"speed_max"			"205"
 
 	// Weapon Info
 	"weapon1"			"umbrella"
