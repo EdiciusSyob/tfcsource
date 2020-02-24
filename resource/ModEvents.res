@@ -42,9 +42,12 @@
 	
 	"player_hurt"
 	{
-		"userid"	"short"   	// user ID who was hurt			
-		"attacker"	"short"	 	// user ID who attacked
-		"weapon"	"string" 	// weapon name attacker used
+		"userid"			"short"   	// user ID who was hurt			
+		"attacker"			"short"	 	// user ID who attacked
+		"weapon"			"string" 	// weapon name attacker used
+		"damageamount" 		"short"
+		"victim_index"		"short"		// entindex who died
+		"attacker_index"	"short"		// entindex that killed
 	}
 	
 	"player_changeclass"
