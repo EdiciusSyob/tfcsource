@@ -193,3 +193,16 @@ event MapZoomToLarge
 	StopAnimation overview zoom 0.0
 	Animate overview zoom "1.0" Spline 0.0 0.2
 }
+
+event HitMarkerShow
+{
+	Animate HudHitmarker HitMarkerColor "255 255 255 255" Linear 0.0 0.0
+	Animate HudHitmarker Alpha 255 Linear 0.0 0.1
+
+	RunEvent HitMarkerHide 0.1
+}
+
+event HitMarkerHide
+{
+	Animate HudHitmarker Alpha 0 Linear 0.2 0.4
+}
