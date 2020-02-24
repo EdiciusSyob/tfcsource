@@ -39,3 +39,7 @@ NAV NPCs support
 Collection of patches for HL2 games and Portal: 
 https://steamcommunity.com/app/220/discussions/0/353916184343324908/
 Fixes for vanilla textures
+
+Zombie Master Reborn: 
+https://github.com/zm-reborn/zmr-game
+C_Arms Code
