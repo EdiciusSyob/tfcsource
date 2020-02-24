@@ -301,6 +301,24 @@
 	
 	"wave"			"weapons/tranq/tranq_shoot.wav"
 }
+"Weapon_Tranq.Clip_It"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.86"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,101"
+	
+	"wave"			"weapons/tranq/tranq_clipit.wav"
+}
+"Weapon_Tranq.Clip_Out"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.86"
+	"soundlevel"	"SNDLVL_GUNFIRE"
+	"pitch"			"98,101"
+	
+	"wave"			"weapons/tranq/tranq_clipout.wav"
+}
 
 // --------------------------
 // GRENADES
