@@ -1,5 +1,9 @@
-"LightmappedGeneric"
+LightmappedGeneric
 {
-	"$basetexture" "badlands/badlands_sand"
-	"$surfaceprop" "sand"
+	$basetexture "badlands/badlands_sand"
+	$bumpmap "badlands/badlands_sand_ssbump"
+	$surfaceprop Sand
+	$ssbump 1
+
+	%keywords "badlands"
 }

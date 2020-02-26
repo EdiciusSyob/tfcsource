@@ -1,0 +1,9 @@
+Decal
+{
+	$basetexture "overlays/logo_red_overlay"
+
+	$translucent 1
+	$decal 1
+
+	%keywords "logo"
+}

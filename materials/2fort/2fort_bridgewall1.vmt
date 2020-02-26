@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+	$basetexture "2fort/2fort_bridgewall1"
+	$bumpmap "2fort/2fort_bridgewall_ssbump"
+	$surfaceprop Metal
+	$ssbump 1
+
+	$envmap "env_cubemap"
+
+	%keywords "2fort"
+}

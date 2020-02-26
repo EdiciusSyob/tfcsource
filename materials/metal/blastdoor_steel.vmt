@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	$basetexture "metal/blastdoor_steel"
+	$bumpmap "metal/blastdoor_ssbump"
+	$surfaceprop Metal
+	$ssbump 1
+}

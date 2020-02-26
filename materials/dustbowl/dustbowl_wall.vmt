@@ -1,5 +1,9 @@
-"LightmappedGeneric"
+LightmappedGeneric
 {
-	"$basetexture"	"dustbowl/dustbowl_wall"
-	"$surfaceprop"	"stone"
+	$basetexture "dustbowl/dustbowl_wall"
+	$bumpmap "dustbowl/dustbowl_wall_ssbump"
+	$surfaceprop Concrete
+	$ssbump 1
+
+	%keywords "dustbowl"
 }

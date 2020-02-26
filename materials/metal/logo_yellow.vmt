@@ -1,0 +1,11 @@
+LightmappedGeneric
+{
+	$basetexture "metal/logo_yellow"
+	$bumpmap "metal/logo_yellow_ssbump"
+	$surfaceprop Metal
+	$ssbump 1
+
+	$envmap "env_cubemap"
+
+	%keywords "metal"
+}
