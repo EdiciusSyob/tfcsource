@@ -110,6 +110,36 @@
 	"wave"			"weapons/deploy/draw_nail.wav" 
 }
 
+"Deploy.WeaponNailgun"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/deploy/draw_nail.wav" 
+}
+
+"Deploy2.WeaponNailgun"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.4"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/deploy/draw_default.wav" 
+}
+
+"Deploy3.WeaponNailgun"
+{
+	"channel"		"CHAN_ITEM"
+	"volume"		"0.4"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons/deploy/metal_hit_hand2.wav" 
+}
+
 "Weapon_Nailgun.Single"
 {
 	"channel"		"CHAN_WEAPON"
