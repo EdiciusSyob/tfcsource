@@ -64,36 +64,8 @@
 [
 ]
 
-@PointClass base(PlayerClass, Angles) studio("models/editor/playerstart.mdl") = info_player_deathmatch :
-	"This entity indicates the position and facing direction at which the player will spawn during a deathmatch map. Any number of "+
-	"info_player_deathmatch entities may be placed in a map."
-[
-]
-
-
-@PointClass base(PlayerClass, Angles) studio("models/editor/playerstart.mdl") = info_player_red :
-	"This entity indicates the position and facing direction at which the player will spawn a red member. Any number of "+
-	"info_player_red entities may be placed in a map."
-[
-]
-
-
-@PointClass base(PlayerClass, Angles) studio("models/editor/playerstart.mdl") = info_player_blue :
-	"This entity indicates the position and facing direction at which the player will spawn a blue member. Any number of "+
-	"info_player_red entities may be placed in a map."
-[
-]
-
-@PointClass base(PlayerClass, Angles) studio("models/editor/playerstart.mdl") = info_player_yellow :
-	"This entity indicates the position and facing direction at which the player will spawn a yellow member. Any number of "+
-	"info_player_yellow entities may be placed in a map."
-[
-]
-
-
-@PointClass base(PlayerClass, Angles) studio("models/editor/playerstart.mdl") = info_player_green :
-	"This entity indicates the position and facing direction at which the player will spawn a green member. Any number of "+
-	"info_player_green entities may be placed in a map."
+@PointClass base(Angles,Targetname,TeamNum,EnableDisable) studioprop("models/editor/playerstart.mdl") = info_player_teamspawn :
+	"This entity marks the spawn point for Team Fortress Classic players."
 [
 ]
 
@@ -180,14 +152,6 @@
 @PointClass base(BaseDriveableVehicle) studioprop() = prop_vehicle_driveable :
 	"Generic driveable studiomodel vehicle."
 [
-]
-
-@PointClass base( BasePropPhysics, RenderFields, TeamNum ) studioprop() sphere(radius) = prop_passball_ball : "Pass The Ball - Ball."
-[
-	radius(float) : "Radius" : 12 : ""
-	
-	// Inputs
-	output OnTeamChange(void) : "Fires when the entity changes of team"
 ]
 
 @SolidClass base(func_physbox) = func_physbox_multiplayer : 
@@ -281,7 +245,10 @@
 // Items
 //
 //-------------------------------------------------------------------------
-@PointClass base(Item) studio("models/items/battery.mdl") = entity_armor : "Entity Armor" []
+@PointClass base(Item) studio("models/items/battery.mdl") = entity_armor1 : "Light Armor" []
+@PointClass base(Item) studio("models/items/battery.mdl") = entity_armor2 : "Mrdium Armor" []
+@PointClass base(Item) studio("models/items/battery.mdl") = entity_armor3 : "Heavy Armor" []
+
 @PointClass base(Angles) studio() = entity_backpack : "An Perfect Dark weapon spawn point"
 [
 	model(studio) : "Item Model" : "models/items/backpack.mdl"
@@ -303,10 +270,7 @@
 	//[
 	//	4 : "NO"
 	//	3 : "YES"
-	//]
-	
-	
-	
+	//]	
 ]
 
 //-------------------------------------------------------------------------
